@@ -10,23 +10,34 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-```{r}
+## Script set up
+Attach the packages required and set working directory. These chunks need to be run every time.
+
+```{r packages}
+# run every time
 # load required packages
 library(litsearchr)
 #install.packages("revtools")
 library(revtools)
 library(tidyverse)
-```
-
-```{r}
 # set working directory to file location
 setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
-# read the .RIS data into R
-import <- import_results(file = "ReferencesCompiled01.txt", verbose = TRUE) %>%
-  # join R 
-  full_join(import_results(file = "ReferencesRisely.ris", verbose = TRUE)) 
+```
 
-# this section gets repeated after importSub below
+```{r subset0b}
+# read the initial .RIS data into R
+import <- import_results(file = "ReferencesCompiled01.txt", verbose = TRUE) %>%
+  # join compiled references from R with Risely papers
+  full_join(import_results(file = "ReferencesRisely.ris", verbose = TRUE))
+```
+
+## Note on running below code
+For creating a subset, the chunk labeled 'a' gets run after all chunks labeled 'b' before it have been run. This generates an output file with the desired number of articles. To generate the list of articles not used yet, run all chunks labeled 'b'.
+
+### Subset 1
+
+```{r subset1a}
+# not re-run when creating next subset
 # randomly select articles (can change number)
 set <- import[sample(nrow(import), 5),]
 # writing file called download1 to BibChunks folder (could use better names)
@@ -34,32 +45,34 @@ set <- import[sample(nrow(import), 5),]
 write_bibliography(set, "BibChunks/download1.bib", format = "bib") 
 # now we have a random subset of the articles to work with
 # in a bibtex file that can be loaded into Mendeley
-# this can be repeated for more articles below
 ```
 
-
-```{r}
-# when there are multiple subsets, copy this chunk below
-# and repeat with new download file
-# importSub should have 5 fewer articles than import (removing the 5 random ones)
+```{r subset1b}
+# this is re-run for every new subset
+# this object should have 5 fewer articles than the previous import
 importSub <- import_results(file = "BibChunks/download1.bib", verbose = TRUE) %>%
   # additional files for import go here, like for initial import above
   # make sure NA's are NA's not strings (reads bib format funny)
-  mutate_all(funs(replace(., .=='NA', NA))) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
   # remove the articles already assessed from the original download
   # sorting by title only to streamline the anti_join
   anti_join(import, ., by = "title")
-# repeat above set (same number of articles) and write bibliography (change number in filename)
-# to get a new selection of articles in this chunk
-
+# this is the list of articles the next subset is made from
 ```
 
-```{r}
+### Subset 2
+
+```{r subset2a}
+# not re-run when creating next subset
 set <- importSub[sample(nrow(importSub), 5),]
 write_bibliography(set, "BibChunks/download2.bib", format = "bib") 
+```
 
+```{r subset2b}
+# this is re-run for every new subset
+# replace #'s with subset number
 importSub2 <- import_results(file = "BibChunks/download2.bib", verbose = TRUE) %>%
-  mutate_all(funs(replace(., .=='NA', NA))) %>%
-  anti_join(importSub, ., by = "title")
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub, ., by = "title") # add previous subset number
 ```
 

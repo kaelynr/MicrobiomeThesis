@@ -1,8 +1,108 @@
 
+PMID- 33106556
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20201030
+IS  - 2045-2322 (Electronic)
+IS  - 2045-2322 (Linking)
+VI  - 10
+IP  - 1
+DP  - 2020 Oct 26
+TI  - Severe preeclampsia is associated with a higher relative abundance of Prevotella 
+      bivia in the vaginal microbiota.
+PG  - 18249
+LID - 10.1038/s41598-020-75534-3 [doi]
+AB  - We sought to compare the vaginal microbiota profiles of Taiwanese women with
+      severe preeclampsia (SPE) and normotensive control pregnancies. In a discovery
+      cohort, vaginal swab samples and paired blood specimens were simultaneously
+      obtained at the time of caesarean delivery from 30 women with SPE and 30
+      controls. The composition of vaginal microbiota was characterised by 16S
+      ribosomal RNA gene sequencing of the V3-V4 region. Results were subsequently
+      validated by real-time qPCR. We sought confirmation of our findings in an
+      expanded cohort consisting of 58 women with SPE and 55 controls. In both the
+      discovery and confirmation cohorts, women with SPE had higher relative abundance 
+      of Prevotella bivia in their vaginal microbial community (P = 0.006 and 0.011,
+      respectively). Plasma levels of tumour necrosis factor alpha (TNF-alpha) were
+      higher when compared with controls (P = 0.031) in the confirmation cohort. Three 
+      variables (vaginal Prevotella bivia, plasma TNF-alpha, and body mass index [BMI])
+      were included in a prediction panel for SPE. Of these, BMI was the most
+      predictive variable. The area under the curve (AUC) of predicted probability
+      values for the three-variable panel revealed that it can discriminate between SPE
+      and normotensive pregnancies with good accuracy (AUC = 0.797, P < 0.001). We
+      conclude that enrichment of Prevotella bivia in vaginal microbiota, which is
+      tightly regulated by BMI, may be involved in the pathogenesis of SPE.
+FAU - Lin, Chia-Ying
+AU  - Lin CY
+AD  - Department of Pediatrics, Chang Gung Memorial Hospital Linkou Medical Center and 
+      Chang Gung University College of Medicine, Taoyuan, Taiwan.
+FAU - Lin, Chiao-Yun
+AU  - Lin CY
+AD  - Department of Obstetrics and Gynecology, Chang Gung Memorial Hospital Linkou
+      Medical Center and Chang Gung University College of Medicine, Taoyuan, Taiwan.
+AD  - Gynecologic Cancer Research Center, Chang Gung Memorial Hospital, Taoyuan,
+      Taiwan.
+FAU - Yeh, Yuan-Ming
+AU  - Yeh YM
+AD  - Genomic Medicine Core Laboratory, Chang Gung Memorial Hospital, Taoyuan, Taiwan.
+FAU - Yang, Lan-Yan
+AU  - Yang LY
+AD  - Biostatistics Unit, Clinical Trial Center, Chang Gung Memorial Hospital Linkou
+      Medical Center, Taoyuan, Taiwan.
+FAU - Lee, Yun-Shien
+AU  - Lee YS
+AD  - Genomic Medicine Core Laboratory, Chang Gung Memorial Hospital, Taoyuan, Taiwan.
+AD  - Department of Biotechnology, Ming Chuan University, Taoyuan, Taiwan.
+FAU - Chao, Angel
+AU  - Chao A
+AD  - Department of Obstetrics and Gynecology, Chang Gung Memorial Hospital Linkou
+      Medical Center and Chang Gung University College of Medicine, Taoyuan, Taiwan.
+AD  - Gynecologic Cancer Research Center, Chang Gung Memorial Hospital, Taoyuan,
+      Taiwan.
+FAU - Chin, Chia-Yin
+AU  - Chin CY
+AD  - Molecular Medicine Research Center, Chang Gung University, Taoyuan, Taiwan.
+FAU - Chao, An-Shine
+AU  - Chao AS
+AD  - Department of Obstetrics and Gynecology, Chang Gung Memorial Hospital Linkou
+      Medical Center and Chang Gung University College of Medicine, Taoyuan, Taiwan.
+      aschao1295@cgmh.org.tw.
+AD  - Department of Obstetrics and Gynecology, New Taipei Municipal Tu Cheng Hospital, 
+      6, Sec. 2, Jincheng Road, Tu Cheng District, New Taipei City, 236, Taiwan.
+      aschao1295@cgmh.org.tw.
+FAU - Yang, Chia-Yu
+AU  - Yang CY
+AD  - Molecular Medicine Research Center, Chang Gung University, Taoyuan, Taiwan.
+      chiayu-yang@mail.cgu.edu.tw.
+AD  - Department of Microbiology and Immunology, College of Medicine, Chang Gung
+      University, Taoyuan, Taiwan. chiayu-yang@mail.cgu.edu.tw.
+AD  - Department of Otolaryngology-Head and Neck Surgery, Chang Gung Memorial Hospital,
+      Taoyuan, Taiwan. chiayu-yang@mail.cgu.edu.tw.
+LA  - eng
+PT  - Journal Article
+DEP - 20201026
+PL  - England
+TA  - Sci Rep
+JT  - Scientific reports
+JID - 101563288
+SB  - IM
+PMC - PMC7588441
+EDAT- 2020/10/28 06:00
+MHDA- 2020/10/28 06:00
+CRDT- 2020/10/27 05:44
+PHST- 2020/02/29 00:00 [received]
+PHST- 2020/09/28 00:00 [accepted]
+PHST- 2020/10/27 05:44 [entrez]
+PHST- 2020/10/28 06:00 [pubmed]
+PHST- 2020/10/28 06:00 [medline]
+AID - 10.1038/s41598-020-75534-3 [doi]
+AID - 10.1038/s41598-020-75534-3 [pii]
+PST - epublish
+SO  - Sci Rep. 2020 Oct 26;10(1):18249. doi: 10.1038/s41598-020-75534-3.
+
 PMID- 33099080
 OWN - NLM
 STAT- Publisher
-LR  - 20201025
+LR  - 20201102
 IS  - 1879-0291 (Electronic)
 IS  - 0141-1136 (Linking)
 VI  - 162
@@ -90,9 +190,9 @@ CRDT- 2020/10/25 00:03
 PHST- 2020/05/18 00:00 [received]
 PHST- 2020/09/11 00:00 [revised]
 PHST- 2020/10/06 00:00 [accepted]
-PHST- 2020/10/25 00:03 [entrez]
 PHST- 2020/10/26 06:00 [pubmed]
 PHST- 2020/10/26 06:00 [medline]
+PHST- 2020/10/25 00:03 [entrez]
 AID - S0141-1136(20)30460-8 [pii]
 AID - 10.1016/j.marenvres.2020.105174 [doi]
 PST - aheadofprint
@@ -295,7 +395,7 @@ SO  - Mol Ecol. 2020 Oct 21. doi: 10.1111/mec.15699.
 PMID- 33071619
 OWN - NLM
 STAT- PubMed-not-MEDLINE
-LR  - 20201022
+LR  - 20201101
 IS  - 1389-2029 (Print)
 IS  - 1389-2029 (Linking)
 VI  - 21
@@ -367,11 +467,9 @@ OT  - probiotics
 EDAT- 2020/10/20 06:00
 MHDA- 2020/10/20 06:01
 CRDT- 2020/10/19 05:54
-PMCR- 2020/11/01 00:00
 PHST- 2020/02/11 00:00 [received]
 PHST- 2020/04/14 00:00 [revised]
 PHST- 2020/04/21 00:00 [accepted]
-PHST- 2020/11/01 00:00 [pmc-release]
 PHST- 2020/10/19 05:54 [entrez]
 PHST- 2020/10/20 06:00 [pubmed]
 PHST- 2020/10/20 06:01 [medline]
@@ -1148,7 +1246,7 @@ SO  - Ann Rheum Dis. 2020 Oct 1. pii: annrheumdis-2020-216972. doi:
 PMID- 32999079
 OWN - NLM
 STAT- In-Process
-LR  - 20201020
+LR  - 20201028
 IS  - 2379-5042 (Electronic)
 IS  - 2379-5042 (Linking)
 VI  - 5
@@ -1222,6 +1320,7 @@ TA  - mSphere
 JT  - mSphere
 JID - 101674533
 SB  - IM
+PMC - PMC7529435
 OTO - NOTNLM
 OT  - *16S rRNA
 OT  - *microbiome
@@ -2301,7 +2400,7 @@ SO  - Microbiol Res. 2020 Aug 27;241:126588. doi: 10.1016/j.micres.2020.126588.
 PMID- 32878094
 OWN - NLM
 STAT- PubMed-not-MEDLINE
-LR  - 20200928
+LR  - 20201027
 IS  - 2075-4450 (Print)
 IS  - 2075-4450 (Linking)
 VI  - 11
@@ -2395,6 +2494,7 @@ PL  - Switzerland
 TA  - Insects
 JT  - Insects
 JID - 101574235
+PMC - PMC7565411
 OTO - NOTNLM
 OT  - Neotropical
 OT  - Wolbachia
@@ -2817,7 +2917,7 @@ SO  - mSphere. 2020 Aug 26;5(4). pii: 5/4/e00694-20. doi: 10.1128/mSphere.00694-
 PMID- 32846954
 OWN - NLM
 STAT- In-Data-Review
-LR  - 20200827
+LR  - 20201027
 IS  - 2073-4409 (Electronic)
 IS  - 2073-4409 (Linking)
 VI  - 9
@@ -2957,6 +3057,7 @@ TA  - Cells
 JT  - Cells
 JID - 101600052
 SB  - IM
+PMC - PMC7564366
 OTO - NOTNLM
 OT  - Th2
 OT  - bacterial translocation
@@ -3688,8 +3789,8 @@ SO  - Microb Biotechnol. 2020 Aug 11. doi: 10.1111/1751-7915.13651.
 
 PMID- 32778700
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20200814
+STAT- In-Process
+LR  - 20201029
 IS  - 2045-2322 (Electronic)
 IS  - 2045-2322 (Linking)
 VI  - 10
@@ -3756,9 +3857,8 @@ AD  - Whole-Genome Research Core Laboratory of Human Diseases, Chang Gung Memori
 AD  - Central Research Laboratory, XiaMen Chang Gung Hospital, Xiamen, China.
       zenith5862@hotmail.com.
 LA  - eng
-GR  - CMRPG2G0651-3 and CMRPG2E0301/Chang Gung Memorial Hospital
-GR  - MOST 108-2314-B-182A-087/Ministry of Science and Technology, Taiwan
 PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20200810
 PL  - England
 TA  - Sci Rep
@@ -5012,18 +5112,20 @@ SO  - Microorganisms. 2020 Jul 13;8(7). pii: microorganisms8071040. doi:
 
 PMID- 32661017
 OWN - NLM
-STAT- Publisher
-LR  - 20200714
+STAT- In-Data-Review
+LR  - 20201102
 IS  - 1539-7262 (Electronic)
 IS  - 0022-2275 (Linking)
-DP  - 2020 Jul 13
+VI  - 61
+IP  - 11
+DP  - 2020 Nov
 TI  - Biogeography of microbial bile acid transformations along the murine gut.
-LID - jlr.RA120001021 [pii]
+PG  - 1450-1463
 LID - 10.1194/jlr.RA120001021 [doi]
-AB  - Bile acids, synthesized from cholesterol by the liver, are chemically transformed
-      along the intestinal tract by the gut microbiota and the products of these
-      transformations signal through host receptors, impacting overall host health.
-      These transformations include bile acid deconjugation, oxidation, and
+AB  - Bile acids, which are synthesized from cholesterol by the liver, are chemically
+      transformed along the intestinal tract by the gut microbiota, and the products of
+      these transformations signal through host receptors, affecting overall host
+      health. These transformations include bile acid deconjugation, oxidation, and
       7alpha-dehydroxylation. An understanding of the biogeography of bile acid
       transformations in the gut is critical because deconjugation is a prerequisite
       for 7alpha-dehydroxylation and because most gut microorganisms harbor bile acid
@@ -5032,26 +5134,27 @@ AB  - Bile acids, synthesized from cholesterol by the liver, are chemically tran
       gnotobiotic mouse model. Results revealed the involvement of Clostridium scindens
       in 7alpha-dehydroxylation, of the genera Muribaculum and Bacteroides in
       deconjugation, and of six additional organisms in oxidation (the genera
-      Clostridium, Muribaculum, Bacteroides, Bifidobacterium, Acutalibacter and
+      Clostridium, Muribaculum, Bacteroides, Bifidobacterium, Acutalibacter, and
       Akkermansia). Furthermore, the bile acid profile in mice with a more complex
-      microbiota, with a dysbiosed microbiota or with no microbiota was considered. For
+      microbiota, a dysbiosed microbiota, or no microbiota was considered. For
       instance, conventional mice harbor a large diversity of bile acids, but treatment
-      with an antibiotic such as clindamycin results in complete inhibition of
-      7alpha-dehydroxylation, underscoring the strong inhibition of organisms able to
-      carry out this process by this compound. Finally, comparison of the hepatic bile 
-      acid pool size as a function of microbiota revealed that a reduced microbiota
-      affects host signaling but not necessarily bile acid synthesis. In this study,
-      bile acid transformations were mapped to the associated active microorganisms,
-      offering a systematic characterization of the relationship between microbiota and
-      bile acid composition.
-CI  - Published under license by The American Society for Biochemistry and Molecular
-      Biology, Inc.
+      with an antibiotic such as clindamycin results in the complete inhibition of
+      7alpha-dehydroxylation, underscoring the strong inhibition of organisms that are 
+      capable of carrying out this process by this compound. Finally, a comparison of
+      the hepatic bile acid pool size as a function of microbiota revealed that a
+      reduced microbiota affects host signaling but not necessarily bile acid
+      synthesis. In this study, bile acid transformations were mapped to the associated
+      active microorganisms, offering a systematic characterization of the relationship
+      between microbiota and bile acid composition.
 FAU - Marion, Solenne
 AU  - Marion S
-AD  - Environmental Engineering, EPFL, Lausanne, Switzerland.
+AUID- ORCID: https://orcid.org/0000-0003-1662-7898
+AD  - Environmental Microbiology Laboratory, Ecole Polytechnique Federale de Lausanne, 
+      Lausanne, Switzerland.
 FAU - Desharnais, Lyne
 AU  - Desharnais L
-AD  - EPFL, Lausanne, Switzerland.
+AD  - Environmental Microbiology Laboratory, Ecole Polytechnique Federale de Lausanne, 
+      Lausanne, Switzerland.
 FAU - Studer, Nicolas
 AU  - Studer N
 AD  - Institute for Infectious Diseases, University of Bern, Bern, Switzerland.
@@ -5063,24 +5166,26 @@ AU  - Notter MD
 AD  - Institute for Infectious Diseases, University of Bern, Bern, Switzerland.
 FAU - Poudel, Suresh
 AU  - Poudel S
-AD  - Oak Ridge National Laboratory, United States.
+AD  - Chemical Sciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
 FAU - Menin, Laure
 AU  - Menin L
-AD  - Institute of Chemical Sciences and Engineering, EPFL, Switzerland.
+AD  - Institute of Chemical Sciences and Engineering, Ecole Polytechnique Federale de
+      Lausanne, Lausanne, Switzerland.
 FAU - Janowczyk, Andrew
 AU  - Janowczyk A
 AD  - Bioinformatics Core Facility, Swiss Institute of Bioinformatics, Lausanne,
       Switzerland.
 FAU - Hettich, Robert L
 AU  - Hettich RL
-AD  - Chemical Sciences Division, Oak Ridge National Laboratory, United States.
+AD  - Chemical Sciences Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA.
 FAU - Hapfelmeier, Siegfried
 AU  - Hapfelmeier S
 AD  - Institute for Infectious Diseases, University of Bern, Bern, Switzerland.
 FAU - Bernier-Latmani, Rizlan
 AU  - Bernier-Latmani R
-AD  - Environmental Sciences and Engineering, EPFL, Lausanne, Switzerland
-      rizlan.bernier-latmani@epfl.ch.
+AUID- ORCID: https://orcid.org/0000-0001-6547-722X
+AD  - Environmental Microbiology Laboratory, Ecole Polytechnique Federale de Lausanne, 
+      Lausanne, Switzerland rizlan.bernier-latmani@epfl.ch.
 LA  - eng
 PT  - Journal Article
 DEP - 20200713
@@ -5090,28 +5195,28 @@ JT  - Journal of lipid research
 JID - 0376606
 SB  - IM
 OTO - NOTNLM
-OT  - Bile acids and salts
-OT  - Bile acids and salts/Biosynthesis
 OT  - Cyp7a1
-OT  - FXR
-OT  - Fgf15
-OT  - Microbial metabolome
-OT  - Microbiome
 OT  - Oligo-MM12
-OT  - Proteomics
 OT  - Sult2a8
+OT  - biosynthesis
+OT  - farnesoid X receptor
+OT  - fibroblast growth factor 15
+OT  - metabolome
+OT  - microbiome
+OT  - proteomics
+COIS- Conflict of interest-The authors declare that they have no conflict of interest
+      with the contents of this article.
 EDAT- 2020/07/15 06:00
 MHDA- 2020/07/15 06:00
 CRDT- 2020/07/15 06:00
-PHST- 2020/07/13 00:00 [accepted]
-PHST- 2020/07/09 00:00 [received]
-PHST- 2020/07/15 06:00 [entrez]
 PHST- 2020/07/15 06:00 [pubmed]
 PHST- 2020/07/15 06:00 [medline]
+PHST- 2020/07/15 06:00 [entrez]
 AID - jlr.RA120001021 [pii]
 AID - 10.1194/jlr.RA120001021 [doi]
-PST - aheadofprint
-SO  - J Lipid Res. 2020 Jul 13. pii: jlr.RA120001021. doi: 10.1194/jlr.RA120001021.
+PST - ppublish
+SO  - J Lipid Res. 2020 Nov;61(11):1450-1463. doi: 10.1194/jlr.RA120001021. Epub 2020
+      Jul 13.
 
 PMID- 32658471
 OWN - NLM
@@ -5833,8 +5938,8 @@ SO  - Heliyon. 2020 Jun 23;6(6):e04190. doi: 10.1016/j.heliyon.2020.e04190. eCol
 
 PMID- 32605663
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20200821
+STAT- In-Process
+LR  - 20201030
 IS  - 2049-2618 (Electronic)
 IS  - 2049-2618 (Linking)
 VI  - 8
@@ -5872,7 +5977,7 @@ AB  - The field of microbiome research has evolved rapidly over the past few dec
       might play a key role. Video Abstract.
 FAU - Berg, Gabriele
 AU  - Berg G
-AUID- ORCID: http://orcid.org/0000-0001-9423-3101
+AUID- ORCID: 0000-0001-9423-3101
 AD  - Environmental Biotechnology, Graz University of Technology, Graz, Austria.
       gabriele.berg@tugraz.at.
 FAU - Rybakova, Daria
@@ -5993,8 +6098,9 @@ AU  - Schloter M
 AD  - Helmholtz Zentrum Munchen, Oberschleissheim, Germany.
       schloter@helmholtz-muenchen.de.
 LA  - eng
-GR  - European Union's Horizon 2020/Horizon 2020
+GR  - European Union's Horizon 2020/Horizon 2020/International
 PT  - Letter
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20200630
 PL  - England
 TA  - Microbiome
@@ -7464,8 +7570,8 @@ SO  - Curr Microbiol. 2020 Sep;77(9):2496-2509. doi: 10.1007/s00284-020-02020-4.
 
 PMID- 32438916
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20200530
+STAT- In-Process
+LR  - 20201030
 IS  - 2049-2618 (Electronic)
 IS  - 2049-2618 (Linking)
 VI  - 8
@@ -7518,9 +7624,11 @@ AD  - Departement des sciences biologiques, Universite du Quebec a Montreal, 141
       Avenue du President-Kennedy, Montreal, Quebec, H2X 1Y4, Canada.
       kembel.steven_w@uqam.ca.
 LA  - eng
-GR  - CGS-D/Natural Sciences and Engineering Research Council of Canada
-GR  - Discovery Grant/Natural Sciences and Engineering Research Council of Canada
+GR  - CGS-D/Natural Sciences and Engineering Research Council of Canada/International
+GR  - Discovery Grant/Natural Sciences and Engineering Research Council of
+      Canada/International
 PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20200521
 PL  - England
 TA  - Microbiome
@@ -7529,11 +7637,11 @@ JID - 101615147
 SB  - IM
 PMC - PMC7243311
 OTO - NOTNLM
-OT  - Functional traits
-OT  - Host-symbiont matching
-OT  - Metagenomic shotgun sequencing
-OT  - Microbial communities
-OT  - Phyllosphere
+OT  - *Functional traits
+OT  - *Host-symbiont matching
+OT  - *Metagenomic shotgun sequencing
+OT  - *Microbial communities
+OT  - *Phyllosphere
 EDAT- 2020/05/23 06:00
 MHDA- 2020/05/23 06:00
 CRDT- 2020/05/23 06:00
@@ -8867,8 +8975,9 @@ SO  - Sci Rep. 2020 Apr 20;10(1):6662. doi: 10.1038/s41598-020-63607-2.
 
 PMID- 32303548
 OWN - NLM
-STAT- In-Process
-LR  - 20200821
+STAT- MEDLINE
+DCOM- 20201029
+LR  - 20201029
 IS  - 1098-5336 (Electronic)
 IS  - 0099-2240 (Linking)
 VI  - 86
@@ -8961,6 +9070,14 @@ TA  - Appl Environ Microbiol
 JT  - Applied and environmental microbiology
 JID - 7605801
 SB  - IM
+MH  - Bacterial Physiological Phenomena
+MH  - *Fermentation
+MH  - Food Microbiology/*methods
+MH  - Fungi/physiology
+MH  - Microbiota/*physiology
+MH  - Models, Biological
+MH  - *Salinity
+MH  - Vicia faba/*chemistry
 PMC - PMC7267206
 OTO - NOTNLM
 OT  - *Chinese broad bean paste
@@ -8969,14 +9086,14 @@ OT  - *microbial community structure
 OT  - *microbial functions
 OT  - *reconstruction of synthetic microbial community
 EDAT- 2020/04/19 06:00
-MHDA- 2020/04/19 06:00
+MHDA- 2020/10/30 06:00
 CRDT- 2020/04/19 06:00
 PMCR- 2020/12/02 00:00
 PHST- 2020/02/06 00:00 [received]
 PHST- 2020/04/14 00:00 [accepted]
 PHST- 2020/12/02 00:00 [pmc-release]
 PHST- 2020/04/19 06:00 [pubmed]
-PHST- 2020/04/19 06:00 [medline]
+PHST- 2020/10/30 06:00 [medline]
 PHST- 2020/04/19 06:00 [entrez]
 AID - AEM.00306-20 [pii]
 AID - 10.1128/AEM.00306-20 [doi]
@@ -17457,8 +17574,9 @@ SO  - World J Microbiol Biotechnol. 2019 Nov 14;35(12):181. doi:
 
 PMID- 31711887
 OWN - NLM
-STAT- In-Process
-LR  - 20200224
+STAT- MEDLINE
+DCOM- 20201029
+LR  - 20201029
 IS  - 1095-8274 (Electronic)
 IS  - 1075-9964 (Linking)
 VI  - 61
@@ -17548,6 +17666,14 @@ TA  - Anaerobe
 JT  - Anaerobe
 JID - 9505216
 SB  - IM
+MH  - Animals
+MH  - Biodiversity
+MH  - Cattle
+MH  - Computational Biology/methods
+MH  - *Gastrointestinal Microbiome
+MH  - Metagenome
+MH  - Metagenomics/methods
+MH  - Phylogeny
 OTO - NOTNLM
 OT  - Cecum
 OT  - Gut microbiota
@@ -17558,13 +17684,13 @@ OT  - Yak
 COIS- Declaration of competing interest The authors have no conflicts of interest to
       declare.
 EDAT- 2019/11/13 06:00
-MHDA- 2019/11/13 06:00
+MHDA- 2020/10/30 06:00
 CRDT- 2019/11/13 06:00
 PHST- 2019/03/06 00:00 [received]
 PHST- 2019/10/10 00:00 [revised]
 PHST- 2019/11/07 00:00 [accepted]
 PHST- 2019/11/13 06:00 [pubmed]
-PHST- 2019/11/13 06:00 [medline]
+PHST- 2020/10/30 06:00 [medline]
 PHST- 2019/11/13 06:00 [entrez]
 AID - S1075-9964(19)30187-8 [pii]
 AID - 10.1016/j.anaerobe.2019.102115 [doi]
@@ -24249,8 +24375,9 @@ SO  - Front Microbiol. 2019 May 29;10:1193. doi: 10.3389/fmicb.2019.01193. eColl
 
 PMID- 31243310
 OWN - NLM
-STAT- In-Process
-LR  - 20200625
+STAT- MEDLINE
+DCOM- 20201029
+LR  - 20201029
 IS  - 2045-2322 (Electronic)
 IS  - 2045-2322 (Linking)
 VI  - 9
@@ -24328,16 +24455,37 @@ PL  - England
 TA  - Sci Rep
 JT  - Scientific reports
 JID - 101563288
+RN  - 0 (Cations)
+RN  - 0 (RNA, Ribosomal, 16S)
 SB  - IM
+MH  - Algorithms
+MH  - Archaea/*physiology
+MH  - *Bacterial Physiological Phenomena
+MH  - Biodiversity
+MH  - Cations
+MH  - Computational Biology
+MH  - Ecosystem
+MH  - Electric Conductivity
+MH  - Fungi/*physiology
+MH  - Geography
+MH  - Hydrogen-Ion Concentration
+MH  - Lycopersicon esculentum/*microbiology
+MH  - *Microbiota
+MH  - Plant Roots/microbiology
+MH  - RNA, Ribosomal, 16S/isolation & purification
+MH  - Republic of Korea
+MH  - Rhizosphere
+MH  - Sequence Analysis, RNA
+MH  - Soil Microbiology
 PMC - PMC6594962
 EDAT- 2019/06/28 06:00
-MHDA- 2019/06/28 06:00
+MHDA- 2020/10/30 06:00
 CRDT- 2019/06/28 06:00
 PHST- 2018/04/23 00:00 [received]
 PHST- 2019/06/10 00:00 [accepted]
 PHST- 2019/06/28 06:00 [entrez]
 PHST- 2019/06/28 06:00 [pubmed]
-PHST- 2019/06/28 06:00 [medline]
+PHST- 2020/10/30 06:00 [medline]
 AID - 10.1038/s41598-019-45660-8 [doi]
 AID - 10.1038/s41598-019-45660-8 [pii]
 PST - epublish

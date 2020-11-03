@@ -19,16 +19,12 @@ library(tidyverse)
 ```
 
 ```{r}
-# change this to include appropriate working directory and folder/folder names
-# Don't forget to set working directory.
-# I just picked a directory I knew has pubmed results in it on my computer
-setwd("~/University/University 2020-2021/thesis/R")
+# set working directory to file location
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 # read the .RIS data into R
-import <- import_results(file = "CompiledData01.txt", verbose = TRUE) %>%
-  # if you have multiple files, use the below to add the additional file
-  # might be worth including both the Risely and pubmed files
-  # if not, remove everything following the pipe (%>%) on the first line
-  full_join(import_results(file = "export.ris", verbose = TRUE)) 
+import <- import_results(file = "ReferencesCompiled01.txt", verbose = TRUE) %>%
+  # join R 
+  full_join(import_results(file = "ReferencesRisely.ris", verbose = TRUE)) 
 
 # this section gets repeated after importSub below
 # randomly select articles (can change number)

@@ -1,0 +1,69 @@
+---
+title: "Random Paper Sampling"
+author: "Alicia Halhed"
+date: "28/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# load required packages
+library(litsearchr)
+#install.packages("revtools")
+library(revtools)
+library(tidyverse)
+```
+
+```{r}
+# change this to include appropriate working directory and folder/folder names
+# Don't forget to set working directory.
+# I just picked a directory I knew has pubmed results in it on my computer
+setwd("~/University/University 2020-2021/thesis/R")
+# read the .RIS data into R
+import <- import_results(file = "CompiledData01.txt", verbose = TRUE) %>%
+  # if you have multiple files, use the below to add the additional file
+  # might be worth including both the Risely and pubmed files
+  # if not, remove everything following the pipe (%>%) on the first line
+  full_join(import_results(file = "export.ris", verbose = TRUE)) 
+
+# this section gets repeated after importSub below
+# randomly select articles (can change number)
+set <- import[sample(nrow(import), 5),]
+# writing file called download1 to BibChunks folder (could use better names)
+# writing to bib to ensure all info is captured (even columns with NA)
+write_bibliography(set, "BibChunks/download1.bib", format = "bib") 
+# now we have a random subset of the articles to work with
+# in a bibtex file that can be loaded into Mendeley
+# this can be repeated for more articles below
+```
+
+
+```{r}
+# when there are multiple subsets, copy this chunk below
+# and repeat with new download file
+# importSub should have 5 fewer articles than import (removing the 5 random ones)
+importSub <- import_results(file = "BibChunks/download1.bib", verbose = TRUE) %>%
+  # additional files for import go here, like for initial import above
+  # make sure NA's are NA's not strings (reads bib format funny)
+  mutate_all(funs(replace(., .=='NA', NA))) %>%
+  # remove the articles already assessed from the original download
+  # sorting by title only to streamline the anti_join
+  anti_join(import, ., by = "title")
+# repeat above set (same number of articles) and write bibliography (change number in filename)
+# to get a new selection of articles in this chunk
+
+```
+
+```{r}
+set <- importSub[sample(nrow(importSub), 5),]
+write_bibliography(set, "BibChunks/download2.bib", format = "bib") 
+
+importSub2 <- import_results(file = "BibChunks/download2.bib", verbose = TRUE) %>%
+  mutate_all(funs(replace(., .=='NA', NA))) %>%
+  anti_join(importSub, ., by = "title")
+```
+

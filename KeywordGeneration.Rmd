@@ -1,0 +1,296 @@
+---
+title: "IBIO*6630 - Scientific Communication"
+author: "Alicia Halhed"
+date: "20/07/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Slide 11
+
+```{r easyPubmed, message=FALSE}
+# with cmd/ctrl-enter, run single code lines within a chunk
+if (!require("easyPubMed")) install.packages("easyPubMed")
+# after installation, load the package
+library(easyPubMed)
+```
+
+## Slide 13
+
+Example search terms for Alicia's thesis:
+
+- Mammals (not humans though)
+- Birds
+- Microbiome
+- Community ecology
+- Recent publications (last couple of years)
+
+Which translates to:
+`(((((mammals) OR (birds)) AND (microbiome)) AND (community ecology)) AND (("2018"[Date - Publication] : "2020"[Date - Publication]))) NOT (human)`
+
+## Slide 14
+
+- Write out your search terms with [PubMed Advanced Search Builder](https://pubmed.ncbi.nlm.nih.gov/advanced).  
+  + Discuss search term order with your group
+- Once all group members have run the first two lines of code, work together to fill in the remaining blanks.
+
+```{r Query, eval=FALSE}
+# replace the blank ______ with your search terms
+query <- '((((microbiome)) AND (community ecology)) AND (core microbiome) AND (("2018"[Date - Publication] : "2020"[Date - Publication]))) NOT (human)'
+entrez_id <- get_pubmed_ids(query)
+# How many results did your query return?
+entrez_id$Count
+# How many of these results will you use to ID keywords?
+abstracts_txt <- batch_pubmed_download(pubmed_query_string = query, 
+                                       format = "medline", 
+                                       batch_size = 107)
+
+abstracts_txt <- batch_pubmed_download(pubmed_query_string = query, format = "medline",batch_size = 107)
+```
+
+## Slide 15
+We will be refining our PubMed literature searches using a package called `litsearchr`. Run this chunk of code to install it here.
+
+```{r litsearchr, message=FALSE, results="hide"}
+# install remotes if not installed
+if (!require("remotes")) install.packages("remotes")
+# then install litsearchr (may need to update some packages here, 
+# or can skip it for now) if not installed
+if (!require("litsearchr")) 
+  remotes::install_github("elizagrames/litsearchr", ref="main")
+# load litsearchr
+library(litsearchr)
+```
+
+
+## Slide 16
+In your break out groups, work together to fill in all blanks.
+
+```{r import2, eval=FALSE, message=FALSE}
+# We need to import the PubMed results as a data frame
+PMimport <- import_results(file = "easyPubMed_data_01.txt", verbose = TRUE)
+# Article titles and abstracts often contain key terms.
+# Can you identify which columns that information is found in?
+rakedkeywords <- extract_terms(text = paste(PMimport$title, 
+                                            PMimport$abstract),
+    method = "fakerake", language = "English",
+    # How many times should each key term occur (Freq)?
+    # What is the minimum number of words that need to 
+    # be in each key term (n)?
+    min_freq = 5, ngrams = TRUE, min_n = 2)
+# Did you notice there are some keywords already identified within 
+# PMimport? These are known as "tagged" keywords. Can you replicate 
+# the above extract_terms call for the tagged keywords in PMimport?
+taggedkeywords <- extract_terms(keywords = PMimport$keywords, method = "tagged", language = "English",
+                                min_freq = 5, ngrams = TRUE, min_n = 1)
+```
+
+## Slide 17
+Run this code chunk to generate your new list of key terms.
+```{r}
+# combine the two lists of keywords
+all_keywords <- unique(append(taggedkeywords, rakedkeywords))
+# remove redundancies from the list (will need to refine this for accuracy)
+all_KeywordsFiltered <- remove_redundancies(all_keywords, closure = "left")
+# create a co-occurrence network of key terms
+dfm <- create_dfm(elements = paste(PMimport$title, PMimport$abstract),
+                  features = all_KeywordsFiltered)
+network <- create_network(search_dfm = as.matrix(dfm),
+    min_studies = 2, min_occ = 2)
+
+# identifying terms based on their importance
+cutoff <- find_cutoff(network, method = "cumulative", 
+                      percent = .80, imp_method = "strength")
+reduced <- reduce_graph(network, cutoff_strength = cutoff[1])
+# get those new key words
+searchterms <- get_keywords(reduced)
+```
+
+## Slide 18
+```{r NetPlot, message=FALSE, warning=FALSE, eval=FALSE}
+# generate a new PDF for your plot
+# this file will save into your working directory
+pdf("network.pdf", width = 12, height = 12)
+# create a generic network plot
+plot(reduced)
+# turn off graphics device
+dev.off()
+# HINT: check the files tab in RStudio for your figure saved as PDF.
+```
+
+## Slide 19
+
+```{r, eval=FALSE}
+# print the new list to the screen
+searchterms
+```
+
+- Take 10 minutes to review your new search terms.
+- Some terms will be very similar or will fall into a similar category.
+  + Group these terms together.
+  + e.g. different host species for microbiome studies. 
+- These groups will be your new search terms.
+
+## Slide 20
+Using the R skills you've learned today and with your newly refined search terms, repeat the PubMed search in R. Can you identify the most common journals in your discipline from the new search results?  
+  
+  
+  
+Please mute your microphone while you work on this activity. Once you have completed this activity, or if you have questions, please "return" to the video call.
+```{r}
+# select new search terms from identified list
+# change these from Alicia's terms to your new terms
+final <- '(((microbial community) OR (bacterial community) OR (microbiome community)) AND ((community structure) OR (community composition)) AND (core microbiome))'
+# get the updated list of PubMedIDs
+entrez_F <- get_pubmed_ids(final)
+# How many results did your query return?
+entrez_F$Count
+# How many of these results will you use to ID keywords?
+# Using a larger number of articles is ok now, so make sure
+# to modify the batch size to suit the number of articles
+# your updated search has returned
+abstracts_F <- batch_pubmed_download(pubmed_query_string = final,
+                                     dest_file_prefix = "easyPubMed_data_F",
+                                     format = "medline",
+                                     batch_size = 682)
+# import the new results (note this file is labelled with an F)
+Fimport <- import_results(file = "easyPubMed_data_F01.txt", verbose = TRUE)
+# find the common journals that occurs 15+ (or different number of) times
+journals <- extract_terms(keywords = Fimport$journal, method = "tagged",
+    min_freq = 15, language = "English")
+# which journals are they?
+journals
+
+```
+```{r}
+# select new search terms from identified list
+# change these from Alicia's terms to your new terms
+final <- '(((microbial community) OR (bacterial community) OR (microbiome community)) AND ((community structure) OR (community composition)) AND (core microbiome)) AND (Medical)'
+# get the updated list of PubMedIDs
+entrez_F <- get_pubmed_ids(final)
+# How many results did your query return?
+entrez_F$Count
+# How many of these results will you use to ID keywords?
+# Using a larger number of articles is ok now, so make sure
+# to modify the batch size to suit the number of articles
+# your updated search has returned
+abstracts_F <- batch_pubmed_download(pubmed_query_string = final,
+                                     dest_file_prefix = "Microbial_Medical",
+                                     format = "medline",
+                                     batch_size = 85)
+# import the new results (note this file is labelled with an F)
+Fimport <- import_results(file = "Microbial_Medical01.txt", verbose = TRUE)
+View(Fimport)
+```
+
+```{r}
+# select new search terms from identified list
+# change these from Alicia's terms to your new terms
+final <- '(((microbial community) OR (bacterial community) OR (microbiome community)) AND ((community structure) OR (community composition)) AND (core microbiome)) AND (Agricultural)'
+# get the updated list of PubMedIDs
+entrez_F <- get_pubmed_ids(final)
+# How many results did your query return?
+entrez_F$Count
+# How many of these results will you use to ID keywords?
+# Using a larger number of articles is ok now, so make sure
+# to modify the batch size to suit the number of articles
+# your updated search has returned
+abstracts_F <- batch_pubmed_download(pubmed_query_string = final,
+                                     dest_file_prefix = "Microbial_Agricultural",
+                                     format = "medline",
+                                     batch_size = 99)
+# import the new results (note this file is labelled with an F)
+Fimport <- import_results(file = "Microbial_Agricultural01.txt", verbose = TRUE)
+View(Fimport$source)
+```
+
+```{r}
+# select new search terms from identified list
+# change these from Alicia's terms to your new terms
+final <- '(((microbial community) OR (bacterial community) OR (microbiome community)) AND ((community structure) OR (community composition)) AND (core microbiome)) AND (Ecology)'
+# get the updated list of PubMedIDs
+entrez_F <- get_pubmed_ids(final)
+# How many results did your query return?
+entrez_F$Count
+# How many of these results will you use to ID keywords?
+# Using a larger number of articles is ok now, so make sure
+# to modify the batch size to suit the number of articles
+# your updated search has returned
+abstracts_F <- batch_pubmed_download(pubmed_query_string = final,
+                                     dest_file_prefix = "Microbial_Ecology",
+                                     format = "medline",
+                                     batch_size = 139)
+# import the new results (note this file is labelled with an F)
+Fimport <- import_results(file = "Microbial_Ecology01.txt", verbose = TRUE)
+View(Fimport)
+```
+
+```{r}
+# reload these
+library(easyPubMed)
+library(litsearchr)
+# load the file from uni 2020-2021, thesis, R, file
+Fimportagri <- import_results(file = "Microbial_Agricultural01.txt", verbose = TRUE)
+View(Fimport)
+```
+
+```{r import2, eval=FALSE, message=FALSE}
+# We need to import the PubMed results as a data frame
+Riselyimport <- import_results(file = "export.ris", verbose = TRUE)
+# Article titles and abstracts often contain key terms.
+# Can you identify which columns that information is found in?
+rakedkeywords <- extract_terms(text = paste(Riselyimport$title, 
+                                            Riselyimport$abstract),
+    method = "fakerake", language = "English",
+    # How many times should each key term occur (Freq)?
+    # What is the minimum number of words that need to 
+    # be in each key term (n)?
+    min_freq = 5, ngrams = TRUE, min_n = 2)
+```
+
+## Slide 17
+Run this code chunk to generate your new list of key terms.
+```{r}
+all_KeywordsFiltered <- remove_redundancies(rakedkeywords, closure = "left")
+# create a co-occurrence network of key terms
+dfm <- create_dfm(elements = paste(Riselyimport$title, Riselyimport$abstract),
+                  features = all_KeywordsFiltered)
+network <- create_network(search_dfm = as.matrix(dfm),
+    min_studies = 2, min_occ = 2)
+
+# identifying terms based on their importance
+cutoff <- find_cutoff(network, method = "cumulative", 
+                      percent = .80, imp_method = "strength")
+reduced <- reduce_graph(network, cutoff_strength = cutoff[1])
+# get those new key words
+searchterms <- get_keywords(reduced)
+```
+
+```{r}
+CompiledData <- '(((microbial community) OR (bacterial community) OR (bacterial communities) OR (microbial communities) OR (microbial species)) AND ((community structure) OR (microbiome project) OR (community composition)) AND ((core microbiome)) AND (("2018"[Date - Publication] : "2020"[Date - Publication]))'
+# get the updated list of PubMedIDs
+entrez_F <- get_pubmed_ids(CompiledData)
+# How many results did your query return?
+entrez_F$Count
+# How many of these results will you use to ID keywords?
+# Using a larger number of articles is ok now, so make sure
+# to modify the batch size to suit the number of articles
+# your updated search has returned
+abstracts_F <- batch_pubmed_download(pubmed_query_string = CompiledData,
+                                     dest_file_prefix = "CompiledData",
+                                     format = "medline",
+                                     batch_size = 443)
+# import the new results (note this file is labelled with an F)
+FimportCompiledData <- import_results(file = "CompiledData01.txt", verbose = TRUE)
+View(FimportCompiledData)
+```
+
+```{r}
+#random sampling methods
+FimportCompiledData[sample(nrow(FimportCompiledData), 3), ]
+```
+
+

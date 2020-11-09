@@ -21,7 +21,7 @@ library(litsearchr)
 library(revtools)
 library(tidyverse)
 # set working directory to file location
-setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
 ```
 
 ```{r subset0b}
@@ -76,3 +76,194 @@ importSub2 <- import_results(file = "BibChunks/download2.bib", verbose = TRUE) %
   anti_join(importSub, ., by = "title") # add previous subset number
 ```
 
+### Subset 3
+
+```{r subset3a}
+# not re-run when creating next subset
+set <- importSub2[sample(nrow(importSub2), 5),]
+write_bibliography(set, "BibChunks/download3.bib", format = "bib") 
+```
+
+```{r subset3b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub3 <- import_results(file = "BibChunks/download3.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub2, ., by = "title") # add previous subset number
+```
+
+
+### Subset 4
+
+```{r subset4a}
+# not re-run when creating next subset
+set <- importSub3[sample(nrow(importSub3), 5),]
+write_bibliography(set, "BibChunks/download4.bib", format = "bib") 
+```
+
+```{r subset4b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub4 <- import_results (file = "BibChunks/download4.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub3, ., by = "title") # add previous subset number
+```
+
+### Subset 5
+
+```{r subset5a}
+# not re-run when creating next subset
+set <- importSub4[sample(nrow(importSub4), 5),]
+write_bibliography(set, "BibChunks/download5.bib", format = "bib") 
+```
+
+```{r subset5b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub5 <- import_results (file = "BibChunks/download5.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub4, ., by = "title") # add previous subset number
+```
+
+### Subset 6
+
+```{r subset6a}
+# not re-run when creating next subset
+set <- importSub5[sample(nrow(importSub5), 5),]
+write_bibliography(set, "BibChunks/download6.bib", format = "bib") 
+```
+
+```{r subset6b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub6 <- import_results (file = "BibChunks/download6.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub5, ., by = "title") # add previous subset number
+```
+
+### Subset 7
+
+```{r subset7a}
+# not re-run when creating next subset
+set <- importSub6[sample(nrow(importSub6), 5),]
+write_bibliography(set, "BibChunks/download7.bib", format = "bib") 
+```
+
+```{r subset7b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub7 <- import_results (file = "BibChunks/download7.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub6, ., by = "title") # add previous subset number
+```
+
+### Subset 8
+
+```{r subset8a}
+# not re-run when creating next subset
+set <- importSub7[sample(nrow(importSub7), 5),]
+write_bibliography(set, "BibChunks/download8.bib", format = "bib") 
+```
+
+```{r subset8b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub8 <- import_results (file = "BibChunks/download8.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub7, ., by = "title") # add previous subset number
+```
+
+### Subset 9
+
+```{r subset9a}
+# not re-run when creating next subset
+set <- importSub8[sample(nrow(importSub8), 5),]
+write_bibliography(set, "BibChunks/download9.bib", format = "bib") 
+```
+
+```{r subset9b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub9 <- import_results (file = "BibChunks/download9.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub8, ., by = "title") # add previous subset number
+```
+
+### Subset 10
+
+```{r subset10a}
+# not re-run when creating next subset
+set <- importSub9[sample(nrow(importSub9), 5),]
+write_bibliography(set, "BibChunks/download10.bib", format = "bib") 
+```
+
+```{r subset10b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub10 <- import_results (file = "BibChunks/download10.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub9, ., by = "title") # add previous subset number
+```
+
+### Downloading each subset into R
+### Rerun for each subset
+
+```{r subset1}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download1.bib <- import_results(file = "download1.bib", verbose = TRUE)
+View(download1.bib)
+```
+
+```{r subset2}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download2.bib <- import_results(file = "download2.bib", verbose = TRUE)
+View(download2.bib)
+```
+
+```{r subset3}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download3.bib <- import_results(file = "download3.bib", verbose = TRUE)
+View(download3.bib)
+```
+
+```{r subset4}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download4.bib <- import_results(file = "download4.bib", verbose = TRUE)
+View(download4.bib)
+```
+
+```{r subset5}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download5.bib <- import_results(file = "download5.bib", verbose = TRUE)
+View(download5.bib)
+```
+
+```{r subset6}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download6.bib <- import_results(file = "download6.bib", verbose = TRUE)
+View(download6.bib)
+```
+
+```{r subset7}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download7.bib <- import_results(file = "download7.bib", verbose = TRUE)
+View(download7.bib)
+```
+
+```{r subset8}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download8.bib <- import_results(file = "download8.bib", verbose = TRUE)
+View(download8.bib)
+```
+
+```{r subset9}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download9.bib <- import_results(file = "download9.bib", verbose = TRUE)
+View(download9.bib)
+```
+
+```{r subset10}
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis/BibChunks")
+download10.bib <- import_results(file = "download10.bib", verbose = TRUE)
+View(download10.bib)
+```

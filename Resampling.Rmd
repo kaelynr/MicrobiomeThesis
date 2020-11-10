@@ -19,23 +19,21 @@ Attach the packages required and set working directory. These chunks need to be 
 library(litsearchr)
 #install.packages("revtools")
 library(revtools)
-#install.packages("plyr")
-library(plyr)
 library(tidyverse)
 # set working directory to file location
 setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 ```
 
 ```{r subset0b}
-importRisely <- import_results(file = "ReferencesRisely.ris", verbose = TRUE)
 # read the initial .RIS data into R
+importRisely <- import_results(file = "ReferencesRisely.ris", verbose = TRUE)
 import <- import_results(file = "ReferencesCompiled01.txt", verbose = TRUE) %>%
   # join compiled references from R with Risely papers
   full_join(importRisely)
 ```
 
 ## Note on running below code
-For creating a subset, the chunk labeled 'a' gets run after all chunks labeled 'b' before it have been run. This generates an output file with the desired number of articles. To generate the list of articles not used yet, run all chunks labeled 'b'.
+For creating a subset, the chunk labeled 'a' gets run after all chunks labeled 'b' before it have been run. This generates an output file with the desired number of articles. To generate the list of articles not used yet, run all chunks labeled 'b'. Chunk 'a' only gets run the very first time a subset is generate to create the file. Chunk 'c' identifies which articles in the subset are NOT Risely papers.
 
 ### Subset 1
 
@@ -65,8 +63,8 @@ importSub <- import_results(file = "BibChunks/download1.bib", verbose = TRUE) %>
 
 ```{r subset1c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download1.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download1.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 
@@ -88,8 +86,8 @@ importSub2 <- import_results(file = "BibChunks/download2.bib", verbose = TRUE) %
 
 ```{r subset2c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download2.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download2.bib", verbose = TRUE) %>% 
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 3
@@ -110,8 +108,8 @@ importSub3 <- import_results(file = "BibChunks/download3.bib", verbose = TRUE) %
 
 ```{r subset3c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download3.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download3.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 4
@@ -132,8 +130,8 @@ importSub4 <- import_results (file = "BibChunks/download4.bib", verbose = TRUE) 
 
 ```{r subset4c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download4.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download4.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 5
@@ -154,9 +152,11 @@ importSub5 <- import_results (file = "BibChunks/download5.bib", verbose = TRUE) 
 
 ```{r subset5c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download5.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download5.bib", verbose = TRUE) %>%
+  anti_join(importRisely, by = "title") %>% select(author, title)
 #Note that in this subset, Rottjers IS a Risely reference. The accents on this name prevented the code from identifying this.
+# AH: added by = "title" to the anti-join, which matches the rows only by identical titles
+# AH: this avoids the ö issue (could do this for all subsets, though not strictly necessary)
 ```
 
 ### Subset 6
@@ -177,8 +177,8 @@ importSub6 <- import_results (file = "BibChunks/download6.bib", verbose = TRUE) 
 
 ```{r subset6c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download6.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download6.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 7
@@ -199,8 +199,8 @@ importSub7 <- import_results (file = "BibChunks/download7.bib", verbose = TRUE) 
 
 ```{r subset7c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download7.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download7.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 8
@@ -221,9 +221,10 @@ importSub8 <- import_results (file = "BibChunks/download8.bib", verbose = TRUE) 
 
 ```{r subset8c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download8.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download8.bib", verbose = TRUE) %>%
+  anti_join(importRisely, by = "title") %>% select(author, title)
 #it also did not pick up Thomas, which is a Risely reference
+# AH: did the title thing again (captures it)... might be worth doing this for all papers
 ```
 
 ### Subset 9
@@ -244,8 +245,8 @@ importSub9 <- import_results (file = "BibChunks/download9.bib", verbose = TRUE) 
 
 ```{r subset9c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download9.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download9.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 10
@@ -266,8 +267,8 @@ importSub10 <- import_results (file = "BibChunks/download10.bib", verbose = TRUE
 
 ```{r subset10c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download10.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download10.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 ### Subset 11
@@ -288,8 +289,8 @@ importSub11 <- import_results (file = "BibChunks/download11.bib", verbose = TRUE
 
 ```{r subset11c}
 #Identifying papers that are NOT shared by Risely and the subset
-import_results(file = "BibChunks/download11.bib", verbose = TRUE) %>% anti_join(importRisely) %>%
-  select(author, title)
+import_results(file = "BibChunks/download11.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
 ```
 
 

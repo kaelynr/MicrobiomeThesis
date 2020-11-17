@@ -5,7 +5,8 @@
 
 setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 library(readxl)
-SampleResultsMicrobiome <- read_excel("~/University/University 2020-2021/thesis/R/SampleResultsMicrobiome.xlsx")
+library(tidyverse)
+SampleResultsMicrobiome <- read_excel("SampleResultsMicrobiome.xlsx")
 View(SampleResultsMicrobiome)
 
 # Try 1
@@ -24,12 +25,17 @@ freq.field <- data.frame(fieldOfStudy = c("Ecology", "Medical", "Agricultural", 
 View(freq.field)
 
 #Automating + Alicia
-table(SampleResultsMicrobiome$fieldOfStudy)
+autoResults <- SampleResultsMicrobiome %>%
+  mutate(fieldOfStudy1 = word(.$fieldOfStudy, sep = ", "),
+         fieldOfStudy2 = word(.$fieldOfStudy, start = 2L, sep = ", "))
 
+autoResultsFreq <- table(c(autoResults$fieldOfStudy1, autoResults$fieldOfStudy2)) %>%
+  as.data.frame() %>% rename("fieldOfStudy" = "Var1")
 
 #what does this do when the cell has 2 or more terms in it?
 
-chisq.field <-chisq.test(freq.field)
-#Error in stats::chisq.test(x, y, ...) : , all entries of 'x' must be nonnegative and finite
+chisq.field <-chisq.test(autoResultsFreq$Freq)
+chisq.field
+summary(chisq.field)
 
 

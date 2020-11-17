@@ -1,0 +1,35 @@
+### Chi Square Test example using the first 40 papers, Risely and Pubmed combined
+
+#set working directory and bring in the Excel Sheet
+
+
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+library(readxl)
+SampleResultsMicrobiome <- read_excel("~/University/University 2020-2021/thesis/R/SampleResultsMicrobiome.xlsx")
+View(SampleResultsMicrobiome)
+
+# Try 1
+
+SampleResultsMicrobiome <- gsub("\\.", "", SampleResultsMicrobiome)
+fieldWords <- strsplit(SampleResultsMicrobiome, " ")
+fieldWordsFreq <- table(unlist(fieldWords))
+#this pulled keywords from all columns, which can then be selected using something like this line:
+fieldWords[[11]]
+
+#this gives me all the terms used in the fieldOfStudy column
+#but I cannot figure out how to get the frequency of each word, especially because this function picks up "\" and "," as terms
+#count function?
+#this would allow me to create a table manually
+freq.field <- data.frame(fieldOfStudy = c("Ecology", "Medical", "Agricultural", "Industrial"), score = c(23,10,7,3))
+View(freq.field)
+
+#Automating + Alicia
+table(SampleResultsMicrobiome$fieldOfStudy)
+
+
+#what does this do when the cell has 2 or more terms in it?
+
+chisq.field <-chisq.test(freq.field)
+#Error in stats::chisq.test(x, y, ...) : , all entries of 'x' must be nonnegative and finite
+
+

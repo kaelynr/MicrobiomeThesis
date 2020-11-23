@@ -32,6 +32,8 @@ autoResults <- SampleResultsMicrobiome %>%
 autoResultsFreq <- table(c(autoResults$fieldOfStudy1, autoResults$fieldOfStudy2)) %>%
   as.data.frame() %>% rename("fieldOfStudy" = "Var1")
 
+View(autoResultsFreq)
+
 #what does this do when the cell has 2 or more terms in it?
 
 chisq.field <-chisq.test(autoResultsFreq$Freq)

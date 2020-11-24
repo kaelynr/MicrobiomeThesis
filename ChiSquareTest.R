@@ -9,22 +9,7 @@ library(tidyverse)
 SampleResultsMicrobiome <- read_excel("SampleResultsMicrobiome.xlsx")
 View(SampleResultsMicrobiome)
 
-# Try 1
-
-SampleResultsMicrobiome <- gsub("\\.", "", SampleResultsMicrobiome)
-fieldWords <- strsplit(SampleResultsMicrobiome, " ")
-fieldWordsFreq <- table(unlist(fieldWords))
-#this pulled keywords from all columns, which can then be selected using something like this line:
-fieldWords[[11]]
-
-#this gives me all the terms used in the fieldOfStudy column
-#but I cannot figure out how to get the frequency of each word, especially because this function picks up "\" and "," as terms
-#count function?
-#this would allow me to create a table manually
-freq.field <- data.frame(fieldOfStudy = c("Ecology", "Medical", "Agricultural", "Industrial"), score = c(23,10,7,3))
-View(freq.field)
-
-#Automating + Alicia
+# frequencies of different fields of study
 autoResults <- SampleResultsMicrobiome %>%
   mutate(fieldOfStudy1 = word(.$fieldOfStudy, sep = ", "),
          fieldOfStudy2 = word(.$fieldOfStudy, start = 2L, sep = ", "))
@@ -35,9 +20,18 @@ autoResultsFreq <- table(c(autoResults$fieldOfStudy1, autoResults$fieldOfStudy2)
 View(autoResultsFreq)
 
 #what does this do when the cell has 2 or more terms in it?
-
-chisq.field <-chisq.test(autoResultsFreq$Freq)
+chisq.field <- chisq.test(autoResultsFreq$Freq)
 chisq.field
 summary(chisq.field)
 
+# make table with counts of papers from field and core definition used
+tFieldCoreAll <- table(SampleResultsMicrobiome$fieldOfStudy, SampleResultsMicrobiome$typeOfCoreMicrobiome)
+# complete the chi-square test
+cFieldCoreAll <- chisq.test(tFieldCoreAll) 
+cFieldCoreAll
 
+# make table with counts of papers from positive/negative interaction and core definition used
+tInteractionCoreAll <- table(SampleResultsMicrobiome$positiveOrNegativeInteraction, SampleResultsMicrobiome$typeOfCoreMicrobiome)
+# complete the chi-square test
+cInteractionCoreAll <- chisq.test(tInteractionCoreAll) 
+cInteractionCoreAll

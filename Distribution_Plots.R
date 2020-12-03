@@ -20,3 +20,17 @@ micro.plot<- ggplot(data=micro, aes(x=fieldOfStudy)) +
 micro.plot
 
 # viridis colours are colour-blind friendly
+
+corePlot <- ggplot(micro, aes(x = nestedCore, 
+                              fill = interaction(commonCore, temporalCore))) +
+  geom_bar() +
+  # changing the x axis tick labels
+  scale_x_discrete(labels = c("Ecological", "Functional", "Host-adapted", "None")) +
+  # changing the interaction legend
+  # also adds viridis color scheme
+  scale_fill_viridis_d(labels = c("Neither", "Common Only", "Temporal Only", "Both")) +
+  # adjust axis and legend names
+  labs(x = "Nested Core Definition", y = "Number of Articles", 
+       fill = "Common or Temporal")
+corePlot
+

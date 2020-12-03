@@ -3,20 +3,20 @@
 
 # run every time
 # load required packages
-library(tidyverse)
-library(ggplot2)
 library(readxl)
+library(tidyverse)
 # set working directory to file location
 setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+theme_set(theme_minimal())
 
 #loading in sample dataset
 micro <- read_excel("micro.xlsx")
 View(micro)
 
 #creating the ggplot
-micro.plot<-ggplot(data=micro, aes(x=fieldOfStudy)) +
-  geom_bar(stat="identity", fill="steelblue")+
-  theme_minimal()+
-  geom_line(stat="count") 
+micro.plot<- ggplot(data=micro, aes(x=fieldOfStudy)) +
+  geom_bar(fill="steelblue") +
+  labs(x = "Field of Study", y = "Number of Articles")
 micro.plot
 
+# viridis colours are colour-blind friendly

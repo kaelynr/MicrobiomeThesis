@@ -293,6 +293,203 @@ import_results(file = "BibChunks/download11.bib", verbose = TRUE) %>%
   anti_join(importRisely) %>% select(author, title)
 ```
 
+### Subset 12
+
+```{r subset12a}
+# not re-run when creating next subset
+set <- importSub11[sample(nrow(importSub11), 5),]
+write_bibliography(set, "BibChunks/download12.bib", format = "bib") 
+```
+
+```{r subset12b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub12 <- import_results (file = "BibChunks/download12.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub11, ., by = "title") # add previous subset number
+```
+
+```{r subset12c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download12.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 13
+
+```{r subset13a}
+# not re-run when creating next subset
+set <- importSub12[sample(nrow(importSub12), 5),]
+write_bibliography(set, "BibChunks/download13.bib", format = "bib") 
+```
+
+```{r subset13b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub13 <- import_results (file = "BibChunks/download13.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub12, ., by = "title") # add previous subset number
+```
+
+```{r subset13c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download13.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 14
+
+```{r subset14a}
+# not re-run when creating next subset
+set <- importSub13[sample(nrow(importSub13), 5),]
+write_bibliography(set, "BibChunks/download14.bib", format = "bib") 
+```
+
+```{r subset14b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub14 <- import_results (file = "BibChunks/download14.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub13, ., by = "title") # add previous subset number
+```
+
+```{r subset14c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download14.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 15
+
+```{r subset15a}
+# not re-run when creating next subset
+set <- importSub14[sample(nrow(importSub14), 5),]
+write_bibliography(set, "BibChunks/download15.bib", format = "bib") 
+```
+
+```{r subset15b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub15 <- import_results (file = "BibChunks/download15.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub14, ., by = "title") # add previous subset number
+```
+
+```{r subset15c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download15.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 16
+
+```{r subset16a}
+# not re-run when creating next subset
+set <- importSub15[sample(nrow(importSub15), 5),]
+write_bibliography(set, "BibChunks/download16.bib", format = "bib") 
+```
+
+```{r subset16b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub16 <- import_results (file = "BibChunks/download16.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub15, ., by = "title") # add previous subset number
+```
+
+```{r subset16c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download16.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 17
+
+```{r subset17a}
+# not re-run when creating next subset
+set <- importSub16[sample(nrow(importSub16), 5),]
+write_bibliography(set, "BibChunks/download17.bib", format = "bib") 
+```
+
+```{r subset17b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub17 <- import_results (file = "BibChunks/download17.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub16, ., by = "title") # add previous subset number
+```
+
+```{r subset17c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download17.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 18
+
+```{r subset18a}
+# not re-run when creating next subset
+set <- importSub17[sample(nrow(importSub17), 5),]
+write_bibliography(set, "BibChunks/download18.bib", format = "bib") 
+```
+
+```{r subset18b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub18 <- import_results (file = "BibChunks/download18.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub17, ., by = "title") # add previous subset number
+```
+
+```{r subset18c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download18.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 19
+
+```{r subset19a}
+# not re-run when creating next subset
+set <- importSub18[sample(nrow(importSub18), 5),]
+write_bibliography(set, "BibChunks/download19.bib", format = "bib") 
+```
+
+```{r subset19b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub19 <- import_results (file = "BibChunks/download19.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub18, ., by = "title") # add previous subset number
+```
+
+```{r subset19c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download19.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 20
+
+```{r subset20a}
+# not re-run when creating next subset
+set <- importSub19[sample(nrow(importSub19), 5),]
+write_bibliography(set, "BibChunks/download20.bib", format = "bib") 
+```
+
+```{r subset20b}
+# this is re-run for every new subset
+# replace #'s with subset number
+importSub20 <- import_results (file = "BibChunks/download20.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(importSub19, ., by = "title") # add previous subset number
+```
+
+```{r subset20c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/download20.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
 
 ### Downloading each subset into R
 ### Rerun for each subset
@@ -347,5 +544,52 @@ download10.bib <- import_results(file = "BibChunks/download10.bib", verbose = TR
 View(download10.bib)
 ```
 
+```{r subset11}
+download11.bib <- import_results(file = "BibChunks/download11.bib", verbose = TRUE)
+View(download11.bib)
+```
 
+```{r subset12}
+download12.bib <- import_results(file = "BibChunks/download12.bib", verbose = TRUE)
+View(download12.bib)
+```
 
+```{r subset13}
+download13.bib <- import_results(file = "BibChunks/download13.bib", verbose = TRUE)
+View(download13.bib)
+```
+
+```{r subset14}
+download14.bib <- import_results(file = "BibChunks/download14.bib", verbose = TRUE)
+View(download14.bib)
+```
+
+```{r subset15}
+download15.bib <- import_results(file = "BibChunks/download15.bib", verbose = TRUE)
+View(download15.bib)
+```
+
+```{r subset16}
+download16.bib <- import_results(file = "BibChunks/download16.bib", verbose = TRUE)
+View(download16.bib)
+```
+
+```{r subset17}
+download17.bib <- import_results(file = "BibChunks/download17.bib", verbose = TRUE)
+View(download17.bib)
+```
+
+```{r subset18}
+download18.bib <- import_results(file = "BibChunks/download18.bib", verbose = TRUE)
+View(download18.bib)
+```
+
+```{r subset19}
+download19.bib <- import_results(file = "BibChunks/download19.bib", verbose = TRUE)
+View(download19.bib)
+```
+
+```{r subset20}
+download20.bib <- import_results(file = "BibChunks/download20.bib", verbose = TRUE)
+View(download20.bib)
+```

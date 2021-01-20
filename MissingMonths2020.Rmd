@@ -1,0 +1,122 @@
+---
+title: "Missing Months 2020 - Microbiome Thesis (MM)"
+author: "Kaelyn Racine"
+date: "19/01/2021"
+output: html_notebook
+---
+
+### Setup Code
+
+```{r}
+# load required packages
+library(easyPubMed)
+library(litsearchr)
+library(revtools)
+library(tidyverse)
+```
+
+```{r}
+# set working directory to file location
+setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+```
+
+### Pubmed Search and Import
+
+```{r}
+# write query based on searchterms and date parameter
+MMCompiledData <- '(((microbial community) OR (bacterial community) OR (bacterial communities) OR (microbial communities) OR (microbial species)) AND ((community structure) OR (microbiome project) OR (community composition)) AND ((core microbiome)) AND (("2018"[Date - Publication] : "2020"[Date - Publication]))'
+# get the updated list of PubMedIDs
+entrez <- get_pubmed_ids(CompiledData)
+# How many results did the query return?
+entrez$Count
+```
+
+```{r}
+# download final list of articles with abstract information
+abstracts <- batch_pubmed_download(pubmed_query_string = MMCompiledData,
+                                     dest_file_prefix = "MMReferencesCompiled",
+                                     format = "medline",
+                                     batch_size = ___)
+# import the new results to confirm the query worked
+FimportMMCompiledData <- import_results(file = "MMReferencesCompiled01.txt", verbose = TRUE)
+View(FimportMMCompiledData)
+
+# read the initial .RIS data into R
+import <- import_results(file = "MMReferencesCompiled01.txt", verbose = TRUE)
+```
+
+### Resampling 
+Number of subsets will depend on the batch size of articles pulled from Pubmed between October 2020 and December 2020
+
+### Code to Review Subset Chunk
+```{r}
+MMdownload1.bib <- import_results(file = "BibChunks/MMdownload1.bib", verbose = TRUE)
+View(download1.bib)
+
+#exchange number for each respective MM subset
+```
+
+
+```{r subset0b}
+# read the initial .RIS data into R
+importRisely <- import_results(file = "ReferencesRisely.ris", verbose = TRUE)
+import <- import_results(file = "ReferencesCompiled01.txt", verbose = TRUE) %>%
+  # join compiled references from R with Risely papers
+  full_join(importRisely)
+```
+
+### Subset 1
+
+```{r subset1a}
+# not re-run when creating next subset
+# randomly select articles (can change number)
+set <- MMimport[sample(nrow(import), 5),]
+# writing file called download1 to BibChunks folder (could use better names)
+# writing to bib to ensure all info is captured (even columns with NA)
+write_bibliography(set, "BibChunks/MMdownload1.bib", format = "bib") 
+# now we have a random subset of the articles to work with
+# in a bibtex file that can be loaded into Mendeley
+```
+
+```{r subset1b}
+# this is re-run for every new subset
+# this object should have 5 fewer articles than the previous import
+MMimportSub <- import_results(file = "BibChunks/MMdownload1.bib", verbose = TRUE) %>%
+  # additional files for import go here, like for initial import above
+  # make sure NA's are NA's not strings (reads bib format funny)
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  # remove the articles already assessed from the original download
+  # sorting by title only to streamline the anti_join
+  anti_join(MMimport, ., by = "title")
+# this is the list of articles the next subset is made from
+```
+
+```{r subset1c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/MMdownload1.bib", verbose = TRUE) %>%
+  anti_join(importRisely) %>% select(author, title)
+```
+
+### Subset 2
+
+```{r subset2a}
+# not re-run when creating next subset
+set <- MMimportSub[sample(nrow(MMimportSub), 5),]
+write_bibliography(set, "BibChunks/MMdownload2.bib", format = "bib") 
+```
+
+```{r subset2b}
+# this is re-run for every new subset
+# replace #'s with subset number
+MMimportSub2 <- import_results(file = "BibChunks/MMdownload2.bib", verbose = TRUE) %>%
+  mutate_all(~ replace(., .=='NA', NA)) %>%
+  anti_join(MMimportSub, ., by = "title") # add previous subset number
+```
+
+```{r subset2c}
+#Identifying papers that are NOT shared by Risely and the subset
+import_results(file = "BibChunks/MMdownload2.bib", verbose = TRUE) %>% 
+  anti_join(importRisely) %>% select(author, title)
+```
+
+

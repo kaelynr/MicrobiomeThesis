@@ -1,0 +1,57 @@
+---
+title: "Late 2020"
+author: "Alicia Halhed"
+date: "15/01/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Packages
+```{r}
+# load required packages
+library(easyPubMed)
+library(revtools)
+library(litsearchr)
+library(tidyverse)
+```
+
+## Download Articles
+
+These are for all of 2020.
+```{r import1}
+# write query based on searchterms and date parameter
+CompiledData <- '(((microbial community) OR (bacterial community) OR (bacterial communities) OR (microbial communities) OR (microbial species)) AND ((community structure) OR (microbiome project) OR (community composition)) AND ((core microbiome)) AND (("2018"[Date - Publication] : "2020"[Date - Publication]))'
+# get the updated list of PubMedIDs
+entrez <- get_pubmed_ids(CompiledData)
+# How many results did the query return?
+entrez$Count
+# download final list of articles with abstract information
+abstracts <- batch_pubmed_download(pubmed_query_string = CompiledData,
+                                     dest_file_prefix = "ReferencesLate2020",
+                                     format = "medline",
+                                     batch_size = 479)
+# import the new results to confirm the query worked
+FimportCompiledData <- import_results(file = "ReferencesLate202001.txt", verbose = TRUE)
+```
+
+## Import Previous Download
+```{r import2}
+# read the initial .RIS data into R
+importRisely <- import_results(file = "ReferencesRisely.ris", verbose = TRUE)
+import <- import_results(file = "ReferencesCompiled01.txt", verbose = TRUE) %>%
+  # join compiled references from R with Risely papers
+  full_join(importRisely)
+```
+
+## New file
+```{r}
+# write the new citations to file (anti join takes papers only in the download)
+anti_join(FimportCompiledData, import, by = "pubmed_id") %>%
+  write_bibliography(., "Late2020.bib", format = "bib") 
+```
+
+## Next steps
+Randomly sample the same percentage of these new paper as have already been filtered. Then combine the remaining new papers with the previous ones and continue as previous.

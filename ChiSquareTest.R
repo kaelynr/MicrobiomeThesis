@@ -1,43 +1,35 @@
-### Chi Square Test example using the first 40 papers, Risely and Pubmed combined
-
 #set working directory and bring in the Excel Sheet
-
-
 setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 library(readxl)
 library(tidyverse)
-SampleResultsMicrobiome <- read_excel("samplemicro.xlsx")
-View(SampleResultsMicrobiome)
 
-#nested core only
-#remove NA values/rows
-sampleresults <- na.omit(SampleResultsMicrobiome)
-view(sampleresults)
+# functions for analysis
+chiFilter <- function(c1, c2){
+  # c1 = first column of interest
+  # c2 = second column of interest
+  df1 <- data.frame(c1, c2) %>% na.omit()
+  tab <- table(df1$c1, df1$c2)
+  chi <- chisq.test(tab)
+  return(chi)
+}
+
+# read in spreadsheets
+ResultsMicrobiome <- read_excel("micro.xlsx")
+View(ResultsMicrobiome)
 
 # table for field and nested core
-tFieldCoreNest <- table(sampleresults$fieldOfStudy, sampleresults$typeOfCoreMicrobiome)
-# complete the chi-square test
-cFieldCoreNest <- chisq.test(tFieldCoreNest) 
-cFieldCoreNest
-summary(cFieldCoreNest)
+chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$nestedCore)
 
 # table for field and common core
-tFieldCoreCommon <- table(SampleResultsMicrobiome$fieldOfStudy, SampleResultsMicrobiome$commonCore)
-# complete the chi-square test
-cFieldCoreCommon <- chisq.test(tFieldCoreCommon) 
-cFieldCoreCommon
-summary(cFieldCoreCommon)
+chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$commonCore)
 
 # table for field and temporal core
-tFieldCoreTemp <- table(SampleResultsMicrobiome$fieldOfStudy, SampleResultsMicrobiome$temporalCore)
-# complete the chi-square test
-cFieldCoreTemp <- chisq.test(tFieldCoreTemp) 
-cFieldCoreTemp
-summary(cFieldCoreTemp)
+chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$temporalCore)
+
+# apply (quicker step)
+columns <- list(ResultsMicrobiome$nestedCore, ResultsMicrobiome$commonCore, ResultsMicrobiome$temporalCore)
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$fieldOfStudy)
 
 # make table with counts of papers from positive/negative interaction and core definition used
-tInteractionCoreAll <- table(SampleResultsMicrobiome$positiveOrNegativeInteraction, SampleResultsMicrobiome$typeOfCoreMicrobiome)
-# complete the chi-square test
-cInteractionCoreAll <- chisq.test(tInteractionCoreAll) 
-cInteractionCoreAll
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$positiveOrNegativeInteraction)
 

@@ -53,5 +53,12 @@ anti_join(FimportCompiledData, import, by = "pubmed_id") %>%
   write_bibliography(., "Late2020.bib", format = "bib") 
 ```
 
+```{r}
+Late2020.bib <- import_results(file = "BibChunks/Late2020.bib", verbose = TRUE)
+View(Late2020.bib)
+```
+
+
+
 ## Next steps
 Randomly sample the same percentage of these new paper as have already been filtered. Then combine the remaining new papers with the previous ones and continue as previous.

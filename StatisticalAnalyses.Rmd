@@ -4,12 +4,12 @@ output: html_notebook
 ---
 ```{r}
 #set working directory and bring in the Excel Sheet
-("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+#setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 library(readxl)
 library(tidyverse)
-
+#~/University/University 2020-2021/thesis/MicrobiomeThesis/
 # read in spreadsheets
-ResultsMicrobiome <- read_excel("~/University/University 2020-2021/thesis/MicrobiomeThesis/micro.xlsx")
+ResultsMicrobiome <- read_excel("micro.xlsx")
 View(ResultsMicrobiome)
 ```
 
@@ -86,6 +86,7 @@ lapply(columns, chiFilter, c1 = ResultsMicrobiome$source)
 ```
 
 ### Bonferroni Test
+for numeric data 
 ```{r}
 pairwise.t.test(<dependent variable>, 
                 <independent variable>, 
@@ -93,6 +94,9 @@ pairwise.t.test(<dependent variable>,
 ```
 
 ```{r}
-bonferroni_ex <- pairwise.t.test(ResultsMicrobiome$fieldOfStudy, columns, p.adjust = "two.sided")
+columns
+ResultsMicrobiome %>% select(fieldOfStudy, nestedCore) %>%
+  na.omit()
+#t.test(.$fieldOfStudy, .$nestedCore, paired = T, alternative = "two.sided")
 ```
 

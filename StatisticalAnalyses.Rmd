@@ -1,0 +1,98 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+```{r}
+#set working directory and bring in the Excel Sheet
+("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+library(readxl)
+library(tidyverse)
+
+# read in spreadsheets
+ResultsMicrobiome <- read_excel("~/University/University 2020-2021/thesis/MicrobiomeThesis/micro.xlsx")
+View(ResultsMicrobiome)
+```
+
+```{r}
+# functions for analysis
+chiFilter <- function(c1, c2){
+  # c1 = first column of interest
+  # c2 = second column of interest
+  df1 <- data.frame(c1, c2) %>% na.omit()
+  tab <- table(df1$c1, df1$c2)
+  chi <- chisq.test(tab)
+  return(chi)
+}
+```
+
+
+```{r}
+# table for field and nested core
+chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$nestedCore)
+
+# table for field and common core
+chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$commonCore)
+
+# table for field and temporal core
+chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$temporalCore)
+```
+
+
+```{r}
+# apply (quicker step)
+columns <- list(ResultsMicrobiome$nestedCore, ResultsMicrobiome$commonCore, ResultsMicrobiome$temporalCore)
+```
+
+### Primary Analyses, Chi Square Tests
+```{r}
+# table for field of study and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$fieldOfStudy)
+```
+
+```{r}
+# table for study system and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$hostType)
+```
+
+```{r}
+# table for sequencing method and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$`sequencingMethod (16S,18S, shotgun, WGS - whole genome shotgun, RNAseq)`)
+```
+
+```{r}
+# table for sequencing platform and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$`sequencingPlatform (Illumina MiSeq/HiSeq/etc, 454, etc)`)
+```
+
+```{r}
+# table for usage of PCR and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$`PCR (Yes/No)`)
+```
+
+### Secondary Analyses, Chi Square Tests
+```{r}
+# table for positive/negative interaction and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$positiveOrNegativeInteraction)
+```
+
+```{r}
+# table for effect on host fitness and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$effectOnHostFitness)
+```
+
+```{r}
+# table for positive/negative interaction and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$source)
+```
+
+### Bonferroni Test
+```{r}
+pairwise.t.test(<dependent variable>, 
+                <independent variable>, 
+                p.adjust = <correction method>)
+```
+
+```{r}
+bonferroni_ex <- pairwise.t.test(ResultsMicrobiome$fieldOfStudy, columns, p.adjust = "two.sided")
+```
+

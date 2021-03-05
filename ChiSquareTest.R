@@ -1,5 +1,5 @@
 #set working directory and bring in the Excel Sheet
-setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
+("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 library(readxl)
 library(tidyverse)
 
@@ -14,7 +14,7 @@ chiFilter <- function(c1, c2){
 }
 
 # read in spreadsheets
-ResultsMicrobiome <- read_excel("micro.xlsx")
+ResultsMicrobiome <- read_excel("~/University/University 2020-2021/thesis/MicrobiomeThesis/micro.xlsx")
 View(ResultsMicrobiome)
 
 # table for field and nested core
@@ -28,8 +28,14 @@ chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$temporalCore)
 
 # apply (quicker step)
 columns <- list(ResultsMicrobiome$nestedCore, ResultsMicrobiome$commonCore, ResultsMicrobiome$temporalCore)
+
+
+# table for field of study and core definition used
 lapply(columns, chiFilter, c1 = ResultsMicrobiome$fieldOfStudy)
 
-# make table with counts of papers from positive/negative interaction and core definition used
+# table for positive/negative interaction and core definition used
 lapply(columns, chiFilter, c1 = ResultsMicrobiome$positiveOrNegativeInteraction)
+
+# table for study system and core definition used
+lapply(columns, chiFilter, c1 = ResultsMicrobiome$hostType)
 

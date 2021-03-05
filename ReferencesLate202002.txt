@@ -1,0 +1,636 @@
+
+PMID- 28968945
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180308
+LR  - 20181202
+IS  - 1090-2414 (Electronic)
+IS  - 0147-6513 (Linking)
+VI  - 147
+DP  - 2018 Jan
+TI  - Bacterial community dynamics within an aerobic granular sludge reactor treating
+      wastewater loaded with pharmaceuticals.
+PG  - 905-912
+LID - S0147-6513(17)30655-3 [pii]
+LID - 10.1016/j.ecoenv.2017.09.060 [doi]
+AB  - Pharmaceuticals are micropollutants often present in wastewater treatment
+      systems. In this study, the potential impact of such micropollutants on the
+      bacterial population within aerobic granular sludge (AGS) bioreactor was
+      investigated. The AGS bacterial community structure and composition were accessed
+      combining DGGE fingerprinting and barcoded pyrosequencing analysis. Both revealed
+      the existence of a dynamic bacterial community, independently of the
+      pharmaceuticals presence. The AGS microbiome at both phylum and class levels
+      varied over time and, after stopping pharmaceuticals feeding, the bacterial
+      community did not return to its initial composition. Nevertheless, most of the
+      assigned OTUs were present throughout the different operational phases. This core
+      microbiome, represented by over 72% of the total sequences in each phase,
+      probably played an important role in biological removal processes, avoiding their
+      failure during the disturbance period. Quantitative-PCR revealed that
+      pharmaceuticals load led to gradual changes on the abundance of ammonia-oxidizing
+      bacteria (AOB), nitrite-oxidizing bacteria (NOB) and polyphosphate-accumulating
+      organisms (PAO) but their persistence during that phase demonstrated the
+      resilience of such bacterial groups. AGS microbiome changed over time but a core 
+      community was maintained, probably ensuring the accomplishment of the main
+      biological removal processes.
+CI  - Copyright (c) 2017 Elsevier Inc. All rights reserved.
+FAU - Amorim, Catarina L
+AU  - Amorim CL
+AD  - Biology Department and CESAM, University of Aveiro, Campus Universitario de
+      Santiago, 3810-193 Aveiro, Portugal; Universidade Catolica Portuguesa, CBQF -
+      Centro de Biotecnologia e Quimica Fina, Laboratorio Associado, Escola Superior de
+      Biotecnologia, Rua Arquiteto Lobao Vital 172, 4200-374 Porto, Portugal.
+      Electronic address: camorim@porto.ucp.pt.
+FAU - Alves, Marta
+AU  - Alves M
+AD  - Biology Department and CESAM, University of Aveiro, Campus Universitario de
+      Santiago, 3810-193 Aveiro, Portugal. Electronic address:
+      martasalgueiroalves@gmail.com.
+FAU - Castro, Paula M L
+AU  - Castro PML
+AD  - Universidade Catolica Portuguesa, CBQF - Centro de Biotecnologia e Quimica Fina, 
+      Laboratorio Associado, Escola Superior de Biotecnologia, Rua Arquiteto Lobao
+      Vital 172, 4200-374 Porto, Portugal. Electronic address: plcastro@porto.ucp.pt.
+FAU - Henriques, Isabel
+AU  - Henriques I
+AD  - Biology Department and CESAM, University of Aveiro, Campus Universitario de
+      Santiago, 3810-193 Aveiro, Portugal. Electronic address: ihenriques@ua.pt.
+LA  - eng
+PT  - Journal Article
+DEP - 20170928
+PL  - Netherlands
+TA  - Ecotoxicol Environ Saf
+JT  - Ecotoxicology and environmental safety
+JID - 7805381
+RN  - 0 (Pharmaceutical Preparations)
+RN  - 0 (RNA, Ribosomal, 16S)
+RN  - 0 (Sewage)
+RN  - 0 (Waste Water)
+RN  - 0 (Water Pollutants, Chemical)
+SB  - IM
+MH  - Aerobiosis
+MH  - Bioreactors/*microbiology
+MH  - Microbiota/*drug effects/genetics
+MH  - Pharmaceutical Preparations/*analysis
+MH  - RNA, Ribosomal, 16S/genetics
+MH  - Sewage/chemistry/*microbiology
+MH  - Waste Water/chemistry/*microbiology
+MH  - Water Pollutants, Chemical/*analysis
+MH  - Water Purification/methods
+OTO - NOTNLM
+OT  - 454-pyrosequencing
+OT  - Aerobic granular sludge
+OT  - Microbiome analysis
+OT  - PCR-DGGE
+OT  - qPCR
+EDAT- 2017/10/04 06:00
+MHDA- 2018/03/09 06:00
+CRDT- 2017/10/04 06:00
+PHST- 2017/07/10 00:00 [received]
+PHST- 2017/09/18 00:00 [revised]
+PHST- 2017/09/20 00:00 [accepted]
+PHST- 2017/10/04 06:00 [pubmed]
+PHST- 2018/03/09 06:00 [medline]
+PHST- 2017/10/04 06:00 [entrez]
+AID - S0147-6513(17)30655-3 [pii]
+AID - 10.1016/j.ecoenv.2017.09.060 [doi]
+PST - ppublish
+SO  - Ecotoxicol Environ Saf. 2018 Jan;147:905-912. doi: 10.1016/j.ecoenv.2017.09.060. 
+      Epub 2017 Sep 28.
+
+PMID- 28956100
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190201
+LR  - 20190201
+IS  - 1432-184X (Electronic)
+IS  - 0095-3628 (Linking)
+VI  - 75
+IP  - 3
+DP  - 2018 Apr
+TI  - Microbiota Diversity Within and Between the Tissues of Two Wild Interbreeding
+      Species.
+PG  - 799-810
+LID - 10.1007/s00248-017-1077-9 [doi]
+AB  - Understanding the role of microbiota as reproductive barriers or sources of
+      adaptive novelty in the fundamental biological phenomenon of speciation is an
+      exciting new challenge necessitating exploration of microbiota variation in wild 
+      interbreeding species. We focused on two interbreeding cyprinid species,
+      Chondrostoma nasus and Parachondrostoma toxostoma, which have geographic
+      distributions characterized by a mosaic of hybrid zones. We described microbiota 
+      diversity and composition in the three main teleost mucosal tissues, the skin,
+      gills and gut, in the parental parapatric populations. We found that tissue type 
+      was the principal determinant of bacterial community composition. In particular, 
+      there was strong microbiota differentiation between external and internal
+      tissues, with secondary discrimination between the two species. These findings
+      suggest that specific environmental and genetic filters associated with each
+      species have shaped the bacterial communities, potentially reflecting
+      deterministic assemblages of bacteria. We defined the core microbiota common to
+      both Chondrostoma species for each tissue, highlighting the occurrence of
+      microbe-host genome interactions at this critical level for studies of the
+      functional consequences of hybridization. Further investigations will explore to 
+      what extend these specific tissue-associated microbiota signatures could be
+      profoundly altered in hybrids, with functional consequences for post-mating
+      reproductive isolation in relation to environmental constraints.
+FAU - Guivier, Emmanuel
+AU  - Guivier E
+AUID- ORCID: http://orcid.org/0000-0003-2484-6396
+AD  - IMBE, Aix Marseille Universite, CNRS, IRD, Avignon Universite, Centre
+      Saint-Charles, 3 place Victor Hugo, 13331, Marseille Cedex 3, France.
+      em.guivier@gmail.com.
+FAU - Martin, Jean-Francois
+AU  - Martin JF
+AD  - Montpellier SupAgro, UMR CBGP, F-34988, Montferrier-sur-Lez, France.
+FAU - Pech, Nicolas
+AU  - Pech N
+AD  - IMBE, Aix Marseille Universite, CNRS, IRD, Avignon Universite, Centre
+      Saint-Charles, 3 place Victor Hugo, 13331, Marseille Cedex 3, France.
+FAU - Ungaro, Arnaud
+AU  - Ungaro A
+AD  - IMBE, Aix Marseille Universite, CNRS, IRD, Avignon Universite, Centre
+      Saint-Charles, 3 place Victor Hugo, 13331, Marseille Cedex 3, France.
+FAU - Chappaz, Remi
+AU  - Chappaz R
+AD  - IMBE, Aix Marseille Universite, CNRS, IRD, Avignon Universite, Centre
+      Saint-Charles, 3 place Victor Hugo, 13331, Marseille Cedex 3, France.
+FAU - Gilles, Andre
+AU  - Gilles A
+AD  - IMBE, Aix Marseille Universite, CNRS, IRD, Avignon Universite, Centre
+      Saint-Charles, 3 place Victor Hugo, 13331, Marseille Cedex 3, France.
+LA  - eng
+GR  - FACIES/Electricite de France
+PT  - Journal Article
+DEP - 20170927
+PL  - United States
+TA  - Microb Ecol
+JT  - Microbial ecology
+JID - 7500663
+RN  - 0 (DNA, Bacterial)
+SB  - IM
+MH  - Animals
+MH  - Bacteria/*classification/genetics
+MH  - *Biodiversity
+MH  - Cyprinidae/*microbiology
+MH  - DNA, Bacterial
+MH  - Female
+MH  - France
+MH  - Gastrointestinal Microbiome
+MH  - Gills/microbiology
+MH  - Host Microbial Interactions/genetics/physiology
+MH  - Host Specificity
+MH  - Hybridization, Genetic
+MH  - Male
+MH  - Microbiota/genetics/*physiology
+MH  - Mucous Membrane/microbiology
+MH  - *Phylogeny
+MH  - Skin/microbiology
+OTO - NOTNLM
+OT  - Core microbiota
+OT  - Cyprinid species
+OT  - Introgressive hybridization
+OT  - Mucosal tissues
+EDAT- 2017/09/29 06:00
+MHDA- 2019/02/02 06:00
+CRDT- 2017/09/29 06:00
+PHST- 2017/05/05 00:00 [received]
+PHST- 2017/09/14 00:00 [accepted]
+PHST- 2017/09/29 06:00 [pubmed]
+PHST- 2019/02/02 06:00 [medline]
+PHST- 2017/09/29 06:00 [entrez]
+AID - 10.1007/s00248-017-1077-9 [doi]
+AID - 10.1007/s00248-017-1077-9 [pii]
+PST - ppublish
+SO  - Microb Ecol. 2018 Apr;75(3):799-810. doi: 10.1007/s00248-017-1077-9. Epub 2017
+      Sep 27.
+
+PMID- 28905200
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190111
+LR  - 20190111
+IS  - 1432-184X (Electronic)
+IS  - 0095-3628 (Linking)
+VI  - 75
+IP  - 2
+DP  - 2018 Feb
+TI  - Development of a Stable Lung Microbiome in Healthy Neonatal Mice.
+PG  - 529-542
+LID - 10.1007/s00248-017-1068-x [doi]
+AB  - The lower respiratory tract has been previously considered sterile in a healthy
+      state, but advances in culture-independent techniques for microbial
+      identification and characterization have revealed that the lung harbors a diverse
+      microbiome. Although research on the lung microbiome is increasing and important 
+      questions were already addressed, longitudinal studies aiming to describe
+      developmental stages of the microbial communities from the early neonatal period 
+      to adulthood are lacking. Thus, little is known about the early-life development 
+      of the lung microbiome and the impact of external factors during these stages. In
+      this study, we applied a barcoding approach based on high-throughput sequencing
+      of 16S ribosomal RNA gene amplicon libraries to determine age-dependent
+      differences in the bacterial fraction of the murine lung microbiome and to assess
+      potential influences of differing "environmental microbiomes" (simulated by the
+      application of used litter material to the cages). We could clearly show that the
+      diversity of the bacterial community harbored in the murine lung increases with
+      age. Interestingly, bacteria belonging to the genera Delftia and Rhodococcus
+      formed an age-independent core microbiome. The addition of the used litter
+      material influenced the lung microbiota of young mice but did not significantly
+      alter the community composition of adult animals. Our findings elucidate the
+      dynamic nature of the early-life lung microbiota and its stabilization with age. 
+      Further, this study indicates that even slight environmental changes modulate the
+      bacterial community composition of the lung microbiome in early life, whereas the
+      lung microbes of adults demonstrate higher resilience towards environmental
+      variations.
+FAU - Kostric, Matea
+AU  - Kostric M
+AD  - Research Unit Comparative Microbiome Analysis, Helmholtz Zentrum Munchen,
+      Ingolstadter Landstr. 1, 85716, Neuherberg, Germany.
+FAU - Milger, Katrin
+AU  - Milger K
+AD  - Department of Internal Medicine V, University of Munich, Comprehensive Pneumology
+      Center, Member of the German Center for Lung Research (DZL), Munich, Germany.
+AD  - Institute of Lung Biology and Disease (ILBD), Helmholtz Center Munich,
+      Comprehensive Pneumology Center (CPC-M), Munich, Germany.
+FAU - Krauss-Etschmann, Susanne
+AU  - Krauss-Etschmann S
+AD  - Division of Experimental Asthma Research, Research Center Borstel, Leibniz-Center
+      for Medicine and Biosciences, Member of the German Center for Lung Research
+      (DZL), Parkallee 1-40, 23845, Borstel, Germany.
+AD  - Institute for Experimental Medicine, Christian-Albrechts-Universitat zu Kiel,
+      Niemannsweg 11, 24105, Kiel, Germany.
+FAU - Engel, Marion
+AU  - Engel M
+AD  - Research Unit Scientific Computing, Helmholtz Zentrum Munchen, Ingolstadter
+      Landstr. 1, 85716, Neuherberg, Germany.
+FAU - Vestergaard, Gisle
+AU  - Vestergaard G
+AD  - Research Unit Comparative Microbiome Analysis, Helmholtz Zentrum Munchen,
+      Ingolstadter Landstr. 1, 85716, Neuherberg, Germany.
+FAU - Schloter, Michael
+AU  - Schloter M
+AD  - Research Unit Comparative Microbiome Analysis, Helmholtz Zentrum Munchen,
+      Ingolstadter Landstr. 1, 85716, Neuherberg, Germany.
+      schloter@helmholtz-muenchen.de.
+AD  - ZIEL Institute for Food and Health, Technische Universitat Munchen,
+      Weihenstephaner Berg 1, 85354, Freising, Germany. schloter@helmholtz-muenchen.de.
+FAU - Scholer, Anne
+AU  - Scholer A
+AD  - Research Unit Comparative Microbiome Analysis, Helmholtz Zentrum Munchen,
+      Ingolstadter Landstr. 1, 85716, Neuherberg, Germany.
+LA  - eng
+PT  - Journal Article
+DEP - 20170913
+PL  - United States
+TA  - Microb Ecol
+JT  - Microbial ecology
+JID - 7500663
+RN  - 0 (DNA, Bacterial)
+RN  - 0 (DNA, Ribosomal)
+SB  - IM
+MH  - Animals
+MH  - Animals, Newborn/microbiology
+MH  - Bacteria/classification/genetics/*isolation & purification
+MH  - DNA, Bacterial/genetics
+MH  - DNA, Ribosomal/genetics
+MH  - Female
+MH  - High-Throughput Nucleotide Sequencing
+MH  - Lung/*microbiology
+MH  - Mice
+MH  - Mice, Inbred BALB C
+MH  - *Microbiota
+OTO - NOTNLM
+OT  - 16S rRNA-based barcoding
+OT  - Core microbiome
+OT  - Delftia
+OT  - Murine lung microbiome
+OT  - Rhodococcus
+EDAT- 2017/09/15 06:00
+MHDA- 2019/01/12 06:00
+CRDT- 2017/09/15 06:00
+PHST- 2017/05/26 00:00 [received]
+PHST- 2017/09/05 00:00 [accepted]
+PHST- 2017/09/15 06:00 [pubmed]
+PHST- 2019/01/12 06:00 [medline]
+PHST- 2017/09/15 06:00 [entrez]
+AID - 10.1007/s00248-017-1068-x [doi]
+AID - 10.1007/s00248-017-1068-x [pii]
+PST - ppublish
+SO  - Microb Ecol. 2018 Feb;75(2):529-542. doi: 10.1007/s00248-017-1068-x. Epub 2017
+      Sep 13.
+
+PMID- 28767318
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190220
+LR  - 20190320
+IS  - 1557-8100 (Electronic)
+IS  - 1536-2310 (Linking)
+VI  - 22
+IP  - 2
+DP  - 2018 Feb
+TI  - The Gut Microbiome and Mental Health: Implications for Anxiety- and
+      Trauma-Related Disorders.
+PG  - 90-107
+LID - 10.1089/omi.2017.0077 [doi]
+AB  - Biological psychiatry research has long focused on the brain in elucidating the
+      neurobiological mechanisms of anxiety- and trauma-related disorders. This review 
+      challenges this assumption and suggests that the gut microbiome and its
+      interactome also deserve attention to understand brain disorders and develop
+      innovative treatments and diagnostics in the 21st century. The recent, in-depth
+      characterization of the human microbiome spurred a paradigm shift in human health
+      and disease. Animal models strongly suggest a role for the gut microbiome in
+      anxiety- and trauma-related disorders. The microbiota-gut-brain (MGB) axis sits
+      at the epicenter of this new approach to mental health. The microbiome plays an
+      important role in the programming of the hypothalamic-pituitary-adrenal (HPA)
+      axis early in life, and stress reactivity over the life span. In this review, we 
+      highlight emerging findings of microbiome research in psychiatric disorders,
+      focusing on anxiety- and trauma-related disorders specifically, and discuss the
+      gut microbiome as a potential therapeutic target. 16S rRNA sequencing has enabled
+      researchers to investigate and compare microbial composition between individuals.
+      The functional microbiome can be studied using methods involving metagenomics,
+      metatranscriptomics, metaproteomics, and metabolomics, as discussed in the
+      present review. Other factors that shape the gut microbiome should be considered 
+      to obtain a holistic view of the factors at play in the complex interactome
+      linked to the MGB. In all, we underscore the importance of microbiome science,
+      and gut microbiota in particular, as emerging critical players in mental illness 
+      and maintenance of mental health. This new frontier of biological psychiatry and 
+      postgenomic medicine should be embraced by the mental health community as it
+      plays an ever-increasing transformative role in integrative and holistic health
+      research in the next decade.
+FAU - Malan-Muller, Stefanie
+AU  - Malan-Muller S
+AD  - 1 Department of Psychiatry, Faculty of Medicine and Health Sciences, Stellenbosch
+      University , Tygerberg, South Africa .
+FAU - Valles-Colomer, Mireia
+AU  - Valles-Colomer M
+AD  - 2 Department of Microbiology and Immunology, Rega Institute, KU Leuven-University
+      of Leuven , Leuven, Belgium .
+AD  - 3 VIB, Center for Microbiology , Leuven, Belgium .
+FAU - Raes, Jeroen
+AU  - Raes J
+AD  - 2 Department of Microbiology and Immunology, Rega Institute, KU Leuven-University
+      of Leuven , Leuven, Belgium .
+AD  - 3 VIB, Center for Microbiology , Leuven, Belgium .
+FAU - Lowry, Christopher A
+AU  - Lowry CA
+AD  - 4 Department of Integrative Physiology and Center for Neuroscience, University of
+      Colorado Boulder , Boulder, Colorado.
+AD  - 5 Military and Veteran Microbiome: Consortium for Research and Education
+      (MVM-Core) , Aurora, Colorado.
+AD  - 6 Department of Psychiatry, Neurology & Physical Medicine and Rehabilitation,
+      Anschutz School of Medicine, University of Colorado , Aurora, Colorado.
+AD  - 7 VA Rocky Mountain Mental Illness Research, Education, and Clinical Center
+      (MIRECC) , Denver, Colorado.
+AD  - 8 Center for Neuroscience, University of Colorado Anschutz Medical Campus ,
+      Aurora, Colorado.
+FAU - Seedat, Soraya
+AU  - Seedat S
+AD  - 1 Department of Psychiatry, Faculty of Medicine and Health Sciences, Stellenbosch
+      University , Tygerberg, South Africa .
+FAU - Hemmings, Sian M J
+AU  - Hemmings SMJ
+AD  - 1 Department of Psychiatry, Faculty of Medicine and Health Sciences, Stellenbosch
+      University , Tygerberg, South Africa .
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20170802
+PL  - United States
+TA  - OMICS
+JT  - Omics : a journal of integrative biology
+JID - 101131135
+RN  - 0 (RNA, Ribosomal, 16S)
+SB  - IM
+MH  - Animals
+MH  - Anxiety/genetics/*microbiology
+MH  - Gastrointestinal Microbiome/genetics/*physiology
+MH  - Humans
+MH  - Mental Disorders/genetics/*microbiology
+MH  - Mental Health
+MH  - RNA, Ribosomal, 16S/genetics
+MH  - Trauma and Stressor Related Disorders/genetics/*microbiology
+OTO - NOTNLM
+OT  - *anxiety
+OT  - *interactome
+OT  - *mental health
+OT  - *microbiome
+OT  - *microbiota-gut-brain axis
+OT  - *stress-related disorders
+EDAT- 2017/08/03 06:00
+MHDA- 2019/03/21 06:00
+CRDT- 2017/08/03 06:00
+PHST- 2017/08/03 06:00 [pubmed]
+PHST- 2019/03/21 06:00 [medline]
+PHST- 2017/08/03 06:00 [entrez]
+AID - 10.1089/omi.2017.0077 [doi]
+PST - ppublish
+SO  - OMICS. 2018 Feb;22(2):90-107. doi: 10.1089/omi.2017.0077. Epub 2017 Aug 2.
+
+PMID- 28681143
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190116
+LR  - 20190116
+IS  - 1432-184X (Electronic)
+IS  - 0095-3628 (Linking)
+VI  - 75
+IP  - 1
+DP  - 2018 Jan
+TI  - Seasonal Stability in the Microbiomes of Temperate Gorgonians and the Red Coral
+      Corallium rubrum Across the Mediterranean Sea.
+PG  - 274-288
+LID - 10.1007/s00248-017-1006-y [doi]
+AB  - Populations of key benthic habitat-forming octocoral species have declined
+      significantly in the Mediterranean Sea due to mass mortality events caused by
+      microbial disease outbreaks linked to high summer seawater temperatures.
+      Recently, we showed that the microbial communities of these octocorals are
+      relatively structured; however, our knowledge on the seasonal dynamics of these
+      microbiomes is still limited. To investigate their seasonal stability, we
+      collected four soft gorgonian species (Eunicella singularis, Eunicella cavolini, 
+      Eunicella verrucosa and Leptogorgia sarmentosa) and the precious red coral
+      (Corallium rubrum) from two coastal locations with different terrestrial impact
+      levels in the Mediterranean Sea, and used next-generation amplicon sequencing of 
+      the 16S rRNA gene. The microbiomes of all soft gorgonian species were dominated
+      by the same 'core microbiome' bacteria belonging to the Endozoicomonas and the
+      Cellvibrionales clade BD1-7, whereas the red coral microbiome was primarily
+      composed of 'core' Spirochaetes, Oceanospirillales ME2 and Parcubacteria. The
+      associations with these bacterial taxa were relatively consistent over time at
+      each location for each octocoral species. However, differences in microbiome
+      composition and seasonal dynamics were observed between locations and could
+      primarily be attributed to locally variant bacteria. Overall, our data provide
+      further evidence of the intricate symbiotic relationships that exist between
+      Mediterranean octocorals and their associated microbes, which are ancient and
+      highly conserved over both space and time, and suggest regulation of the
+      microbiome composition by the host, depending on local conditions.
+FAU - van de Water, Jeroen A J M
+AU  - van de Water JAJM
+AUID- ORCID: http://orcid.org/0000-0001-6974-2270
+AD  - Centre Scientifique de Monaco, 8 Quai Antoine 1er, 98000, Monaco, Monaco.
+      jvdewater@centrescientifique.mc.
+FAU - Voolstra, Christian R
+AU  - Voolstra CR
+AD  - Red Sea Research Center, Division of Biological and Environmental Science and
+      Engineering (BESE), King Abdullah University of Science and Technology (KAUST),
+      Thuwal, 23955-6900, Saudi Arabia.
+FAU - Rottier, Cecile
+AU  - Rottier C
+AD  - Centre Scientifique de Monaco, 8 Quai Antoine 1er, 98000, Monaco, Monaco.
+FAU - Cocito, Silvia
+AU  - Cocito S
+AD  - Marine Environment Research Centre, ENEA, La Spezia, Italy.
+FAU - Peirano, Andrea
+AU  - Peirano A
+AD  - Marine Environment Research Centre, ENEA, La Spezia, Italy.
+FAU - Allemand, Denis
+AU  - Allemand D
+AD  - Centre Scientifique de Monaco, 8 Quai Antoine 1er, 98000, Monaco, Monaco.
+FAU - Ferrier-Pages, Christine
+AU  - Ferrier-Pages C
+AD  - Centre Scientifique de Monaco, 8 Quai Antoine 1er, 98000, Monaco, Monaco.
+LA  - eng
+PT  - Journal Article
+DEP - 20170705
+PL  - United States
+TA  - Microb Ecol
+JT  - Microbial ecology
+JID - 7500663
+SB  - IM
+MH  - Animals
+MH  - Anthozoa/*microbiology/physiology
+MH  - Bacteria/classification/genetics/*isolation & purification
+MH  - Bacterial Physiological Phenomena
+MH  - High-Throughput Nucleotide Sequencing
+MH  - Mediterranean Sea
+MH  - *Microbiota
+MH  - Phylogeny
+MH  - Seasons
+MH  - Seawater
+MH  - Symbiosis
+OTO - NOTNLM
+OT  - 16S rRNA gene
+OT  - Bacterial community
+OT  - Endozoicomonas
+OT  - Evolution
+OT  - Gorgonian
+OT  - Holobiont
+OT  - Microbiome
+OT  - Red coral
+OT  - Spirochaetes
+OT  - Symbiosis
+EDAT- 2017/07/07 06:00
+MHDA- 2019/01/17 06:00
+CRDT- 2017/07/07 06:00
+PHST- 2017/03/30 00:00 [received]
+PHST- 2017/06/02 00:00 [accepted]
+PHST- 2017/07/07 06:00 [pubmed]
+PHST- 2019/01/17 06:00 [medline]
+PHST- 2017/07/07 06:00 [entrez]
+AID - 10.1007/s00248-017-1006-y [doi]
+AID - 10.1007/s00248-017-1006-y [pii]
+PST - ppublish
+SO  - Microb Ecol. 2018 Jan;75(1):274-288. doi: 10.1007/s00248-017-1006-y. Epub 2017
+      Jul 5.
+
+PMID- 28502120
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20181220
+LR  - 20181220
+IS  - 1365-2656 (Electronic)
+IS  - 0021-8790 (Linking)
+VI  - 87
+IP  - 2
+DP  - 2018 Mar
+TI  - Gut microbial communities of American pikas (Ochotona princeps): Evidence for
+      phylosymbiosis and adaptations to novel diets.
+PG  - 323-330
+LID - 10.1111/1365-2656.12692 [doi]
+AB  - Gut microbial communities provide many physiological functions to their hosts,
+      especially in herbivorous animals. We still lack an understanding of how these
+      microbial communities are structured across hosts in nature, especially within a 
+      given host species. Studies on laboratory mice have demonstrated that host
+      genetics can influence microbial community structure, but that diet can overwhelm
+      these genetic effects. We aimed to test these ideas in a natural system, the
+      American pika (Ochotona princeps). First, pikas are high-elevation specialists
+      with significant population structure across various mountain ranges in the USA, 
+      allowing us to investigate whether similarities in microbial communities match
+      host genetic differences. Additionally, pikas are herbivorous, with some
+      populations exhibiting remarkable dietary plasticity and consuming high levels of
+      moss, which is exceptionally high in fibre and low in protein. This allows us to 
+      investigate adaptations to an herbivorous diet, as well as to the especially
+      challenging diet of moss. Here, we inventoried the microbial communities of pika 
+      caecal pellets from various populations using 16S rRNA sequencing to investigate 
+      structuring of microbial communities across various populations with different
+      natural diets. Microbial communities varied significantly across populations, and
+      differences in microbial community structure were congruent with genetic
+      differences in host population structure, a pattern known as "phylosymbiosis."
+      Several microbial members (Ruminococcus, Prevotella, Oxalobacter and Coprococcus)
+      were detected across all samples, and thus likely represent a "core microbiome." 
+      These genera are known to perform a number of services for herbivorous hosts such
+      as fibre fermentation and the degradation of plant defensive compounds, and thus 
+      are likely important for herbivory in pikas. Moreover, pikas that feed on moss
+      harboured microbial communities highly enriched in Melainabacteria. This
+      uncultivable candidate phylum has been proposed to ferment fibre for herbivores, 
+      and thus may contribute to the ability of some pika populations to consume high
+      amounts of moss. These findings demonstrate that both host genetics and diet can 
+      influence the microbial communities of the American pika. These animals may be
+      novel sources of fibre-degrading microbes. Last, we discuss the implications of
+      population-specific microbial communities for conservation efforts in this
+      species.
+CI  - (c) 2017 The Authors. Journal of Animal Ecology (c) 2017 British Ecological
+      Society.
+FAU - Kohl, Kevin D
+AU  - Kohl KD
+AUID- ORCID: 0000-0003-1126-2949
+AD  - Department of Biological Sciences, Vanderbilt University, Nashville, TN, USA.
+AD  - Department of Biology, University of Utah, Salt Lake City, UT, USA.
+FAU - Varner, Johanna
+AU  - Varner J
+AD  - Department of Biology, Colorado Mesa University, Grand Junction, CO, USA.
+FAU - Wilkening, Jennifer L
+AU  - Wilkening JL
+AD  - Department of Ecology and Evolutionary Biology, University of Colorado, Boulder, 
+      CO, USA.
+FAU - Dearing, M Denise
+AU  - Dearing MD
+AD  - Department of Biology, University of Utah, Salt Lake City, UT, USA.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20170626
+PL  - England
+TA  - J Anim Ecol
+JT  - The Journal of animal ecology
+JID - 0376574
+RN  - 0 (RNA, Ribosomal, 16S)
+SB  - IM
+MH  - *Adaptation, Physiological
+MH  - Animals
+MH  - Bacteria/classification/genetics
+MH  - *Bacterial Physiological Phenomena
+MH  - *Diet
+MH  - Gastrointestinal Tract/*microbiology
+MH  - Herbivory
+MH  - Host Microbial Interactions/*physiology
+MH  - Host Specificity
+MH  - Lagomorpha/classification/*microbiology
+MH  - Microbiota
+MH  - RNA, Ribosomal, 16S/genetics
+MH  - *Symbiosis
+MH  - United States
+OTO - NOTNLM
+OT  - *gut microbiota
+OT  - *host-microbe interactions
+OT  - *phylosymbiosis
+OT  - *pika
+EDAT- 2017/05/16 06:00
+MHDA- 2018/12/21 06:00
+CRDT- 2017/05/15 06:00
+PHST- 2016/10/11 00:00 [received]
+PHST- 2017/03/21 00:00 [accepted]
+PHST- 2017/05/16 06:00 [pubmed]
+PHST- 2018/12/21 06:00 [medline]
+PHST- 2017/05/15 06:00 [entrez]
+AID - 10.1111/1365-2656.12692 [doi]
+PST - ppublish
+SO  - J Anim Ecol. 2018 Mar;87(2):323-330. doi: 10.1111/1365-2656.12692. Epub 2017 Jun 
+      26.

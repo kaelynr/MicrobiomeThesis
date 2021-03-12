@@ -5,6 +5,7 @@
 # load required packages
 library(readxl)
 library(tidyverse)
+library(ggplot2)
 # set working directory to file location
 setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 theme_set(theme_minimal())
@@ -14,7 +15,7 @@ micro <- read_excel("micro.xlsx")
 View(micro)
 
 # creating the ggplot for field of study
-fieldPlot<- ggplot(data=micro, aes(x=fieldOfStudy)) +
+fieldPlot<- ggplot(data=micro, aes(x=FieldOfStudy)) +
   geom_bar(fill="steelblue") +
   labs(x = "Field of Study", y = "Number of Articles")
 fieldPlot
@@ -22,8 +23,8 @@ fieldPlot
 # viridis colours are colour-blind friendly
 
 
-corePlot <- ggplot(micro, aes(x = nestedCore, # possible to do intersection here instead
-                              fill = interaction(commonCore, temporalCore))) +
+corePlot <- ggplot(micro, aes(x = NestedCore, # possible to do intersection here instead
+                              fill = interaction(CommonCore, TemporalCore))) +
   geom_bar() +
   # changing the x axis tick labels
   # discrete b/c the levels are unique (not on a continuous scale)

@@ -2,11 +2,18 @@
 title: "R Notebook"
 output: html_notebook
 ---
+
+
+```{r}
+install.packages("vctrs", version='0.3.6')
+```
+
 ```{r}
 #set working directory and bring in the Excel Sheet
 #setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
 library(readxl)
 library(tidyverse)
+library(ggmosaic)
 #~/University/University 2020-2021/thesis/MicrobiomeThesis/
 # read in spreadsheets
 ResultsMicrobiome <- read_excel("micro.xlsx")
@@ -20,83 +27,74 @@ chiFilter <- function(c1, c2){
   # c2 = second column of interest
   df1 <- data.frame(c1, c2) %>% na.omit()
   tab <- table(df1$c1, df1$c2)
+  print(tab)
   chi <- chisq.test(tab)
   return(chi)
 }
 ```
 
-
-```{r}
-# table for field and nested core
-chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$nestedCore)
-
-# table for field and common core
-chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$commonCore)
-
-# table for field and temporal core
-chiFilter(ResultsMicrobiome$fieldOfStudy, ResultsMicrobiome$temporalCore)
-```
-
-
 ```{r}
 # apply (quicker step)
-columns <- list(ResultsMicrobiome$nestedCore, ResultsMicrobiome$commonCore, ResultsMicrobiome$temporalCore)
+columns <- list(ResultsMicrobiome$NestedCore, ResultsMicrobiome$CommonCore, ResultsMicrobiome$TemporalCore)
 ```
 
 ### Primary Analyses, Chi Square Tests
 ```{r}
 # table for field of study and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$fieldOfStudy)
+FOS <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$FieldOfStudy)
+FOSp <- lapply(FOS, function(x) x$p.value)
 ```
 
 ```{r}
 # table for study system and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$hostType)
-```
-
-```{r}
-# table for sequencing method and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$`sequencingMethod (16S,18S, shotgun, WGS - whole genome shotgun, RNAseq)`)
-```
-
-```{r}
-# table for sequencing platform and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$`sequencingPlatform (Illumina MiSeq/HiSeq/etc, 454, etc)`)
-```
-
-```{r}
-# table for usage of PCR and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$`PCR (Yes/No)`)
+SS <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$HostType)
+SSp <- lapply(SS, function(x) x$p.value)
 ```
 
 ### Secondary Analyses, Chi Square Tests
 ```{r}
 # table for positive/negative interaction and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$positiveOrNegativeInteraction)
+PNI <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$PositiveOrNegativeInteraction)
+PNIp <- lapply(PNI, function(x) x$p.value)
 ```
 
 ```{r}
 # table for effect on host fitness and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$effectOnHostFitness)
+EHF <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$EffectOnHostFitness)
+EHFp <- lapply(EHF, function(x) x$p.value)
 ```
 
-```{r}
-# table for positive/negative interaction and core definition used
-lapply(columns, chiFilter, c1 = ResultsMicrobiome$source)
-```
 
 ### Bonferroni Test
-for numeric data 
+
 ```{r}
-pairwise.t.test(<dependent variable>, 
-                <independent variable>, 
-                p.adjust = <correction method>)
+pval <- c(SSp,PNIp,FOSp,EHFp)
+p.adjust(pval, method = "bonferroni", n = length(pval))
+```
+
+### Visualization - Mozaic Bar Plots
+```{r}
+ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore, ResultsMicrobiome$CommonCore, ResultsMicrobiome$TemporalCore)
+View(ResultsMicrobiome$CombinedCore)
 ```
 
 ```{r}
-columns
-ResultsMicrobiome %>% select(fieldOfStudy, nestedCore) %>%
-  na.omit()
-#t.test(.$fieldOfStudy, .$nestedCore, paired = T, alternative = "two.sided")
+# field of study x core microbiome
+ggplot(ResultsMicrobiome) + geom_mosaic(aes(x = product(FieldOfStudy), fill = CombinedCore))
+```
+
+```{r}
+# study system x core microbiome
+
+```
+
+```{r}
+# positive or negative interaction x core microbiome
+
+```
+
+```{r}
+# effect on host fitness x core microbiome
+
 ```
 

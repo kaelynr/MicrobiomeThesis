@@ -9,10 +9,11 @@ output: html_notebook
 library(readxl)
 library(tidyverse)
 library(ggmosaic)
+# set plotting theme
+theme_set(theme_bw())
 #~/University/University 2020-2021/thesis/MicrobiomeThesis/
 # read in spreadsheets
 ResultsMicrobiome <- read_excel("micro.xlsx")
-View(ResultsMicrobiome)
 ```
 
 ```{r}
@@ -64,22 +65,36 @@ EHFp <- lapply(EHF, function(x) x$p.value)
 
 ```{r}
 pval <- c(SSp,PNIp,FOSp,EHFp)
-p.adjust(pval, method = "holm", length(pval))
+p.adjust(pval, method = "holm")
 ```
 
 ### Visualization - Mozaic Bar Plots
 ```{r}
-ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore, ResultsMicrobiome$CommonCore, ResultsMicrobiome$TemporalCore)
-View(ResultsMicrobiome$CombinedCore)
+# replace NAs with no
+ResultsMicrobiome$NestedCore[is.na(ResultsMicrobiome$NestedCore)] <- "no"
+ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore,
+                                              ResultsMicrobiome$CommonCore,
+                                              ResultsMicrobiome$TemporalCore)
+# breaks in alphabetical order
+b <- sort(unique(ResultsMicrobiome$CombinedCore))
+# labels
+l <- c("Ecological Only", "Functional Only", "Host-adapted Only",
+  "None", "Ecological and Common", "Functional and Common",
+  "Host-adapted and Common", "Common Only", "Temporal Only",
+  "Ecological, Common, and Temporal", "Functional, Common, and Temporal",
+  "Host-adapted, Common, and Temporal", "Common and Temporal")
+# figure foundation
+f <- ggplot(ResultsMicrobiome) +
+  scale_fill_viridis_d(breaks=b, labels = l) +
+  theme(axis.text.y = element_blank()) +
+  labs(fill = "Combined Core", y = "Combined Core")
 ```
 
 ```{r}
 # field of study x core microbiome
-ggplot(ResultsMicrobiome) +
-  geom_mosaic(aes(x = product(FieldOfStudy), fill = CombinedCore)) +
-  scale_fill_discrete(breaks=c("ecological.no.no", "functional.no.no", "host-adapted.no.no", "ecological.yes.no", "functional.yes.no", "host-adapted.yes.no", "ecological.no.yes", "functional.no.yes", "host-adapted.no.yes", "ecological.yes.yes", "functional.yes.yes", "host-adapted.yes.yes"), labels=c("Ecological Only", "Functional Only", "Host-adapted Only", "Ecological and Common", "Functional and Common", "Host-adapted and Common", "Ecological and Temporal", "Functional and Temporal", "Host-adapted and Temporal", "Ecological, Common, and Temporal", "Functional, Common, and Temporal", "Host-adapted, Common, and Temporal")) +
-  scale_fill_viridis_d(labels = c("Ecological Only", "Functional Only", "Host-adapted Only", "Ecological and Common", "Functional and Common", "Host-adapted and Common", "Ecological and Temporal", "Functional and Temporal", "Host-adapted and Temporal", "Ecological, Common, and Temporal", "Functional, Common, and Temporal", "Host-adapted, Common, and Temporal")) +
-  theme(axis.text.y = element_blank())
+f + geom_mosaic(aes(x = product(FieldOfStudy),
+                    fill = CombinedCore)) +
+  xlab("Field of Study")
 ```
 
 ```{r}

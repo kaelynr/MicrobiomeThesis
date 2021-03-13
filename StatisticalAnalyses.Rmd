@@ -31,7 +31,9 @@ chiFilter <- function(c1, c2){
 
 ```{r}
 # apply (quicker step)
-columns <- list(ResultsMicrobiome$NestedCore, ResultsMicrobiome$CommonCore, ResultsMicrobiome$TemporalCore)
+columns <- list(ResultsMicrobiome$NestedCore,
+                ResultsMicrobiome$CommonCore,
+                ResultsMicrobiome$TemporalCore)
 ```
 
 ### Primary Analyses, Chi Square Tests
@@ -72,29 +74,35 @@ p.adjust(pval, method = "holm")
 ```{r}
 # replace NAs with no
 ResultsMicrobiome$NestedCore[is.na(ResultsMicrobiome$NestedCore)] <- "no"
+# combine cores
 ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore,
                                               ResultsMicrobiome$CommonCore,
-                                              ResultsMicrobiome$TemporalCore)
-# breaks in alphabetical order
-b <- sort(unique(ResultsMicrobiome$CombinedCore))
-# labels
-l <- c("Ecological Only", "Functional Only", "Host-adapted Only",
-  "None", "Ecological and Common", "Functional and Common",
-  "Host-adapted and Common", "Common Only", "Temporal Only",
-  "Ecological, Common, and Temporal", "Functional, Common, and Temporal",
-  "Host-adapted, Common, and Temporal", "Common and Temporal")
+                                              ResultsMicrobiome$TemporalCore) %>%
+  str_replace_all(c("ecological.no.no" = "Ecological Only",
+                  "functional.no.no" = "Functional Only",
+                  "host-adapted.no.no" = "Host-adapted Only",
+                  "ecological.yes.no" = "Ecological and Common",
+                  "functional.yes.no" = "Functional and Common",
+                  "host-adapted.yes.no" = "Host-adapted and Common",
+                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal Only",
+                  "ecological.yes.yes" = "Ecological, Common, and Temporal",
+                  "functional.yes.yes" = "Functional, Common, and Temporal",
+                  "no.no.no" = "None", "no.yes.yes" = "Common and Temporal",
+                  "host-adapted.yes.yes" = "Host-adapted, Common, and Temporal"))
 # figure foundation
 f <- ggplot(ResultsMicrobiome) +
-  scale_fill_viridis_d(breaks=b, labels = l) +
-  theme(axis.text.y = element_blank()) +
+  scale_fill_viridis_d() +
   labs(fill = "Combined Core", y = "Combined Core")
 ```
 
 ```{r}
 # field of study x core microbiome
+# un-comment pdf and dev.off to export with unsquished labels
+#pdf("FieldOfStudy.pdf", height = 12, width = 10)
 f + geom_mosaic(aes(x = product(FieldOfStudy),
                     fill = CombinedCore)) +
   xlab("Field of Study")
+#dev.off()
 ```
 
 ```{r}

@@ -36,3 +36,4 @@ corePlot <- ggplot(micro, aes(x = NestedCore, # possible to do intersection here
   labs(x = "Nested Core Definition", y = "Number of Articles", 
        fill = "Common or Temporal")
 corePlot
+

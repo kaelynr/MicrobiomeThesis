@@ -3,11 +3,6 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-
-```{r}
-install.packages("vctrs", version='0.3.6')
-```
-
 ```{r}
 #set working directory and bring in the Excel Sheet
 #setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
@@ -69,7 +64,7 @@ EHFp <- lapply(EHF, function(x) x$p.value)
 
 ```{r}
 pval <- c(SSp,PNIp,FOSp,EHFp)
-p.adjust(pval, method = "bonferroni", n = length(pval))
+p.adjust(pval, method = "holm", length(pval))
 ```
 
 ### Visualization - Mozaic Bar Plots
@@ -80,7 +75,11 @@ View(ResultsMicrobiome$CombinedCore)
 
 ```{r}
 # field of study x core microbiome
-ggplot(ResultsMicrobiome) + geom_mosaic(aes(x = product(FieldOfStudy), fill = CombinedCore))
+ggplot(ResultsMicrobiome) +
+  geom_mosaic(aes(x = product(FieldOfStudy), fill = CombinedCore)) +
+  scale_fill_discrete(breaks=c("ecological.no.no", "functional.no.no", "host-adapted.no.no", "ecological.yes.no", "functional.yes.no", "host-adapted.yes.no", "ecological.no.yes", "functional.no.yes", "host-adapted.no.yes", "ecological.yes.yes", "functional.yes.yes", "host-adapted.yes.yes"), labels=c("Ecological Only", "Functional Only", "Host-adapted Only", "Ecological and Common", "Functional and Common", "Host-adapted and Common", "Ecological and Temporal", "Functional and Temporal", "Host-adapted and Temporal", "Ecological, Common, and Temporal", "Functional, Common, and Temporal", "Host-adapted, Common, and Temporal")) +
+  scale_fill_viridis_d(labels = c("Ecological Only", "Functional Only", "Host-adapted Only", "Ecological and Common", "Functional and Common", "Host-adapted and Common", "Ecological and Temporal", "Functional and Temporal", "Host-adapted and Temporal", "Ecological, Common, and Temporal", "Functional, Common, and Temporal", "Host-adapted, Common, and Temporal")) +
+  theme(axis.text.y = element_blank())
 ```
 
 ```{r}

@@ -70,7 +70,7 @@ pval <- c(SSp,PNIp,FOSp,EHFp)
 p.adjust(pval, method = "holm")
 ```
 
-### Visualization - Mozaic Bar Plots
+### Visualization - Mosaic Bar Plots
 ```{r}
 # replace NAs with no
 ResultsMicrobiome$NestedCore[is.na(ResultsMicrobiome$NestedCore)] <- "no"
@@ -107,16 +107,22 @@ f + geom_mosaic(aes(x = product(FieldOfStudy),
 
 ```{r}
 # study system x core microbiome
-
+f + geom_mosaic(aes(x = product(HostType),
+                    fill = CombinedCore)) +
+  xlab("Study System")
 ```
 
 ```{r}
 # positive or negative interaction x core microbiome
-
+f + geom_mosaic(aes(x = product(PositiveOrNegativeInteraction),
+                    fill = CombinedCore)) +
+  xlab("Interaction Type")
 ```
 
 ```{r}
 # effect on host fitness x core microbiome
-
+f + geom_mosaic(aes(x = product(EffectOnHostFitness),
+                    fill = CombinedCore)) +
+  xlab("Effect on Host Fitness")
 ```
 

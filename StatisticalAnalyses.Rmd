@@ -84,17 +84,31 @@ p.adjust(pval, method = "holm")
 ### Visualization - Mosaic Bar Plots
 
 ```{r}
-ResultsMicrobiome$FieldOfStudy <- factor(ResultsMicrobiome$FieldOfStudy, levels = c("Ecology",
-                                                                                    "Medical",
-                                                                                    "Agricultural",
-                                                                                    "Industrial"))
-ResultsMicrobiome$HostType <- factor(ResultsMicrobiome$HostType,
-                                     levels = c("vertebrate", "human", "invertebrate", "soil", "plant", "sludge", "fish", "water"))
-
+# combined core
 ResultsMicrobiome$CombinedCore <- factor(ResultsMicrobiome$CombinedCore,
-                                         levels = c("Common Only", "Ecological Only", "Functional Only", "Host-adapted Only", "Ecological and Common", "Functional and Common", "Host-adapted and Common", "Temporal (All Combinations)", "None"))
-```
+                                         levels = c("Common Only", "Ecological Only", "Functional Only",
+                                                    "Host-adapted Only", "Ecological and Common",
+                                                    "Functional and Common", "Host-adapted and Common",
+                                                    "Temporal (All Combinations)", "None"))
+# field of study
+ResultsMicrobiome$FieldOfStudy <- factor(ResultsMicrobiome$FieldOfStudy, 
+                                         levels = c("Ecology", "Medical",
+                                                    "Agricultural", "Industrial"))
+# host types
+table(ResultsMicrobiome$HostType)
+ResultsMicrobiome$HostType <- factor(ResultsMicrobiome$HostType,
+                                     levels = c("vertebrate", "human", "invertebrate", "soil",
+                                                "plant", "sludge", "food products", "fish", "water"))
+# positive/negative
+table(ResultsMicrobiome$PositiveOrNegativeInteraction)
+ResultsMicrobiome$PositiveOrNegativeInteraction <- factor(ResultsMicrobiome$PositiveOrNegativeInteraction,
+                                     levels = c("both", "positive", "negative"))
 
+# host fitness
+table(ResultsMicrobiome$EffectOnHostFitness)
+ResultsMicrobiome$EffectOnHostFitness <- factor(ResultsMicrobiome$EffectOnHostFitness,
+                                     levels = c("both", "positive", "negative"))
+```
 
 ```{r}
 # figure foundation
@@ -112,6 +126,7 @@ f + geom_mosaic(aes(x = product(FieldOfStudy),
   xlab("Field of Study")
 #dev.off()
 ```
+
 
 ```{r}
 # study system x core microbiome
@@ -134,3 +149,42 @@ f + geom_mosaic(aes(x = product(EffectOnHostFitness),
   xlab("Effect on Host Fitness")
 ```
 
+## Without NA's
+### Interaction Type
+```{r}
+interactionType <- ResultsMicrobiome %>%
+  select(CombinedCore, PositiveOrNegativeInteraction) %>%
+  na.omit()
+```
+
+```{r}
+chiFilter(interactionType$CombinedCore, interactionType$PositiveOrNegativeInteraction)
+```
+
+```{r}
+ggplot(interactionType) +
+  scale_fill_viridis_d() +
+  labs(fill = "Combined Core", y = "Combined Core", x = "Interaction Type") +
+  geom_mosaic(aes(x = product(PositiveOrNegativeInteraction),
+                    fill = CombinedCore))
+```
+
+### Effect on host fitness
+
+```{r}
+EffectOnHostFitness <- ResultsMicrobiome %>%
+  select(CombinedCore, EffectOnHostFitness) %>%
+  na.omit()
+```
+
+```{r}
+chiFilter(EffectOnHostFitness$CombinedCore, EffectOnHostFitness$EffectOnHostFitness)
+```
+
+```{r}
+ggplot(EffectOnHostFitness) +
+  scale_fill_viridis_d() +
+  labs(fill = "Combined Core", y = "Combined Core", x = "Effect on Host Fitness") +
+  geom_mosaic(aes(x = product(EffectOnHostFitness),
+                    fill = CombinedCore))
+```

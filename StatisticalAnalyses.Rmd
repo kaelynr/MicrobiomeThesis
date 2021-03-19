@@ -48,11 +48,11 @@ ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore,
                   "ecological.yes.no" = "Ecological and Common",
                   "functional.yes.no" = "Functional and Common",
                   "host-adapted.yes.no" = "Host-adapted and Common",
-                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal Only",
-                  "ecological.yes.yes" = "Ecological, Common, and Temporal",
-                  "functional.yes.yes" = "Functional, Common, and Temporal",
-                  "no.no.no" = "None", "no.yes.yes" = "Common and Temporal",
-                  "host-adapted.yes.yes" = "Host-adapted, Common, and Temporal"))
+                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal (All Combinations)",
+                  "ecological.yes.yes" = "Temporal (All Combinations)",
+                  "functional.yes.yes" = "Temporal (All Combinations)",
+                  "no.no.no" = "None", "no.yes.yes" = "Temporal (All Combinations)",
+                  "host-adapted.yes.yes" = "Temporal (All Combinations)"))
 ```
 
 
@@ -82,6 +82,20 @@ p.adjust(pval, method = "holm")
 ```
 
 ### Visualization - Mosaic Bar Plots
+
+```{r}
+ResultsMicrobiome$FieldOfStudy <- factor(ResultsMicrobiome$FieldOfStudy, levels = c("Ecology",
+                                                                                    "Medical",
+                                                                                    "Agricultural",
+                                                                                    "Industrial"))
+ResultsMicrobiome$HostType <- factor(ResultsMicrobiome$HostType,
+                                     levels = c("vertebrate", "human", "invertebrate", "soil", "plant", "sludge", "fish", "water"))
+
+ResultsMicrobiome$CombinedCore <- factor(ResultsMicrobiome$CombinedCore,
+                                         levels = c("Common Only", "Ecological Only", "Functional Only", "Host-adapted Only", "Ecological and Common", "Functional and Common", "Host-adapted and Common", "Temporal (All Combinations)", "None"))
+```
+
+
 ```{r}
 # figure foundation
 f <- ggplot(ResultsMicrobiome) +

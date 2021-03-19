@@ -2,7 +2,6 @@
 title: "R Notebook"
 output: html_notebook
 ---
-
 ```{r}
 #set working directory and bring in the Excel Sheet
 #setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
@@ -36,41 +35,6 @@ columns <- list(ResultsMicrobiome$NestedCore,
                 ResultsMicrobiome$TemporalCore)
 ```
 
-### Primary Analyses, Chi Square Tests
-```{r}
-# table for field of study and core definition used
-FOS <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$FieldOfStudy)
-FOSp <- lapply(FOS, function(x) x$p.value)
-```
-
-```{r}
-# table for study system and core definition used
-SS <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$HostType)
-SSp <- lapply(SS, function(x) x$p.value)
-```
-
-### Secondary Analyses, Chi Square Tests
-```{r}
-# table for positive/negative interaction and core definition used
-PNI <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$PositiveOrNegativeInteraction)
-PNIp <- lapply(PNI, function(x) x$p.value)
-```
-
-```{r}
-# table for effect on host fitness and core definition used
-EHF <- lapply(columns, chiFilter, c1 = ResultsMicrobiome$EffectOnHostFitness)
-EHFp <- lapply(EHF, function(x) x$p.value)
-```
-
-
-### Bonferroni Test
-
-```{r}
-pval <- c(SSp,PNIp,FOSp,EHFp)
-p.adjust(pval, method = "holm")
-```
-
-### Visualization - Mosaic Bar Plots
 ```{r}
 # replace NAs with no
 ResultsMicrobiome$NestedCore[is.na(ResultsMicrobiome$NestedCore)] <- "no"
@@ -89,6 +53,36 @@ ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore,
                   "functional.yes.yes" = "Functional, Common, and Temporal",
                   "no.no.no" = "None", "no.yes.yes" = "Common and Temporal",
                   "host-adapted.yes.yes" = "Host-adapted, Common, and Temporal"))
+```
+
+
+### Primary Analyses, Chi Square Tests
+
+```{r}
+FOS <- chiFilter(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$FieldOfStudy)
+```
+```{r}
+HT <- chiFilter(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$HostType)
+```
+
+### Secondary Analyses, Chi Square Tests
+
+```{r}
+PNI <- chiFilter(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$PositiveOrNegativeInteraction)
+```
+```{r}
+EHF <- chiFilter(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$EffectOnHostFitness)
+```
+
+### Bonferroni Test
+
+```{r}
+pval <- c(FOS$p.value, HT$p.value, PNI$p.value, EHF$p.value)
+p.adjust(pval, method = "holm")
+```
+
+### Visualization - Mosaic Bar Plots
+```{r}
 # figure foundation
 f <- ggplot(ResultsMicrobiome) +
   scale_fill_viridis_d() +

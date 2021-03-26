@@ -17,15 +17,30 @@ ResultsMicrobiome <- read_excel("micro.xlsx")
 
 ```{r}
 # functions for analysis
-chiFilter <- function(c1, c2){
-  # c1 = first column of interest
+chiFilter <- function(data, core, c2){
+  # data = data frame with articles
+  # core = core type
   # c2 = second column of interest
-  df1 <- data.frame(c1, c2) %>% na.omit()
-  tab <- table(df1$c1, df1$c2)
+  df <- data %>%
+    group_by(CombinedCore) %>%
+    mutate(yes_in_group = any(str_detect(CombinedCore, core))) %>%
+    ungroup()
+  df1 <- data.frame(df$yes_in_group, c2) %>% na.omit()
+  tab <- table(df1$yes_in_group, c2)
   print(tab)
   chi <- chisq.test(tab)
   return(chi)
 }
+
+df <- ResultsMicrobiome %>%
+  group_by(CombinedCore) %>%
+  mutate(yes_in_group = any(str_detect(CombinedCore, 'Common'))) %>%
+  ungroup()
+df1 <- data.frame(df$yes_in_group, ResultsMicrobiome$FieldOfStudy)
+
+table(df1$yes_in_group, df1$ResultsMicrobiome.FieldOfStudy)
+chiFilter(ResultsMicrobiome, 'Common', ResultsMicrobiome$FieldOfStudy)
+ResultsMicrobiome$FieldOfStudy
 ```
 
 ```{r}
@@ -48,11 +63,18 @@ ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore,
                   "ecological.yes.no" = "Ecological and Common",
                   "functional.yes.no" = "Functional and Common",
                   "host-adapted.yes.no" = "Host-adapted and Common",
-                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal (All Combinations)",
-                  "ecological.yes.yes" = "Temporal (All Combinations)",
-                  "functional.yes.yes" = "Temporal (All Combinations)",
-                  "no.no.no" = "None", "no.yes.yes" = "Temporal (All Combinations)",
-                  "host-adapted.yes.yes" = "Temporal (All Combinations)"))
+                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal Only",
+                  "ecological.yes.yes" = "Ecological, Common, Temporal",
+                  "functional.yes.yes" = "Functional, Common, Temporal",
+                  "no.no.no" = "None", "no.yes.yes" = "Common and Temporal",
+                  "host-adapted.yes.yes" = "Host-adapted, Common, Temporal"))
+
+ResultsMicrobiome %>%
+    group_by(CombinedCore) %>%
+    mutate(yes_in_group = any(str_detect(CombinedCore, 'Common'))) %>%
+  select(yes_in_group)
+
+
 ```
 
 
@@ -78,6 +100,7 @@ EHF <- chiFilter(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$EffectOnHostF
 
 ```{r}
 pval <- c(FOS$p.value, HT$p.value, PNI$p.value, EHF$p.value)
+pval
 p.adjust(pval, method = "holm")
 ```
 

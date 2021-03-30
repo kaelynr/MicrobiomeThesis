@@ -44,51 +44,52 @@ ResultsMicrobiome$NestedCore[is.na(ResultsMicrobiome$NestedCore)] <- "no"
 ResultsMicrobiome$CombinedCore <- interaction(ResultsMicrobiome$NestedCore,
                                               ResultsMicrobiome$CommonCore,
                                               ResultsMicrobiome$TemporalCore) %>%
-  str_replace_all(c("ecological.no.no" = "Ecological Only",
-                  "functional.no.no" = "Functional Only",
-                  "host-adapted.no.no" = "Host-adapted Only",
-                  "ecological.yes.no" = "Ecological and Common",
-                  "functional.yes.no" = "Functional and Common",
-                  "host-adapted.yes.no" = "Host-adapted and Common",
-                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal Only",
-                  "ecological.yes.yes" = "Ecological, Common, Temporal",
-                  "functional.yes.yes" = "Functional, Common, Temporal",
-                  "no.no.no" = "None", "no.yes.yes" = "Common and Temporal",
-                  "host-adapted.yes.yes" = "Host-adapted, Common, Temporal"))
+  str_replace_all(c("ecological.no.no" = "Ecological (with or without Common)",
+                  "functional.no.no" = "Functional (with or without Common)",
+                  "host-adapted.no.no" = "Host-adapted (with or without Common)",
+                  "ecological.yes.no" = "Ecological (with or without Common)",
+                  "functional.yes.no" = "Functional (with or without Common)",
+                  "host-adapted.yes.no" = "Host-adapted (with or without Common)",
+                  "no.yes.no" = "Common Only", "no.no.yes" = "Temporal (All Combinations)",
+                  "ecological.yes.yes" = "Temporal (All Combinations)",
+                  "functional.yes.yes" = "Temporal (All Combinations)",
+                  "no.no.no" = "None", "no.yes.yes" = "Temporal (All Combinations)",
+                  "host-adapted.yes.yes" = "Temporal (All Combinations)"))
 # fish are vertebrate, so merging those groups
-ResultsMicrobiome$HostType <- ResultsMicrobiome$HostType %>% str_replace_all(c("fish" = "vertabrate"))
+ResultsMicrobiome$HostType <- ResultsMicrobiome$HostType %>% str_replace_all(c("fish" = "vertebrate"))
 # make a list with types of core to loop over
-coreTypes <- c("Common", "Temporal", "Host-adapted", "Functional", "Host-adapted")
+coreTypes <- c("Common", "Temporal", "Host-adapted", "Functional", "Ecological")
 ```
 
 
 ### Primary Analyses, Chi Square Tests
 Types of core: Common, temporal, ecological, functional, host-adapted
 ```{r}
-FOS <- lapply(coreTypes, chiFilter, data = ResultsMicrobiome, c2 = ResultsMicrobiome$FieldOfStudy)
+FOS <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$FieldOfStudy) %>% chisq.test()
+FOS
 ```
 ```{r}
-HT <- lapply(coreTypes, chiFilter, data = ResultsMicrobiome, c2 = ResultsMicrobiome$HostType)
+HT <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$HostType) %>% chisq.test()
+HT
 ```
 
-### Secondary Analyses, Chi Square Tests
+```{r}
+PNI <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$PositiveOrNegativeInteraction) %>% chisq.test()
+PNI
+```
 
 ```{r}
-PNI <- lapply(coreTypes, chiFilter, data = ResultsMicrobiome,
-              c2 = ResultsMicrobiome$PositiveOrNegativeInteraction)
-```
-```{r}
-EHF <- lapply(coreTypes, chiFilter, data = ResultsMicrobiome,
-              c2 = ResultsMicrobiome$EffectOnHostFitness)
+EHF <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$EffectOnHostFitness) %>% chisq.test()
+EHF
 ```
 
 ### Bonferroni Test
 
 ```{r}
-pval <- c(lapply(FOS, function(x) x$p.value), 
-          lapply(HT, function(x) x$p.value),
-          lapply(PNI, function(x) x$p.value),
-          lapply(EHF, function(x) x$p.value)) %>% unlist
+pval <- c((FOS[["p.value"]]), 
+          (HT[["p.value"]]),
+          (PNI[["p.value"]]),
+          (EHF[["p.value"]])) %>% unlist
 
 p.adjust(pval, method = "holm")
 ```
@@ -98,10 +99,13 @@ p.adjust(pval, method = "holm")
 ```{r}
 # combined core
 ResultsMicrobiome$CombinedCore <- factor(ResultsMicrobiome$CombinedCore,
-                                         levels = c("Common Only", "Ecological Only", "Functional Only",
-                                                    "Host-adapted Only", "Ecological and Common",
-                                                    "Functional and Common", "Host-adapted and Common",
-                                                    "Temporal (All Combinations)", "None"))
+                                         levels = c("Common Only",
+                                                    "Ecological (with or without Common)", 
+                                                    "Functional (with or without Common)",
+                                                    "Host-adapted (with or without Common)", 
+                                                    "Temporal (All Combinations)",
+                                                    "None"))
+                                         
 # field of study
 ResultsMicrobiome$FieldOfStudy <- factor(ResultsMicrobiome$FieldOfStudy, 
                                          levels = c("Ecology", "Medical",
@@ -109,8 +113,8 @@ ResultsMicrobiome$FieldOfStudy <- factor(ResultsMicrobiome$FieldOfStudy,
 # host types
 table(ResultsMicrobiome$HostType)
 ResultsMicrobiome$HostType <- factor(ResultsMicrobiome$HostType,
-                                     levels = c("vertebrate", "human", "invertebrate", "soil",
-                                                "plant", "sludge", "food products", "fish", "water"))
+                                     levels = c("vertebrate", "human", "invertebrate", "plant",
+                                                "food products", "soil", "sludge",  "water"))
 # positive/negative
 table(ResultsMicrobiome$PositiveOrNegativeInteraction)
 ResultsMicrobiome$PositiveOrNegativeInteraction <- factor(ResultsMicrobiome$PositiveOrNegativeInteraction,

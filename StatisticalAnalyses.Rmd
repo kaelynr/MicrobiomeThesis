@@ -16,28 +16,6 @@ ResultsMicrobiome <- read_excel("micro.xlsx")
 ```
 
 ```{r}
-# functions for analysis
-chiFilter <- function(data, core, c2){
-  # data = data frame with articles
-  # core = core type
-  # c2 = second column of interest
-  df <- data %>% group_by(CombinedCore) %>%
-    mutate(yes_in_group = any(str_detect(CombinedCore, core))) %>%
-    ungroup()
-  df1 <- data.frame(df$yes_in_group, c2) %>%
-    mutate_if(is.logical,as.numeric)
-  df1$presence <- df1$df.yes_in_group %>%
-    str_replace_all(c("1" = paste0("Contains ", core),
-                      "0" = paste0("Does not contain ", core)))
-  tab <- table(df1$presence, df1$c2)
-  print(tab)
-  chi <- chisq.test(tab)
-  return(chi)
-}
-```
-
-
-```{r}
 # replace NAs with no
 ResultsMicrobiome$NestedCore[is.na(ResultsMicrobiome$NestedCore)] <- "no"
 # combine cores
@@ -61,7 +39,6 @@ ResultsMicrobiome$HostType <- ResultsMicrobiome$HostType %>% str_replace_all(c("
 coreTypes <- c("Common", "Temporal", "Host-adapted", "Functional", "Ecological")
 ```
 
-
 ### Primary Analyses, Chi Square Tests
 Types of core: Common, temporal, ecological, functional, host-adapted
 ```{r}
@@ -79,7 +56,11 @@ PNI
 ```
 
 ```{r}
-EHF <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$EffectOnHostFitness) %>% chisq.test()
+EHF <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$EffectOnHostFitness) %>%
+  as.data.frame() %>% # converting to a data frame
+  pivot_wider(names_from = Var2, values_from = Freq) %>% column_to_rownames("Var1") %>%
+  # dropping zero 0 rows to run the chisquare test
+  .[ rowSums(.)!=0, ] %>% chisq.test()
 EHF
 ```
 
@@ -163,44 +144,4 @@ f + geom_mosaic(aes(x = product(PositiveOrNegativeInteraction),
 f + geom_mosaic(aes(x = product(EffectOnHostFitness),
                     fill = CombinedCore)) +
   xlab("Effect on Host Fitness")
-```
-
-## Without NA's
-### Interaction Type
-```{r}
-interactionType <- ResultsMicrobiome %>%
-  select(CombinedCore, PositiveOrNegativeInteraction) %>%
-  na.omit()
-```
-
-```{r}
-chiFilter(interactionType$CombinedCore, interactionType$PositiveOrNegativeInteraction)
-```
-
-```{r}
-ggplot(interactionType) +
-  scale_fill_viridis_d() +
-  labs(fill = "Combined Core", y = "Combined Core", x = "Interaction Type") +
-  geom_mosaic(aes(x = product(PositiveOrNegativeInteraction),
-                    fill = CombinedCore))
-```
-
-### Effect on host fitness
-
-```{r}
-EffectOnHostFitness <- ResultsMicrobiome %>%
-  select(CombinedCore, EffectOnHostFitness) %>%
-  na.omit()
-```
-
-```{r}
-chiFilter(EffectOnHostFitness$CombinedCore, EffectOnHostFitness$EffectOnHostFitness)
-```
-
-```{r}
-ggplot(EffectOnHostFitness) +
-  scale_fill_viridis_d() +
-  labs(fill = "Combined Core", y = "Combined Core", x = "Effect on Host Fitness") +
-  geom_mosaic(aes(x = product(EffectOnHostFitness),
-                    fill = CombinedCore))
 ```

@@ -72,6 +72,10 @@ pval <- c((FOS[["p.value"]]),
           (PNI[["p.value"]]),
           (EHF[["p.value"]])) %>% unlist
 
+#first row is unadjusted pvalues
+pval
+
+#second row is Bonferroni-Holm adjusted pvalues
 p.adjust(pval, method = "holm")
 ```
 
@@ -117,31 +121,45 @@ f <- ggplot(ResultsMicrobiome) +
 ```{r}
 # field of study x core microbiome
 # un-comment pdf and dev.off to export with unsquished labels
-#pdf("FieldOfStudy.pdf", height = 12, width = 10)
+pdf("FieldOfStudy.pdf", height = 10, width = 15)
 f + geom_mosaic(aes(x = product(FieldOfStudy),
                     fill = CombinedCore)) +
-  xlab("Field of Study")
-#dev.off()
+  xlab("Field of Study") +
+  theme(axis.title.x = element_text(size = 16, face = "bold"), axis.title.y = element_text(size = 16, face = "bold"), axis.text.y = element_text(size = 12, face = "italic"), axis.text.x = element_text(size = 12, face = "italic"), legend.position = "none")
+
+dev.off()
 ```
 
 
 ```{r}
 # study system x core microbiome
+pdf("StudySystem.pdf", height = 10, width = 15)
 f + geom_mosaic(aes(x = product(HostType),
                     fill = CombinedCore)) +
-  xlab("Study System")
+  xlab("Study System") +
+   theme(axis.title.x = element_text(size = 16, face = "bold"), axis.title.y = element_text(size = 16, face = "bold"), axis.text.y = element_text(size = 12, face = "italic"), axis.text.x = element_text(size = 12, face = "italic"), legend.position = "none")
+
+dev.off()
 ```
 
 ```{r}
 # positive or negative interaction x core microbiome
+pdf("InteractionType.pdf", height = 10, width = 15)
 f + geom_mosaic(aes(x = product(PositiveOrNegativeInteraction),
                     fill = CombinedCore)) +
-  xlab("Interaction Type")
+  xlab("Interaction Type") +
+   theme(axis.title.x = element_text(size = 16, face = "bold"), axis.title.y = element_text(size = 16, face = "bold"), axis.text.y = element_text(size = 12, face = "italic"), axis.text.x = element_text(size = 12, face = "italic"), legend.position = "none")
+
+dev.off()
 ```
 
 ```{r}
 # effect on host fitness x core microbiome
+pdf("EffectHostFitness.pdf", height = 10, width = 15)
 f + geom_mosaic(aes(x = product(EffectOnHostFitness),
                     fill = CombinedCore)) +
-  xlab("Effect on Host Fitness")
+  xlab("Effect on Host Fitness") +
+  theme(axis.title.x = element_text(size = 16, face = "bold"), axis.title.y = element_text(size = 16, face = "bold"), axis.text.y = element_text(size = 12, face = "italic"), axis.text.x = element_text(size = 12, face = "italic"), legend.position = "none")
+
+dev.off()
 ```

@@ -125,7 +125,11 @@ pdf("FieldOfStudy.pdf", height = 10, width = 15)
 f + geom_mosaic(aes(x = product(FieldOfStudy),
                     fill = CombinedCore)) +
   xlab("Field of Study") +
-  theme(axis.title.x = element_text(size = 16, face = "bold"), axis.title.y = element_text(size = 16, face = "bold"), axis.text.y = element_text(size = 12, face = "italic"), axis.text.x = element_text(size = 12, face = "italic"), legend.position = "none")
+  theme(axis.title.x = element_text(size = 16, face = "bold"), axis.title.y = element_text(size = 16, face = "bold"), axis.text.y = element_text(size = 12, face = "italic"), axis.text.x = element_text(size = 12, face = "italic"), legend.position = "none") +
+  scale_y_discrete(breaks = c("Common Only",  "Ecological (with or without Common)", "Functional (with or without Common)",
+                              "Host-adapted (with or without Common)", "Temporal (All Combinations)", "None"), 
+                   labels = c("Common Only", "Ecological \n (with or without Common)", "Functional \n (with or without Common)",
+                              "Host-adapted \n (with or without Common)", "Temporal \n (All Combinations)", "None"))
 
 dev.off()
 ```

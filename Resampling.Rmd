@@ -1,6 +1,6 @@
 ---
 title: "Random Paper Sampling"
-author: "Alicia Halhed"
+author: "Kaelyn Racine, Alicia Halhed"
 date: "28/10/2020"
 output: html_document
 ---

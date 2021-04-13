@@ -1,4 +1,92 @@
 
+PMID- 33641950
+OWN - NLM
+STAT- In-Data-Review
+LR  - 20210301
+IS  - 1873-7145 (Electronic)
+IS  - 0963-9969 (Linking)
+VI  - 141
+DP  - 2021 Mar
+TI  - Metatranscriptomic approach reveals the functional and enzyme dynamics of core
+      microbes during noni fruit fermentation.
+PG  - 109999
+LID - S0963-9969(20)31024-3 [pii]
+LID - 10.1016/j.foodres.2020.109999 [doi]
+AB  - Noni (Morinda citrifolia L.) has been recognized as an important herb for
+      treating various physiological disorders worldwide. Fermented noni fruit juice,
+      established as a novel food in European Union, is the most important noni
+      product. However, the structure, functions and enzyme profiles of microbiome
+      during fermentation remain unclear. The metatranscriptomic was used to
+      comprehensively explore the active microbial community and key metabolic
+      function. Acetobacter sp., Acetobacter aceti and Gluconobacter sp. were the major
+      microorganisms and appeared in succession during fermentation. According to
+      principal components analysis (PCA) of metabolism-related unigenes by KEGG
+      database, the fermentation process was divided into three stages and almost
+      completed at the end of the second stage. Furthermore, carbohydrate-active
+      enzymes (CAZymes) and the expression of key enzymes in major metabolic pathways
+      were analyzed systematically. Analysis by HS-SPME-GC-MS and odor active value
+      (OAV) revealed that butanoic acid and hexanoic acid were the main volatile
+      compounds for the unpleasant odor of fermented noni fruit juice. The microbiome
+      in the fermentation process lacked key enzymes that degrade butanoic acid and
+      hexanoic acid, which imparted rancid and sweat odor. This study provides
+      theoretical basis for product improvement and new product development, thus
+      promoting the development of noni food industry.
+CI  - Copyright (c) 2020. Published by Elsevier Ltd.
+FAU - Zhang, Lin
+AU  - Zhang L
+AD  - College of Food Science and Engineering, Hainan University, Haikou 570228, China;
+      School of Life and Pharmaceutical Sciences, Hainan University, Haikou 570228,
+      China.
+FAU - Liu, Sixin
+AU  - Liu S
+AD  - School of Sciences, Hainan University, Haikou 570228, China; Key Laboratory of
+      Food Nutrition and Functional Food of Hainan Province, Haikou 570228, China.
+FAU - Chen, Ying
+AU  - Chen Y
+AD  - College of Food Science and Engineering, Hainan University, Haikou 570228, China.
+FAU - Guo, Jinbiao
+AU  - Guo J
+AD  - College of Food Science and Engineering, Hainan University, Haikou 570228, China.
+FAU - Li, Congfa
+AU  - Li C
+AD  - College of Food Science and Engineering, Hainan University, Haikou 570228, China;
+      Key Laboratory of Food Nutrition and Functional Food of Hainan Province, Haikou
+      570228, China. Electronic address: congfa@hainanu.edu.cn.
+FAU - Zhang, Jiachao
+AU  - Zhang J
+AD  - College of Food Science and Engineering, Hainan University, Haikou 570228, China;
+      Key Laboratory of Food Nutrition and Functional Food of Hainan Province, Haikou
+      570228, China. Electronic address: zhjch321123@163.com.
+LA  - eng
+PT  - Journal Article
+DEP - 20201218
+PL  - Canada
+TA  - Food Res Int
+JT  - Food research international (Ottawa, Ont.)
+JID - 9210143
+SB  - IM
+OTO - NOTNLM
+OT  - Enzymes
+OT  - Flavor
+OT  - Metabolic function
+OT  - Metatranscriptomic
+OT  - Morinda citrifolia L.
+OT  - Noni
+EDAT- 2021/03/02 06:00
+MHDA- 2021/03/02 06:00
+CRDT- 2021/03/01 05:30
+PHST- 2020/06/17 00:00 [received]
+PHST- 2020/11/14 00:00 [revised]
+PHST- 2020/12/08 00:00 [accepted]
+PHST- 2021/03/01 05:30 [entrez]
+PHST- 2021/03/02 06:00 [pubmed]
+PHST- 2021/03/02 06:00 [medline]
+AID - S0963-9969(20)31024-3 [pii]
+AID - 10.1016/j.foodres.2020.109999 [doi]
+PST - ppublish
+SO  - Food Res Int. 2021 Mar;141:109999. doi: 10.1016/j.foodres.2020.109999. Epub 2020 
+      Dec 18.
+
 PMID- 33552004
 OWN - NLM
 STAT- PubMed-not-MEDLINE
@@ -1248,104 +1336,6 @@ PST - ppublish
 SO  - Microbiol Res. 2021 Mar;244:126667. doi: 10.1016/j.micres.2020.126667. Epub 2020 
       Dec 4.
 
-PMID- 33323674
-OWN - NLM
-STAT- Publisher
-LR  - 20201216
-IS  - 1738-8872 (Electronic)
-IS  - 1017-7825 (Linking)
-DP  - 2020 Dec 14
-TI  - High plasticity of the gut microbiome and muscle metabolome of Chinese mitten
-      crab (Eriocheir sinensis) in diverse environments.
-LID - 10.4014/jmb.2011.11018 [doi]
-AB  - Phenotypic plasticity is a rapid response mechanism that enable organisms to
-      acclimate and survive in changing environments. Chinese mitten crab (Eriocheir
-      sinensis) survives and thrives in different and even invasive habitats, thereby
-      indicating its high phenotypic plasticity. However, the underpinnings of the high
-      plasticity of E. sinensis are not comprehensively investigated. In this study, we
-      conducted the integrated gut microbiome and muscle metabolome analysis on E.
-      sinensis collected from three different environments, namely, artificial pond,
-      Yangcheng Lake, and Yangtze River, to uncover the mechanism of high phenotypic
-      plasticity of E. sinensis. Our study presented three divergent gut microbiotas
-      and muscle metabolic profiles that corresponded to the three environments. The
-      composition and diversity of the core gut microbiota (Proteobacteria,
-      Bacteroidetes, Tenericutes, and Firmicutes) varied among the different
-      environments. Meanwhile, the metabolites associated with amino acids, fatty
-      acids, and terpene compounds displayed significantly different concentration
-      levels in the three environments. Results revealed that the gut microbiome
-      community and muscle metabolome were significantly affected by the habitat
-      environments. This finding indicated the high phenotypic plasticity in terms of
-      gut microbiome and muscle metabolome of E. sinensis when it faces environmental
-      changes, which would benefit acclimation and adaptation to diverse and even
-      invasive environments.
-FAU - Chen, Xiaowen
-AU  - Chen X
-AD  - School of Medicine, Tongji University, 1239 Siping Road, Shanghai, 200433, China.
-AD  - Key Laboratory of Freshwater Aquatic Genetic Resources, Ministry of Agriculture/ 
-      National Demonstration Center for Experimental Fisheries Science Education/
-      Shanghai Engineering Research Center of Aquaculture, Shanghai Ocean University,
-      Shanghai, 201306, China.
-FAU - Chen, Haihong
-AU  - Chen H
-AD  - Key Laboratory of Freshwater Aquatic Genetic Resources, Ministry of Agriculture/ 
-      National Demonstration Center for Experimental Fisheries Science Education/
-      Shanghai Engineering Research Center of Aquaculture, Shanghai Ocean University,
-      Shanghai, 201306, China.
-FAU - Liu, Qinghua
-AU  - Liu Q
-AD  - Fusuile Biotechnology Co., Ltd, No. 1999, Beixing Road, Shanghai, 202179, China.
-FAU - Ni, Kangda
-AU  - Ni K
-AD  - Key Laboratory of Freshwater Aquatic Genetic Resources, Ministry of Agriculture/ 
-      National Demonstration Center for Experimental Fisheries Science Education/
-      Shanghai Engineering Research Center of Aquaculture, Shanghai Ocean University,
-      Shanghai, 201306, China.
-FAU - Ding, Rui
-AU  - Ding R
-AD  - Key Laboratory of Freshwater Aquatic Genetic Resources, Ministry of Agriculture/ 
-      National Demonstration Center for Experimental Fisheries Science Education/
-      Shanghai Engineering Research Center of Aquaculture, Shanghai Ocean University,
-      Shanghai, 201306, China.
-FAU - Wang, Jun
-AU  - Wang J
-AD  - Key Laboratory of Freshwater Aquatic Genetic Resources, Ministry of Agriculture/ 
-      National Demonstration Center for Experimental Fisheries Science Education/
-      Shanghai Engineering Research Center of Aquaculture, Shanghai Ocean University,
-      Shanghai, 201306, China.
-FAU - Wang, Chenghui
-AU  - Wang C
-AD  - Key Laboratory of Freshwater Aquatic Genetic Resources, Ministry of Agriculture/ 
-      National Demonstration Center for Experimental Fisheries Science Education/
-      Shanghai Engineering Research Center of Aquaculture, Shanghai Ocean University,
-      Shanghai, 201306, China.
-LA  - eng
-PT  - Journal Article
-DEP - 20201214
-PL  - Korea (South)
-TA  - J Microbiol Biotechnol
-JT  - Journal of microbiology and biotechnology
-JID - 9431852
-SB  - IM
-OTO - NOTNLM
-OT  - Eriocheir sinensis
-OT  - gut microbiome
-OT  - metabolome
-OT  - phenotypic plasticity
-EDAT- 2020/12/17 06:00
-MHDA- 2020/12/17 06:00
-CRDT- 2020/12/16 05:29
-PHST- 2020/11/13 00:00 [received]
-PHST- 2020/12/01 00:00 [revised]
-PHST- 2020/12/11 00:00 [accepted]
-PHST- 2020/12/16 05:29 [entrez]
-PHST- 2020/12/17 06:00 [pubmed]
-PHST- 2020/12/17 06:00 [medline]
-AID - jmb.2011.11018 [pii]
-AID - 10.4014/jmb.2011.11018 [doi]
-PST - aheadofprint
-SO  - J Microbiol Biotechnol. 2020 Dec 14. pii: jmb.2011.11018. doi:
-      10.4014/jmb.2011.11018.
-
 PMID- 33322780
 OWN - NLM
 STAT- PubMed-not-MEDLINE
@@ -2031,8 +2021,8 @@ SO  - Food Microbiol. 2021 Apr;94:103667. doi: 10.1016/j.fm.2020.103667. Epub 20
 
 PMID- 33268457
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20210217
+STAT- In-Process
+LR  - 20210408
 IS  - 1468-3296 (Electronic)
 IS  - 0040-6376 (Linking)
 VI  - 76
@@ -2074,7 +2064,7 @@ AD  - Division of Pulmonary, Allergy and Critical Care Medicine, Department of
       Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA.
 FAU - Yang, Haopu
 AU  - Yang H
-AUID- ORCID: http://orcid.org/0000-0001-6858-1778
+AUID- ORCID: 0000-0001-6858-1778
 AD  - Center for Medicine and the Microbiome, University of Pittsburgh, Pittsburgh,
       Pennsylvania, USA.
 AD  - Department of Computational and Systems Biology, University of Pittsburgh,
@@ -2136,7 +2126,7 @@ AD  - Division of Pulmonary, Allergy and Critical Care Medicine, Department of
       Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA.
 FAU - Benos, Panayiotis V
 AU  - Benos PV
-AUID- ORCID: http://orcid.org/0000-0003-3172-3132
+AUID- ORCID: 0000-0003-3172-3132
 AD  - Department of Computational and Systems Biology, University of Pittsburgh,
       Pittsburgh, Pennsylvania, USA.
 FAU - McVerry, Bryan J
@@ -2147,7 +2137,7 @@ AD  - Center for Medicine and the Microbiome, University of Pittsburgh, Pittsbur
       Pennsylvania, USA.
 FAU - Rojas, Mauricio
 AU  - Rojas M
-AUID- ORCID: http://orcid.org/0000-0001-7340-4784
+AUID- ORCID: 0000-0001-7340-4784
 AD  - Division of Pulmonary, Allergy and Critical Care Medicine, Department of
       Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA.
 FAU - Morris, Alison
@@ -2158,14 +2148,17 @@ AD  - Center for Medicine and the Microbiome, University of Pittsburgh, Pittsbur
       Pennsylvania, USA.
 FAU - Kitsios, Georgios D
 AU  - Kitsios GD
-AUID- ORCID: http://orcid.org/0000-0002-1018-948X
+AUID- ORCID: 0000-0002-1018-948X
 AD  - Division of Pulmonary, Allergy and Critical Care Medicine, Department of
       Medicine, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
       kitsiosg@upmc.edu.
 AD  - Center for Medicine and the Microbiome, University of Pittsburgh, Pittsburgh,
       Pennsylvania, USA.
 LA  - eng
+GR  - R01 HL135062/HL/NHLBI NIH HHS/United States
 PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20201202
 PL  - England
 TA  - Thorax
@@ -2173,9 +2166,9 @@ JT  - Thorax
 JID - 0417353
 SB  - IM
 OTO - NOTNLM
-OT  - bacterial infection
-OT  - idiopathic pulmonary fibrosis
-OT  - lung transplantation
+OT  - *bacterial infection
+OT  - *idiopathic pulmonary fibrosis
+OT  - *lung transplantation
 COIS- Competing interests: BJMcV is a consultant for The VeraMedica Institute and
       receives research funding from Bayer Pharmaceuticals. GDK has received research
       funding from Karius. The other authors have no conflicts of interest to declare.
@@ -3151,8 +3144,9 @@ SO  - PLoS One. 2020 Oct 28;15(10):e0238478. doi: 10.1371/journal.pone.0238478.
 
 PMID- 33106556
 OWN - NLM
-STAT- In-Process
-LR  - 20201110
+STAT- MEDLINE
+DCOM- 20210312
+LR  - 20210312
 IS  - 2045-2322 (Electronic)
 IS  - 2045-2322 (Linking)
 VI  - 10
@@ -3235,16 +3229,35 @@ PL  - England
 TA  - Sci Rep
 JT  - Scientific reports
 JID - 101563288
+RN  - 0 (Biomarkers)
+RN  - 0 (RNA, Ribosomal, 16S)
+RN  - 0 (TNF protein, human)
+RN  - 0 (Tumor Necrosis Factor-alpha)
+RN  - Prevotella bivia
 SB  - IM
+MH  - Adult
+MH  - Area Under Curve
+MH  - Bacteroidaceae Infections/diagnosis/*epidemiology/microbiology
+MH  - Biomarkers/analysis
+MH  - Body Mass Index
+MH  - Female
+MH  - Humans
+MH  - Microbiota/*genetics
+MH  - Pre-Eclampsia/*physiopathology
+MH  - Pregnancy
+MH  - Prevotella/genetics/*isolation & purification
+MH  - RNA, Ribosomal, 16S/*genetics
+MH  - Tumor Necrosis Factor-alpha/*blood
+MH  - Vaginosis, Bacterial/diagnosis/*epidemiology/microbiology
 PMC - PMC7588441
 EDAT- 2020/10/28 06:00
-MHDA- 2020/10/28 06:00
+MHDA- 2021/03/13 06:00
 CRDT- 2020/10/27 05:44
 PHST- 2020/02/29 00:00 [received]
 PHST- 2020/09/28 00:00 [accepted]
 PHST- 2020/10/27 05:44 [entrez]
 PHST- 2020/10/28 06:00 [pubmed]
-PHST- 2020/10/28 06:00 [medline]
+PHST- 2021/03/13 06:00 [medline]
 AID - 10.1038/s41598-020-75534-3 [doi]
 AID - 10.1038/s41598-020-75534-3 [pii]
 PST - epublish
@@ -3361,7 +3374,7 @@ SO  - Mar Environ Res. 2020 Dec;162:105174. doi: 10.1016/j.marenvres.2020.105174
 PMID- 33087860
 OWN - NLM
 STAT- In-Data-Review
-LR  - 20210127
+LR  - 20210306
 IS  - 1751-7370 (Electronic)
 IS  - 1751-7362 (Linking)
 VI  - 15
@@ -3789,6 +3802,123 @@ AID - 10.1016/j.scitotenv.2020.142690 [doi]
 PST - ppublish
 SO  - Sci Total Environ. 2021 Apr 15;765:142690. doi: 10.1016/j.scitotenv.2020.142690. 
       Epub 2020 Oct 3.
+
+PMID- 33070234
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210304
+LR  - 20210304
+IS  - 1432-072X (Electronic)
+IS  - 0302-8933 (Linking)
+VI  - 203
+IP  - 2
+DP  - 2021 Mar
+TI  - Exploration of the effects of altitude change on bacteria and fungi in the rumen 
+      of yak (Bos grunniens).
+PG  - 835-846
+LID - 10.1007/s00203-020-02072-x [doi]
+AB  - The yak (Bos grunniens) is a ruminant animal with strong regional adaptability.
+      However, little is known about the adaptation of the rumen microbial community of
+      yaks at different altitudes and the adaptation mechanism of the host and
+      intestinal microorganisms to the habitat. We investigated the adaptability of the
+      rumen microorganisms of yaks at high and low altitudes. We also compared and
+      analyzed the abundance and diversity of core microorganisms and those that varied
+      between different animals. The aim was to compare the rumen bacterial and fungal 
+      communities of grazing yak living at two elevations. Bacteroidetes, Firmicutes,
+      Ascomycota, and Chytridiomycota were the dominant bacteria in the plateau and
+      low-altitude regions. Significant differences between the dominant microorganisms
+      in the rumen of yaks were evident in the two regions. The proportion of
+      fiber-degrading bacteria was significantly different between yaks dwelling at
+      high-altitude and low-altitude regions. The abundance of starch-degrading
+      bacteria was not significantly different with altitude. Species clustering
+      similarity analysis showed that the rumen microorganisms in the two areas were
+      obviously isolated and clustered into branches. Functional prediction showed
+      significant differences in rumen microbial methane metabolism, starch and sucrose
+      metabolism, ion-coupled transporter and bacterial secretion system at different
+      altitudes. Overall, the results of this study improved our understanding of the
+      abundance and composition of microorganisms in the rumen of yak at different
+      altitudes.
+FAU - Wu, Dongwang
+AU  - Wu D
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Vinitchaikul, Paramintra
+AU  - Vinitchaikul P
+AD  - Faculty of Veterinary Medicine, Chiang Mai University, Chiang Mai, Thailand.
+FAU - Deng, Mingyue
+AU  - Deng M
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Zhang, Guangrong
+AU  - Zhang G
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Sun, Liyuan
+AU  - Sun L
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Wang, Hanxue
+AU  - Wang H
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Gou, Xiao
+AU  - Gou X
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Mao, Huaming
+AU  - Mao H
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+FAU - Yang, Shuli
+AU  - Yang S
+AUID- ORCID: http://orcid.org/0000-0002-1027-2443
+AD  - Key Laboratory of Animal Nutrition and Feed Science of Yunnan Province, Yunnan
+      Agricultural University, Kunming, People's Republic of China.
+      yangshuli77@163.com.
+LA  - eng
+GR  - 2018BB001/the Key Research and Development Plan Project of the Yunnan province
+GR  - 32060762/National Natural Science Foundation of China
+GR  - 2017FA012/Key Projects of Natural Science Foundation of the Yunnan Province
+PT  - Journal Article
+DEP - 20201017
+PL  - Germany
+TA  - Arch Microbiol
+JT  - Archives of microbiology
+JID - 0410427
+RN  - OP0UW79H66 (Methane)
+SB  - IM
+MH  - Adaptation, Physiological
+MH  - *Altitude
+MH  - Animals
+MH  - Bacteria/metabolism
+MH  - *Bacterial Physiological Phenomena
+MH  - Cattle/*microbiology
+MH  - Cluster Analysis
+MH  - Fungi/isolation & purification/*physiology
+MH  - Host Microbial Interactions
+MH  - Methane/metabolism
+MH  - Microbiota/physiology
+MH  - Rumen/*microbiology
+OTO - NOTNLM
+OT  - Altitudinal variation
+OT  - Amplicon sequencing
+OT  - Bacterial
+OT  - Fungi
+OT  - Yak
+EDAT- 2020/10/19 06:00
+MHDA- 2021/03/05 06:00
+CRDT- 2020/10/18 20:34
+PHST- 2020/07/20 00:00 [received]
+PHST- 2020/10/01 00:00 [accepted]
+PHST- 2020/09/18 00:00 [revised]
+PHST- 2020/10/19 06:00 [pubmed]
+PHST- 2021/03/05 06:00 [medline]
+PHST- 2020/10/18 20:34 [entrez]
+AID - 10.1007/s00203-020-02072-x [doi]
+AID - 10.1007/s00203-020-02072-x [pii]
+PST - ppublish
+SO  - Arch Microbiol. 2021 Mar;203(2):835-846. doi: 10.1007/s00203-020-02072-x. Epub
+      2020 Oct 17.
 
 PMID- 33065761
 OWN - NLM
@@ -4751,8 +4881,9 @@ SO  - FEMS Microbiol Ecol. 2020 Nov 26;96(12). pii: 5911095. doi:
 
 PMID- 32968762
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20201210
+STAT- MEDLINE
+DCOM- 20210317
+LR  - 20210317
 IS  - 1938-291X (Electronic)
 IS  - 0022-0493 (Linking)
 VI  - 113
@@ -4810,24 +4941,32 @@ AD  - Key Laboratory of Animal Resistance Biology of Shandong Province, College 
       Science, Shandong Normal University, Jinan, People of Republic of China.
 LA  - eng
 PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
 PL  - England
 TA  - J Econ Entomol
 JT  - Journal of economic entomology
 JID - 2985127R
+RN  - 0 (Anti-Bacterial Agents)
 SB  - IM
+MH  - Animals
+MH  - Anti-Bacterial Agents/pharmacology
+MH  - Bacteria
+MH  - *Blattellidae
+MH  - Fungi
+MH  - *Gastrointestinal Microbiome
 OTO - NOTNLM
-OT  - Blattella germanica
-OT  - antibiotic
-OT  - fungi
-OT  - gut bacteria
-OT  - interaction
-OT  - niche
+OT  - * Blattella germanica
+OT  - *antibiotic
+OT  - *fungi
+OT  - *gut bacteria
+OT  - *interaction
+OT  - *niche
 EDAT- 2020/09/25 06:00
-MHDA- 2020/09/25 06:00
+MHDA- 2021/03/18 06:00
 CRDT- 2020/09/24 05:35
 PHST- 2020/08/17 00:00 [received]
 PHST- 2020/09/25 06:00 [pubmed]
-PHST- 2020/09/25 06:00 [medline]
+PHST- 2021/03/18 06:00 [medline]
 PHST- 2020/09/24 05:35 [entrez]
 AID - 5910672 [pii]
 AID - 10.1093/jee/toaa205 [doi]
@@ -5778,6 +5917,100 @@ PST - ppublish
 SO  - Microbiol Res. 2020 Dec;241:126588. doi: 10.1016/j.micres.2020.126588. Epub 2020 
       Aug 27.
 
+PMID- 32888329
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210402
+LR  - 20210402
+IS  - 1097-0010 (Electronic)
+IS  - 0022-5142 (Linking)
+VI  - 101
+IP  - 4
+DP  - 2021 Mar 15
+TI  - Metagenomic analysis of microbial community succession during the pickling
+      process of Zhacai (preserved mustard tuber) and its correlation with Zhacai
+      biochemical indices.
+PG  - 1646-1658
+LID - 10.1002/jsfa.10785 [doi]
+AB  - BACKGROUND: Industrial Fuling Zhacai is pickled by a method summarized as 'three 
+      times pickled and pressed', in which raw mustard tubers are subjected to three
+      stages of pickling in different salt concentrations, with a pressing operation at
+      the end of each stage to remove brine. This study used Illumina MiSeq technology 
+      and multivariate statistical analyses to investigate microbial community
+      succession during the pickling process and its correlation with Zhacai
+      biochemical indices. RESULTS: A total of 19 phyla, 208 genera, and 295 species of
+      bacteria were identified. Lactobacillus was the dominant genus of bacteria in all
+      three stages and Lactobacillus sakei was the dominant species in the first and
+      second stages. A total of six phyla, 200 genera and 301 species of fungi were
+      also identified. According to a PICRUSt2 prediction, the main functions of the
+      bacterial and fungal communities were carbohydrate and protein metabolism, while 
+      alcohol metabolism was also a function of fungi. Nine bacterial genera closely
+      correlated with Zhacai biochemical indices: Acinetobacter, Pseudomonas,
+      Pedobacter, Erwinia, Lactobacillus, Chryseobacterium, Flavobacterium, Duganella, 
+      and Paenarthrobacter. Six genera of fungi correlated closely: Penicillium,
+      Cystobasidium, Cladosporium, Plenodomus, Aspergillus, and Simplicillium. All
+      these genera probably originated from the surface microorganisms of raw mustard
+      tuber. CONCLUSION: This study reveals the succession patterns of microbial
+      community structures during the pickling process of industrial Zhacai and infers 
+      the core functional flora, providing reference data for Zhacai pickling process
+      control. (c) 2020 Society of Chemical Industry.
+CI  - (c) 2020 Society of Chemical Industry.
+FAU - Yang, Jixia
+AU  - Yang J
+AUID- ORCID: https://orcid.org/0000-0001-5160-2851
+AD  - College of Food Science, Southwest University, Chongqing, P. R. China.
+FAU - Li, Fengzhu
+AU  - Li F
+AD  - College of Food Science, Southwest University, Chongqing, P. R. China.
+FAU - Zhang, Yuli
+AU  - Zhang Y
+AD  - Chongqing Fuling Zhacai Group Co. LTD. Er Du Village First Group, Chongqing,
+      China.
+FAU - He, Zhifei
+AU  - He Z
+AD  - College of Food Science, Southwest University, Chongqing, P. R. China.
+LA  - eng
+GR  - cstc2017jcyjAX0249/Chongqing Research Program of Basic Research and Frontier
+      Technology
+GR  - XDJK2018C070 XDJK2015C135 SWU113035/Fundamental Research Funds for the Central
+      Universities
+GR  - 31801529/National Natural Science Foundation of China
+GR  - CC18Z20/Scientific research project of Sichuan Cuisine Development Research
+      Center, Sichuan Tourism University
+PT  - Journal Article
+DEP - 20201009
+PL  - England
+TA  - J Sci Food Agric
+JT  - Journal of the science of food and agriculture
+JID - 0376334
+SB  - IM
+MH  - Bacteria/classification/genetics/*isolation & purification
+MH  - Fermentation
+MH  - Fermented Foods and Beverages/*microbiology
+MH  - Fungi/classification/genetics/*isolation & purification
+MH  - Metagenomics
+MH  - *Microbiota
+MH  - Mustard Plant/*microbiology
+OTO - NOTNLM
+OT  - Fuling Zhacai
+OT  - Illumina MiSeq sequencing
+OT  - core functional flora
+OT  - correlation analysis
+OT  - microbial community succession
+EDAT- 2020/09/06 06:00
+MHDA- 2021/04/07 06:00
+CRDT- 2020/09/05 08:33
+PHST- 2020/05/20 00:00 [received]
+PHST- 2020/08/18 00:00 [revised]
+PHST- 2020/09/05 00:00 [accepted]
+PHST- 2020/09/06 06:00 [pubmed]
+PHST- 2021/04/07 06:00 [medline]
+PHST- 2020/09/05 08:33 [entrez]
+AID - 10.1002/jsfa.10785 [doi]
+PST - ppublish
+SO  - J Sci Food Agric. 2021 Mar 15;101(4):1646-1658. doi: 10.1002/jsfa.10785. Epub
+      2020 Oct 9.
+
 PMID- 32878094
 OWN - NLM
 STAT- PubMed-not-MEDLINE
@@ -6390,8 +6623,9 @@ SO  - Microb Ecol. 2021 Feb;81(2):460-470. doi: 10.1007/s00248-020-01580-z. Epub
 
 PMID- 32815986
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20200924
+STAT- MEDLINE
+DCOM- 20210305
+LR  - 20210305
 IS  - 1574-6941 (Electronic)
 IS  - 0168-6496 (Linking)
 VI  - 96
@@ -6449,25 +6683,35 @@ AU  - Sheafor BA
 AD  - Biology Department, Carroll College, Helena, Montana, 59625-0002, USA.
 LA  - eng
 PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
 PL  - England
 TA  - FEMS Microbiol Ecol
 JT  - FEMS microbiology ecology
 JID - 8901229
+RN  - 0 (Peptides)
 SB  - IM
+MH  - Animals
+MH  - Anura
+MH  - *Chytridiomycota
+MH  - *Microbiota
+MH  - Peptides
+MH  - Ranidae
+MH  - Skin
 OTO - NOTNLM
-OT  - Batrachochytrium dendrobatidis
-OT  - Rana luteiventris
-OT  - Rhizobacter
-OT  - antimicrobial peptides
-OT  - metabolites
-OT  - microbiota
+OT  - * Batrachochytrium dendrobatidis
+OT  - * Rana luteiventris
+OT  - * Rhizobacter
+OT  - *antimicrobial peptides
+OT  - *metabolites
+OT  - *microbiota
 EDAT- 2020/08/21 06:00
-MHDA- 2020/08/21 06:00
+MHDA- 2021/03/06 06:00
 CRDT- 2020/08/21 06:00
 PHST- 2020/05/01 00:00 [received]
 PHST- 2020/08/13 00:00 [accepted]
 PHST- 2020/08/21 06:00 [pubmed]
-PHST- 2020/08/21 06:00 [medline]
+PHST- 2021/03/06 06:00 [medline]
 PHST- 2020/08/21 06:00 [entrez]
 AID - 5894915 [pii]
 AID - 10.1093/femsec/fiaa168 [doi]
@@ -6793,8 +7037,9 @@ SO  - Front Microbiol. 2020 Jul 24;11:1665. doi: 10.3389/fmicb.2020.01665. eColl
 
 PMID- 32781117
 OWN - NLM
-STAT- In-Process
-LR  - 20201006
+STAT- MEDLINE
+DCOM- 20210325
+LR  - 20210325
 IS  - 1879-0003 (Electronic)
 IS  - 0141-8130 (Linking)
 VI  - 162
@@ -6867,20 +7112,31 @@ PL  - Netherlands
 TA  - Int J Biol Macromol
 JT  - International journal of biological macromolecules
 JID - 7909578
+RN  - 0 (Polysaccharides)
+RN  - 0 (Powders)
 SB  - IM
+MH  - Animals
+MH  - Feces/*microbiology
+MH  - Female
+MH  - Gastrointestinal Microbiome/*drug effects
+MH  - Mice
+MH  - Mice, Inbred C57BL
+MH  - Nostoc/*metabolism
+MH  - Polysaccharides/*pharmacology
+MH  - Powders/pharmacology
 OTO - NOTNLM
 OT  - 16S ribosomal RNA gene sequencing
 OT  - Core bacterial community
 OT  - Nostoc sphaeroids Kutz polysaccharide
 OT  - Nostoc sphaeroids Kutz powder
 EDAT- 2020/08/12 06:00
-MHDA- 2020/08/12 06:00
+MHDA- 2021/03/26 06:00
 CRDT- 2020/08/12 06:00
 PHST- 2020/06/16 00:00 [received]
 PHST- 2020/07/23 00:00 [revised]
 PHST- 2020/08/04 00:00 [accepted]
 PHST- 2020/08/12 06:00 [pubmed]
-PHST- 2020/08/12 06:00 [medline]
+PHST- 2021/03/26 06:00 [medline]
 PHST- 2020/08/12 06:00 [entrez]
 AID - S0141-8130(20)34113-1 [pii]
 AID - 10.1016/j.ijbiomac.2020.08.026 [doi]
@@ -6890,14 +7146,17 @@ SO  - Int J Biol Macromol. 2020 Nov 1;162:1734-1742. doi:
 
 PMID- 32779862
 OWN - NLM
-STAT- Publisher
-LR  - 20200811
+STAT- In-Process
+LR  - 20210407
 IS  - 1751-7915 (Electronic)
 IS  - 1751-7915 (Linking)
-DP  - 2020 Aug 11
+VI  - 14
+IP  - 2
+DP  - 2021 Mar
 TI  - A new Illumina MiSeq high-throughput sequencing-based method for evaluating the
       composition of the Bacteroides community in the intestine using the rpsD gene
       sequence.
+PG  - 577-586
 LID - 10.1111/1751-7915.13651 [doi]
 AB  - Bacteroides is a bacterial genus that is known to closely interact with the host.
       The potential role of this genus is associated with its ecological status and
@@ -6961,7 +7220,7 @@ AD  - (Yangzhou) Institute of Food Biotechnology, Jiangnan University, Yangzhou,
       225004, China.
 FAU - Zhai, Qixiao
 AU  - Zhai Q
-AUID- ORCID: https://orcid.org/0000-0002-0605-2675
+AUID- ORCID: 0000-0002-0605-2675
 AD  - State Key Laboratory of Food Science and Technology, Jiangnan University, Wuxi,
       Jiangsu, 214122, China.
 AD  - School of Food Science and Technology, Jiangnan University, Wuxi, Jiangsu,
@@ -6979,36 +7238,29 @@ AD  - National Engineering Research Center for Functional Food, Jiangnan Univers
 AD  - Beijing Innovation Centre of Food Nutrition and Human Health, Beijing Technology 
       and Business University (BTBU), Beijing, 100048, China.
 LA  - eng
-GR  - 31530056/National Natural Science Foundation of China Program
-GR  - 31820103010/National Natural Science Foundation of China Program
-GR  - 31871773/National Natural Science Foundation of China Program
-GR  - 2018YFC1604206/National Key Research and Development Project
-GR  - 2018DB002/Projects of Innovation and Development Pillar Program for Key
-      Industries in Southern Xinjiang of Xinjiang Production and Construction Corps
-GR  - JUFSTR20180102/National First-Class Discipline Program of Food Science and
-      Technology
-GR  - BBSRC Newton Fund Joint Centre Award
-GR  - Collaborative Innovation Center of Food Safety and Quality Control in Jiangsu
-      Province
+GR  - BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
 PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
 DEP - 20200811
 PL  - United States
 TA  - Microb Biotechnol
 JT  - Microbial biotechnology
 JID - 101316335
 SB  - IM
+PMC - PMC7936310
 EDAT- 2020/08/12 06:00
 MHDA- 2020/08/12 06:00
 CRDT- 2020/08/12 06:00
 PHST- 2020/04/28 00:00 [received]
 PHST- 2020/06/27 00:00 [revised]
 PHST- 2020/07/27 00:00 [accepted]
-PHST- 2020/08/12 06:00 [entrez]
 PHST- 2020/08/12 06:00 [pubmed]
 PHST- 2020/08/12 06:00 [medline]
+PHST- 2020/08/12 06:00 [entrez]
 AID - 10.1111/1751-7915.13651 [doi]
-PST - aheadofprint
-SO  - Microb Biotechnol. 2020 Aug 11. doi: 10.1111/1751-7915.13651.
+PST - ppublish
+SO  - Microb Biotechnol. 2021 Mar;14(2):577-586. doi: 10.1111/1751-7915.13651. Epub
+      2020 Aug 11.
 
 PMID- 32778700
 OWN - NLM
@@ -7665,13 +7917,15 @@ SO  - mSystems. 2020 Jul 28;5(4). pii: 5/4/e00502-20. doi: 10.1128/mSystems.0050
 
 PMID- 32717337
 OWN - NLM
-STAT- Publisher
-LR  - 20210116
+STAT- In-Data-Review
+LR  - 20210305
 IS  - 1096-3650 (Electronic)
 IS  - 1044-579X (Linking)
-DP  - 2020 Jul 24
+VI  - 70
+DP  - 2021 May
 TI  - Significance of human microbiome in breast cancer: Tale of an invisible and an
       invincible.
+PG  - 112-127
 LID - S1044-579X(20)30167-X [pii]
 LID - 10.1016/j.semcancer.2020.07.010 [doi]
 AB  - The human microbiome is a mysterious treasure of the body playing endless
@@ -7741,9 +7995,9 @@ PHST- 2020/07/28 06:00 [medline]
 PHST- 2020/07/28 06:00 [entrez]
 AID - S1044-579X(20)30167-X [pii]
 AID - 10.1016/j.semcancer.2020.07.010 [doi]
-PST - aheadofprint
-SO  - Semin Cancer Biol. 2020 Jul 24. pii: S1044-579X(20)30167-X. doi:
-      10.1016/j.semcancer.2020.07.010.
+PST - ppublish
+SO  - Semin Cancer Biol. 2021 May;70:112-127. doi: 10.1016/j.semcancer.2020.07.010.
+      Epub 2020 Jul 24.
 
 PMID- 32714973
 OWN - NLM
@@ -7936,8 +8190,9 @@ SO  - Appl Environ Microbiol. 2020 Sep 17;86(19). pii: AEM.00880-20. doi:
 
 PMID- 32695115
 OWN - NLM
-STAT- In-Process
-LR  - 20210112
+STAT- MEDLINE
+DCOM- 20210405
+LR  - 20210405
 IS  - 1664-3224 (Electronic)
 IS  - 1664-3224 (Linking)
 VI  - 11
@@ -8029,7 +8284,24 @@ PL  - Switzerland
 TA  - Front Immunol
 JT  - Frontiers in immunology
 JID - 101560960
+RN  - 0 (Antimicrobial Cationic Peptides)
+RN  - 0 (Cecropins)
+RN  - 0 (Recombinant Proteins)
+RN  - 3DD771JO2H (ropocamptide)
 SB  - IM
+MH  - Animals
+MH  - Antimicrobial Cationic Peptides/*pharmacology
+MH  - Cecropins/*pharmacology
+MH  - Escherichia coli Infections/*pathology
+MH  - Escherichia coli O157
+MH  - Female
+MH  - Gastrointestinal Microbiome/*drug effects
+MH  - Inflammation/microbiology/pathology
+MH  - Intestinal Diseases/microbiology/pathology
+MH  - Intestinal Mucosa/*drug effects
+MH  - Mice
+MH  - Mice, Inbred C57BL
+MH  - Recombinant Proteins/pharmacology
 PMC - PMC7338479
 OTO - NOTNLM
 OT  - *Escherichia coli
@@ -8040,13 +8312,13 @@ OT  - *inflammation
 OT  - *microflora
 OT  - *mucosal barrier
 EDAT- 2020/07/23 06:00
-MHDA- 2020/07/23 06:00
+MHDA- 2021/04/07 06:00
 CRDT- 2020/07/23 06:00
 PHST- 2019/11/18 00:00 [received]
 PHST- 2020/05/28 00:00 [accepted]
 PHST- 2020/07/23 06:00 [entrez]
 PHST- 2020/07/23 06:00 [pubmed]
-PHST- 2020/07/23 06:00 [medline]
+PHST- 2021/04/07 06:00 [medline]
 AID - 10.3389/fimmu.2020.01361 [doi]
 PST - epublish
 SO  - Front Immunol. 2020 Jun 30;11:1361. doi: 10.3389/fimmu.2020.01361. eCollection
@@ -8901,7 +9173,7 @@ PMID- 32651202
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20201208
-LR  - 20201214
+LR  - 20210302
 IS  - 1098-5336 (Electronic)
 IS  - 0099-2240 (Linking)
 VI  - 86
@@ -9002,10 +9274,8 @@ OT  - *wastewater treatment
 EDAT- 2020/07/12 06:00
 MHDA- 2020/12/15 06:00
 CRDT- 2020/07/12 06:00
-PMCR- 2021/03/01 00:00
 PHST- 2020/04/28 00:00 [received]
 PHST- 2020/06/30 00:00 [accepted]
-PHST- 2021/03/01 00:00 [pmc-release]
 PHST- 2020/07/12 06:00 [pubmed]
 PHST- 2020/12/15 06:00 [medline]
 PHST- 2020/07/12 06:00 [entrez]
@@ -9015,10 +9285,169 @@ PST - epublish
 SO  - Appl Environ Microbiol. 2020 Sep 1;86(18). pii: AEM.00991-20. doi:
       10.1128/AEM.00991-20. Print 2020 Sep 1.
 
+PMID- 32650568
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210311
+LR  - 20210311
+IS  - 2072-6643 (Electronic)
+IS  - 2072-6643 (Linking)
+VI  - 12
+IP  - 7
+DP  - 2020 Jul 8
+TI  - The Effects of Prebiotic Supplementation with OMNi-LOGiC((R)) FIBRE on Fecal
+      Microbiome, Fecal Volatile Organic Compounds, and Gut Permeability in Murine
+      Neuroblastoma-Induced Tumor-Associated Cachexia.
+LID - E2029 [pii]
+LID - 10.3390/nu12072029 [doi]
+AB  - Malignant diseases can cause tumor-associated cachexia (TAC). Supplementation
+      with prebiotic non-digestible carbohydrates exerts positive metabolic effects in 
+      experimental oncologic diseases. The aim of this project was to assess the effect
+      of prebiotic supplementation with OMNi-LOGiC((R)) FIBRE on intestinal microbiome,
+      bacterial metabolism, gut permeability, and inflammation in a murine model of
+      neuroblastoma (NB)-associated TAC. For this study, 2,000,000 NB cells (MHH-NB11) 
+      were implanted into athymic mice followed by daily supplementation with water or 
+      200 mg prebiotic oligosaccharide (POS) OMNi-LOGiC((R)) FIBRE (NB-Aqua, n = 12;
+      NB-POS, n = 12). Three animals of each tumor group did not develop NB. The median
+      time of tumor growth (first visibility to euthanasia) was 37 days (IQR 12.5 days)
+      in the NB-Aqua group and 37 days (IQR 36.5 days) in the NB-POS group (p = 0.791).
+      At euthanasia, fecal microbiome and volatile organic compounds (VOCs), gut
+      permeability (fluorescein isothiocyanate-dextran (FITC-dextran), and gut barrier 
+      markers were measured. Values were compared to sham animals following injection
+      of culture medium and gavage of either water or OMNi-LOGiC((R)) FIBRE (SH-Aqua, n
+      = 10; SH-POS, n = 10). Alpha diversity did not differ significantly between the
+      groups. Principal coordinate analysis (PCoA) revealed clustering differences
+      between Aqua and POS animals. Both NB and POS supplementation led to taxonomic
+      alterations of the fecal microbiome. Of 49 VOCs, 22 showed significant
+      differences between the groups. NB animals had significantly higher gut
+      permeability than Aqua animals; POS did not ameliorate these changes. The pore
+      and leak pathways of tight junctions did not differ between groups. In
+      conclusion, our results suggest that NB-induced TAC causes increased gut
+      permeability coupled with compositional changes in the fecal microbiome and VOC
+      profile. Prebiotic supplementation with OMNi-LOGiC((R)) FIBRE seemed to induce
+      modifications of the fecal microbiome and VOC profile but did not improve gut
+      permeability.
+FAU - Obermuller, Beate
+AU  - Obermuller B
+AD  - Department of Paediatric and Adolescent Surgery, Medical University of Graz, 8036
+      Graz, Austria.
+AD  - Department of Biomedical Research, Medical University of Graz, 8036 Graz,
+      Austria.
+FAU - Singer, Georg
+AU  - Singer G
+AUID- ORCID: 0000-0003-4770-3144
+AD  - Department of Paediatric and Adolescent Surgery, Medical University of Graz, 8036
+      Graz, Austria.
+FAU - Kienesberger, Bernhard
+AU  - Kienesberger B
+AD  - Department of Paediatric and Adolescent Surgery, Medical University of Graz, 8036
+      Graz, Austria.
+FAU - Klymiuk, Ingeborg
+AU  - Klymiuk I
+AD  - Core Facility Molecular Biology, Center for Medical Research, Medical University 
+      of Graz, 8036 Graz, Austria.
+FAU - Sperl, Daniela
+AU  - Sperl D
+AD  - Division of Paediatric Haematology and Oncology, Department of Pediatrics and
+      Adolescent Medicine, Medical University of Graz, 8036 Graz, Austria.
+FAU - Stadlbauer, Vanessa
+AU  - Stadlbauer V
+AD  - Division of Gastroenterology and Hepatology, Department of Internal Medicine,
+      Medical University of Graz, 8036 Graz, Austria.
+FAU - Horvath, Angela
+AU  - Horvath A
+AUID- ORCID: 0000-0001-7279-0628
+AD  - Division of Gastroenterology and Hepatology, Department of Internal Medicine,
+      Medical University of Graz, 8036 Graz, Austria.
+AD  - Center for Biomarker Research in Medicine (CBmed), 8036 Graz, Austria.
+FAU - Miekisch, Wolfram
+AU  - Miekisch W
+AUID- ORCID: 0000-0003-1619-0315
+AD  - Rostock Medical Breath Research Analytics and Technologies (ROMBAT), Department
+      of Anesthesiology and Intensive Care, Rostock University Medical Center, 18057
+      Rostock, Germany.
+FAU - Gierschner, Peter
+AU  - Gierschner P
+AD  - Rostock Medical Breath Research Analytics and Technologies (ROMBAT), Department
+      of Anesthesiology and Intensive Care, Rostock University Medical Center, 18057
+      Rostock, Germany.
+FAU - Grabherr, Reingard
+AU  - Grabherr R
+AUID- ORCID: 0000-0002-4501-927X
+AD  - Department of Biotechnology, University of Natural Resources and Life Sciences,
+      1190 Vienna, Austria.
+FAU - Gruber, Hans-Jurgen
+AU  - Gruber HJ
+AD  - Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical
+      University of Graz, 8036 Graz, Austria.
+FAU - Semeraro, Maria D
+AU  - Semeraro MD
+AD  - Clinical Institute of Medical and Chemical Laboratory Diagnostics, Medical
+      University of Graz, 8036 Graz, Austria.
+FAU - Till, Holger
+AU  - Till H
+AD  - Department of Paediatric and Adolescent Surgery, Medical University of Graz, 8036
+      Graz, Austria.
+FAU - Castellani, Christoph
+AU  - Castellani C
+AD  - Department of Paediatric and Adolescent Surgery, Medical University of Graz, 8036
+      Graz, Austria.
+LA  - eng
+GR  - 867991/Osterreichische Forschungsforderungsgesellschaft
+PT  - Journal Article
+DEP - 20200708
+PL  - Switzerland
+TA  - Nutrients
+JT  - Nutrients
+JID - 101521595
+RN  - 0 (Dietary Carbohydrates)
+RN  - 0 (Dietary Fiber)
+RN  - 0 (Prebiotics)
+RN  - 0 (Volatile Organic Compounds)
+SB  - IM
+MH  - Animals
+MH  - Cachexia/etiology/*metabolism/*microbiology
+MH  - Dietary Carbohydrates/administration & dosage/pharmacology
+MH  - Dietary Fiber/administration & dosage/pharmacology
+MH  - *Dietary Supplements
+MH  - Disease Models, Animal
+MH  - Feces/*chemistry
+MH  - Gastrointestinal Microbiome/*drug effects
+MH  - Humans
+MH  - Intestinal Absorption/*drug effects
+MH  - Male
+MH  - Mice, Inbred BALB C
+MH  - Mice, Nude
+MH  - Neuroblastoma/*complications
+MH  - Permeability/drug effects
+MH  - Prebiotics/*administration & dosage
+MH  - Tumor Cells, Cultured
+MH  - Volatile Organic Compounds/*metabolism
+PMC - PMC7400931
+OTO - NOTNLM
+OT  - gut permeability
+OT  - microbiome
+OT  - neuroblastoma
+OT  - prebiotics
+OT  - volatile organic compounds
+EDAT- 2020/07/12 06:00
+MHDA- 2021/03/12 06:00
+CRDT- 2020/07/12 06:00
+PHST- 2020/06/05 00:00 [received]
+PHST- 2020/06/26 00:00 [revised]
+PHST- 2020/07/04 00:00 [accepted]
+PHST- 2020/07/12 06:00 [entrez]
+PHST- 2020/07/12 06:00 [pubmed]
+PHST- 2021/03/12 06:00 [medline]
+AID - nu12072029 [pii]
+AID - 10.3390/nu12072029 [doi]
+PST - epublish
+SO  - Nutrients. 2020 Jul 8;12(7). pii: nu12072029. doi: 10.3390/nu12072029.
+
 PMID- 32615913
 OWN - NLM
-STAT- In-Data-Review
-LR  - 20201022
+STAT- In-Process
+LR  - 20210324
 IS  - 1949-0984 (Electronic)
 IS  - 1949-0976 (Linking)
 VI  - 11
@@ -9105,7 +9534,9 @@ AU  - Goldman D
 AD  - Office of the Clinical Director, Laboratory of Neurogenetics, National Institute 
       on Alcohol Abuse and Alcoholism , Bethesda, MD, USA.
 LA  - eng
+GR  - Z01 AA000280/ImNIH/Intramural NIH HHS/United States
 PT  - Journal Article
+PT  - Research Support, N.I.H., Intramural
 PL  - United States
 TA  - Gut Microbes
 JT  - Gut microbes
@@ -9113,11 +9544,11 @@ JID - 101495343
 SB  - IM
 PMC - PMC7527072
 OTO - NOTNLM
-OT  - Gut microbiome
-OT  - alcohol use disorder
-OT  - molecular methods
-OT  - oral microbiome
-OT  - substance use
+OT  - *Gut microbiome
+OT  - *alcohol use disorder
+OT  - *molecular methods
+OT  - *oral microbiome
+OT  - *substance use
 EDAT- 2020/07/04 06:00
 MHDA- 2020/07/04 06:00
 CRDT- 2020/07/04 06:00
@@ -9130,13 +9561,16 @@ SO  - Gut Microbes. 2020 Nov 1;11(6):1608-1631. doi: 10.1080/19490976.2020.17580
 
 PMID- 32615170
 OWN - NLM
-STAT- Publisher
-LR  - 20210110
+STAT- In-Data-Review
+LR  - 20210310
 IS  - 1097-6825 (Electronic)
 IS  - 0091-6749 (Linking)
-DP  - 2020 Jun 29
+VI  - 147
+IP  - 3
+DP  - 2021 Mar
 TI  - House dust microbiota in relation to adult asthma and atopy in a US farming
       population.
+PG  - 910-920
 LID - S0091-6749(20)30890-3 [pii]
 LID - 10.1016/j.jaci.2020.06.013 [doi]
 AB  - BACKGROUND: Bacterial exposure from house dust has been associated with asthma
@@ -9238,19 +9672,19 @@ OT  - microbiome
 EDAT- 2020/07/03 06:00
 MHDA- 2020/07/03 06:00
 CRDT- 2020/07/03 06:00
-PMCR- 2021/12/29 00:00
+PMCR- 2022/03/01 00:00
 PHST- 2019/10/17 00:00 [received]
 PHST- 2020/06/18 00:00 [revised]
 PHST- 2020/06/22 00:00 [accepted]
-PHST- 2021/12/29 00:00 [pmc-release]
+PHST- 2022/03/01 00:00 [pmc-release]
 PHST- 2020/07/03 06:00 [pubmed]
 PHST- 2020/07/03 06:00 [medline]
 PHST- 2020/07/03 06:00 [entrez]
 AID - S0091-6749(20)30890-3 [pii]
 AID - 10.1016/j.jaci.2020.06.013 [doi]
-PST - aheadofprint
-SO  - J Allergy Clin Immunol. 2020 Jun 29. pii: S0091-6749(20)30890-3. doi:
-      10.1016/j.jaci.2020.06.013.
+PST - ppublish
+SO  - J Allergy Clin Immunol. 2021 Mar;147(3):910-920. doi: 10.1016/j.jaci.2020.06.013.
+      Epub 2020 Jun 29.
 
 PMID- 32614866
 OWN - NLM
@@ -9435,8 +9869,9 @@ SO  - Heliyon. 2020 Jun 23;6(6):e04190. doi: 10.1016/j.heliyon.2020.e04190. eCol
 
 PMID- 32605663
 OWN - NLM
-STAT- In-Process
-LR  - 20210110
+STAT- MEDLINE
+DCOM- 20210317
+LR  - 20210317
 IS  - 2049-2618 (Electronic)
 IS  - 2049-2618 (Linking)
 VI  - 8
@@ -9598,6 +10033,7 @@ LA  - eng
 GR  - European Union's Horizon 2020/Horizon 2020/International
 PT  - Letter
 PT  - Research Support, Non-U.S. Gov't
+PT  - Video-Audio Media
 DEP - 20200630
 PL  - England
 TA  - Microbiome
@@ -9605,15 +10041,18 @@ JT  - Microbiome
 JID - 101615147
 SB  - IM
 EIN - Microbiome. 2020 Aug 20;8(1):119. PMID: 32819450
+MH  - *Microbiota
+MH  - Surveys and Questionnaires
+MH  - *Terminology as Topic
 PMC - PMC7329523
 EDAT- 2020/07/02 06:00
-MHDA- 2020/07/02 06:00
+MHDA- 2021/03/18 06:00
 CRDT- 2020/07/02 06:00
 PHST- 2020/02/05 00:00 [received]
 PHST- 2020/05/22 00:00 [accepted]
 PHST- 2020/07/02 06:00 [entrez]
 PHST- 2020/07/02 06:00 [pubmed]
-PHST- 2020/07/02 06:00 [medline]
+PHST- 2021/03/18 06:00 [medline]
 AID - 10.1186/s40168-020-00875-0 [doi]
 AID - 10.1186/s40168-020-00875-0 [pii]
 PST - epublish
@@ -10265,6 +10704,111 @@ PST - epublish
 SO  - Front Microbiol. 2020 May 29;11:966. doi: 10.3389/fmicb.2020.00966. eCollection
       2020.
 
+PMID- 32545819
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210317
+LR  - 20210317
+IS  - 1424-8220 (Electronic)
+IS  - 1424-8220 (Linking)
+VI  - 20
+IP  - 12
+DP  - 2020 Jun 13
+TI  - The Role of Dactylis Glomerata and Diesel Oil in the Formation of Microbiome and 
+      Soil Enzyme Activity.
+LID - E3362 [pii]
+LID - 10.3390/s20123362 [doi]
+AB  - The global demand for petroleum contributes to a significant increase in soil
+      pollution with petroleum-based products that pose a severe risk not only to
+      humans but also to plants and the soil microbiome. The increasing pollution of
+      the natural environment urges the search for effective remediation methods.
+      Considering the above, the objective of this study was to determine the usability
+      of Dactylis glomerata for the degradation of hydrocarbons contained in diesel oil
+      (DO), as well as the effects of both the plant tested and DO on the biochemical
+      functionality and changes in the soil microbiome. The experiment was conducted in
+      a greenhouse with non-polluted soil as well as soil polluted with DO and
+      phytoremediated with Dactylis glomerata. Soil pollution with DO increased the
+      numbers of microorganisms and soil enzymes and decreased the value of the
+      ecophysiological diversity index of microorganisms. Besides, it contributed to
+      changes in the bacterial structure at all taxonomic levels. DO was found to
+      increase the abundance of Proteobacteria and to decrease that of Actinobacteria, 
+      Acidobacteria, Chloroflexi, Gemmatimonadetes and Firmicutes. In the non-polluted 
+      soil, the core microbiome was represented by Kaistobacter and Rhodoplanes,
+      whereas in the DO-polluted soil, it was represented by Parvibaculum and
+      Rhodococcus. In soil sown with Dactylis glomerata, gasoline fraction (C6-C12)
+      degradation was higher by 17%; mineral oil (C12-C35), by 9%; benzene, by 31%;
+      anthracene, by 12%; chrysene, by 38%; benzo(a)anthracene, by 19%; benzo(a)pyrene,
+      by 17%; benzo(b)fluoranthene, by 15%; and benzo(k)fluoranthene, by 18% than in
+      non-sowed soil. To conclude, Dactylis glomerata proved useful in degrading DO
+      hydrocarbons and, therefore, may be recommended for the phytoremediation of soils
+      polluted with petroleum-based products. It has been shown that the
+      microbiological, biochemical and chemical tests are fast and sensitive in the
+      diagnosis of soil contamination with petroleum products, and a combination of all
+      these tests gives a reliable assessment of the state of soils.
+FAU - Borowik, Agata
+AU  - Borowik A
+AUID- ORCID: 0000-0002-8512-7363
+AD  - Department of Microbiology, University of Warmia and Mazury in Olsztyn, 10-727
+      Olsztyn, Poland.
+FAU - Wyszkowska, Jadwiga
+AU  - Wyszkowska J
+AUID- ORCID: 0000-0002-2156-3780
+AD  - Department of Microbiology, University of Warmia and Mazury in Olsztyn, 10-727
+      Olsztyn, Poland.
+FAU - Kucharski, Miroslaw
+AU  - Kucharski M
+AD  - Department of Microbiology, University of Warmia and Mazury in Olsztyn, 10-727
+      Olsztyn, Poland.
+FAU - Kucharski, Jan
+AU  - Kucharski J
+AUID- ORCID: 0000-0002-6364-6357
+AD  - Department of Microbiology, University of Warmia and Mazury in Olsztyn, 10-727
+      Olsztyn, Poland.
+LA  - eng
+GR  - ./Ministry of Science and Higher Education funds for statutory activity
+GR  - Project No. 010/RID/2018/19/Project financially supported by Minister of Science 
+      of Higher Education in the range of the program entitled "Regional Initiative of 
+      Excellence" for the years 2019-2022,
+PT  - Journal Article
+DEP - 20200613
+PL  - Switzerland
+TA  - Sensors (Basel)
+JT  - Sensors (Basel, Switzerland)
+JID - 101204366
+RN  - 0 (Gasoline)
+RN  - 0 (Hydrocarbons)
+RN  - 0 (Soil Pollutants)
+SB  - IM
+MH  - Bacteria/classification/metabolism
+MH  - Biodegradation, Environmental
+MH  - *Dactylis
+MH  - *Gasoline
+MH  - Hydrocarbons
+MH  - *Microbiota
+MH  - Petroleum Pollution
+MH  - *Soil Microbiology
+MH  - *Soil Pollutants/analysis
+PMC - PMC7349710
+OTO - NOTNLM
+OT  - Dactylis glomerata
+OT  - PHAs
+OT  - bacterial taxa
+OT  - phytoremediation
+OT  - soil enzymes
+EDAT- 2020/06/18 06:00
+MHDA- 2021/03/18 06:00
+CRDT- 2020/06/18 06:00
+PHST- 2020/04/30 00:00 [received]
+PHST- 2020/06/08 00:00 [revised]
+PHST- 2020/06/11 00:00 [accepted]
+PHST- 2020/06/18 06:00 [entrez]
+PHST- 2020/06/18 06:00 [pubmed]
+PHST- 2021/03/18 06:00 [medline]
+AID - s20123362 [pii]
+AID - 10.3390/s20123362 [doi]
+PST - epublish
+SO  - Sensors (Basel). 2020 Jun 13;20(12). pii: s20123362. doi: 10.3390/s20123362.
+
 PMID- 32539975
 OWN - NLM
 STAT- MEDLINE
@@ -10815,6 +11359,115 @@ AID - 10.3390/ijerph17114033 [doi]
 PST - epublish
 SO  - Int J Environ Res Public Health. 2020 Jun 5;17(11). pii: ijerph17114033. doi:
       10.3390/ijerph17114033.
+
+PMID- 32514604
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210408
+LR  - 20210408
+IS  - 1432-184X (Electronic)
+IS  - 0095-3628 (Linking)
+VI  - 80
+IP  - 3
+DP  - 2020 Oct
+TI  - Plant Grafting Shapes Complexity and Co-occurrence of Rhizobacterial Assemblages.
+PG  - 643-655
+LID - 10.1007/s00248-020-01532-7 [doi]
+AB  - Grafting is a basic technique which is widely used to increase yield and enhance 
+      biotic and abiotic stress tolerance in plant production. The diversity and
+      interactions of rhizobacterial assemblages shaped by grafting are important for
+      the growth of their hosts but remain poorly understood. To test the hypothesis
+      that plant grafting shapes complexity and co-occurrence of rhizobacterial
+      assemblage, four types of plants, including ungrafted bottle gourd (B), ungrafted
+      watermelon (W), grafted watermelon with bottle gourd rootstock (W/B), and grafted
+      bottle gourd with watermelon rootstock (B/W), were cultivated in two soil types
+      in a greenhouse, and the rhizosphere bacterial communities were analyzed by 16S
+      rRNA gene high-throughput sequencing. Both the soil type and grafting
+      significantly influenced the bacterial community composition. Grafting increased 
+      bacterial within-sample diversity in both soils. Core enriched operational
+      taxonomic units (OTUs) in the W/B rhizosphere compared with the other three
+      treatments (B, W, and B/W) were mainly affiliated with Alphaproteobacteria,
+      Deltaproteobacteria, and Bacteroidetes, which are likely related to methanol
+      oxidation, methylotrophy, fermentation, and ureolysis. Co-occurrence network
+      analysis proved that grafting increased network complexity, including the number 
+      of nodes, edges, and modules. Moreover, grafting strengthened the structural
+      robustness of the network in the rhizosphere, while ungrafted watermelon had the 
+      lowest network robustness. Homogeneous selection played a predominant role in
+      bacterial community assembly, and the contribution of dispersal limitation was
+      increased in grafted watermelon with bottle gourd rootstock. Grafting increased
+      the diversity and transformed the network topology of the bacterial community,
+      which indicated that grafting could improve species coexistence in the watermelon
+      rhizosphere.
+FAU - Ruan, Yang
+AU  - Ruan Y
+AD  - Jiangsu Provincial Key Lab for Organic Solid Waste Utilization, National
+      Engineering Research Center for Organic-based Fertilizers, Jiangsu Collaborative 
+      Innovation Center for Solid Organic Waste Resource Utilization, Nanjing
+      Agricultural University, Nanjing, 210095, China.
+FAU - Wang, Tingting
+AU  - Wang T
+AD  - Jiangsu Provincial Key Lab for Organic Solid Waste Utilization, National
+      Engineering Research Center for Organic-based Fertilizers, Jiangsu Collaborative 
+      Innovation Center for Solid Organic Waste Resource Utilization, Nanjing
+      Agricultural University, Nanjing, 210095, China.
+FAU - Guo, Shiwei
+AU  - Guo S
+AD  - Jiangsu Provincial Key Lab for Organic Solid Waste Utilization, National
+      Engineering Research Center for Organic-based Fertilizers, Jiangsu Collaborative 
+      Innovation Center for Solid Organic Waste Resource Utilization, Nanjing
+      Agricultural University, Nanjing, 210095, China.
+FAU - Ling, Ning
+AU  - Ling N
+AUID- ORCID: http://orcid.org/0000-0003-1250-4073
+AD  - Jiangsu Provincial Key Lab for Organic Solid Waste Utilization, National
+      Engineering Research Center for Organic-based Fertilizers, Jiangsu Collaborative 
+      Innovation Center for Solid Organic Waste Resource Utilization, Nanjing
+      Agricultural University, Nanjing, 210095, China. nling@njau.edu.cn.
+FAU - Shen, Qirong
+AU  - Shen Q
+AD  - Jiangsu Provincial Key Lab for Organic Solid Waste Utilization, National
+      Engineering Research Center for Organic-based Fertilizers, Jiangsu Collaborative 
+      Innovation Center for Solid Organic Waste Resource Utilization, Nanjing
+      Agricultural University, Nanjing, 210095, China.
+LA  - eng
+GR  - IRT_17R56/Innovative Research Team Development Plan of the Ministry of Education 
+      of China
+GR  - KYT201802/Fundamental Research Funds for the Central Universities
+GR  - 31772398/National Nature Science Foundation of China
+PT  - Journal Article
+DEP - 20200608
+PL  - United States
+TA  - Microb Ecol
+JT  - Microbial ecology
+JID - 7500663
+SB  - IM
+MH  - Bacteria/*isolation & purification
+MH  - Citrullus/microbiology
+MH  - Cucurbitaceae/*microbiology
+MH  - Microbiota/*physiology
+MH  - Plant Roots/*microbiology
+MH  - *Rhizosphere
+MH  - *Soil Microbiology
+OTO - NOTNLM
+OT  - Bacterial community
+OT  - Bottle gourd
+OT  - Community assembly
+OT  - Grafting
+OT  - Network structure
+OT  - Watermelon
+EDAT- 2020/06/10 06:00
+MHDA- 2021/04/10 06:00
+CRDT- 2020/06/10 06:00
+PHST- 2020/02/04 00:00 [received]
+PHST- 2020/05/25 00:00 [accepted]
+PHST- 2020/06/10 06:00 [pubmed]
+PHST- 2021/04/10 06:00 [medline]
+PHST- 2020/06/10 06:00 [entrez]
+AID - 10.1007/s00248-020-01532-7 [doi]
+AID - 10.1007/s00248-020-01532-7 [pii]
+PST - ppublish
+SO  - Microb Ecol. 2020 Oct;80(3):643-655. doi: 10.1007/s00248-020-01532-7. Epub 2020
+      Jun 8.
 
 PMID- 32510843
 OWN - NLM
@@ -11619,13 +12272,13 @@ OT  - *Metagenomic shotgun sequencing
 OT  - *Microbial communities
 OT  - *Phyllosphere
 EDAT- 2020/05/23 06:00
-MHDA- 2020/05/23 06:00
+MHDA- 2021/03/02 06:00
 CRDT- 2020/05/23 06:00
 PHST- 2020/03/06 00:00 [received]
 PHST- 2020/04/17 00:00 [accepted]
 PHST- 2020/05/23 06:00 [entrez]
 PHST- 2020/05/23 06:00 [pubmed]
-PHST- 2020/05/23 06:00 [medline]
+PHST- 2021/03/02 06:00 [medline]
 AID - 10.1186/s40168-020-00844-7 [doi]
 AID - 10.1186/s40168-020-00844-7 [pii]
 PST - epublish
@@ -12038,6 +12691,99 @@ AID - 10.1016/j.isci.2020.101131 [doi]
 PST - ppublish
 SO  - iScience. 2020 May 22;23(5):101131. doi: 10.1016/j.isci.2020.101131. Epub 2020
       May 4.
+
+PMID- 32415330
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210408
+LR  - 20210408
+IS  - 1432-184X (Electronic)
+IS  - 0095-3628 (Linking)
+VI  - 80
+IP  - 3
+DP  - 2020 Oct
+TI  - Spatial Distribution Patterns of Bacterioplankton in the Oxygen Minimum Zone of
+      the Tropical Mexican Pacific.
+PG  - 519-536
+LID - 10.1007/s00248-020-01508-7 [doi]
+AB  - Microbial communities within oxygen minimum zones (OMZs) are crucial drivers of
+      marine biogeochemical cycles; however, we still lack an understanding of how
+      these communities are distributed across an OMZ. We explored vertical (from 5 to 
+      500 m depth) and horizontal (coast to open ocean) distribution of
+      bacterioplankton and its relationships with the main oceanographic conditions in 
+      three transects of the tropical Mexican Pacific OMZ. The distribution of the
+      microbial diversity and the main clades changed along the transition from
+      oxygen-rich surface water to the OMZ core, demonstrating the sensitivity of key
+      bacterial groups to deoxygenation. The euphotic zone was dominated by
+      Synechococcales, followed by Flavobacteriales, Verrucomicrobiales,
+      Rhodobacterales, SAR86, and Cellvibrionales, whereas the OMZ core was dominated
+      by SAR11, followed by SAR406, SAR324, SAR202, UBA10353 marine group,
+      Thiomicrospirales and Nitrospinales. The marked environmental gradients along the
+      water column also supported a high potential for niche partitioning among OMZ
+      microorganisms. Additionally, in the OMZ core, bacterial assemblages from the
+      same water mass were more similar to each other than those from another water
+      mass. There were also important differences between coastal and open-ocean
+      communities: Flavobacteriales, Verrucomicrobiales, Rhodobacterales, SAR86, and
+      Cellvibrionales were more abundant in coastal areas, while Synechococcales,
+      SAR406, SAR324, SAR202, UBA10353 marine group, and Thiomicrospirales were more
+      abundant in the open ocean. Our results suggest a biogeographic structure of the 
+      bacterioplankton in this OMZ region, with limited community mixing across water
+      masses, except in upwelling events, and little dispersion of the community by
+      currents in the euphotic zone.
+FAU - Pajares, Silvia
+AU  - Pajares S
+AD  - Unidad Academica de Ecologia y Biodiversidad Acuatica, Institute of Marine
+      Sciences and Limnology, National Autonomous University of Mexico, Mexico City,
+      Mexico. spajares@cmarl.unam.mx.
+FAU - Varona-Cordero, Francisco
+AU  - Varona-Cordero F
+AD  - Unidad Academica de Ecologia y Biodiversidad Acuatica, Institute of Marine
+      Sciences and Limnology, National Autonomous University of Mexico, Mexico City,
+      Mexico.
+FAU - Hernandez-Becerril, David Uriel
+AU  - Hernandez-Becerril DU
+AD  - Unidad Academica de Ecologia y Biodiversidad Acuatica, Institute of Marine
+      Sciences and Limnology, National Autonomous University of Mexico, Mexico City,
+      Mexico.
+LA  - eng
+GR  - PAPIIT-IA201617/Direccion General de Asuntos del Personal Academico, Universidad 
+      Nacional Autonoma de Mexico
+PT  - Journal Article
+DEP - 20200515
+PL  - United States
+TA  - Microb Ecol
+JT  - Microbial ecology
+JID - 7500663
+RN  - S88TT14065 (Oxygen)
+SB  - IM
+MH  - *Bacterial Physiological Phenomena
+MH  - Mexico
+MH  - Microbiota/*physiology
+MH  - Oxygen/analysis
+MH  - Pacific Ocean
+MH  - Plankton/*physiology
+MH  - Seawater/*microbiology
+MH  - Tropical Climate
+OTO - NOTNLM
+OT  - 16S rRNA sequences
+OT  - Distribution patterns
+OT  - Environmental gradients
+OT  - Flow cytometry
+OT  - Marine microbial diversity
+OT  - Oxygen minimum zone
+EDAT- 2020/05/18 06:00
+MHDA- 2021/04/10 06:00
+CRDT- 2020/05/17 06:00
+PHST- 2019/08/08 00:00 [received]
+PHST- 2020/03/23 00:00 [accepted]
+PHST- 2020/05/18 06:00 [pubmed]
+PHST- 2021/04/10 06:00 [medline]
+PHST- 2020/05/17 06:00 [entrez]
+AID - 10.1007/s00248-020-01508-7 [doi]
+AID - 10.1007/s00248-020-01508-7 [pii]
+PST - ppublish
+SO  - Microb Ecol. 2020 Oct;80(3):519-536. doi: 10.1007/s00248-020-01508-7. Epub 2020
+      May 15.
 
 PMID- 32408381
 OWN - NLM
@@ -13234,7 +13980,7 @@ PMID- 32277120
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20201204
-LR  - 20201214
+LR  - 20210410
 IS  - 2045-2322 (Electronic)
 IS  - 2045-2322 (Linking)
 VI  - 10
@@ -13546,7 +14292,7 @@ PMID- 32265458
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20201204
-LR  - 20201214
+LR  - 20210407
 IS  - 2045-2322 (Electronic)
 IS  - 2045-2322 (Linking)
 VI  - 10
@@ -14159,8 +14905,9 @@ SO  - FEMS Microbiol Ecol. 2020 May 1;96(5). pii: 5813259. doi: 10.1093/femsec/f
 
 PMID- 32216756
 OWN - NLM
-STAT- In-Process
-LR  - 20200810
+STAT- MEDLINE
+DCOM- 20210406
+LR  - 20210406
 IS  - 1471-2180 (Electronic)
 IS  - 1471-2180 (Linking)
 VI  - 20
@@ -14258,6 +15005,7 @@ AD  - College of Life Science, Sichuan Agricultural University, No. 46, Xinkang 
       xuhuail@sicau.edu.cn.
 LA  - eng
 GR  - 31870355/National Natural Science Foundation of China/International
+PT  - Comparative Study
 PT  - Journal Article
 PT  - Research Support, Non-U.S. Gov't
 DEP - 20200326
@@ -14265,7 +15013,26 @@ PL  - England
 TA  - BMC Microbiol
 JT  - BMC microbiology
 JID - 100966981
+RN  - 0 (Bacterial Proteins)
+RN  - 0 (DNA, Bacterial)
+RN  - 0 (DNA, Ribosomal)
+RN  - 0 (RNA, Ribosomal, 16S)
 SB  - IM
+MH  - Altitude
+MH  - Animals
+MH  - Bacteria/*classification/genetics/isolation & purification
+MH  - Bacterial Proteins/*genetics
+MH  - Biodiversity
+MH  - DNA, Bacterial/genetics
+MH  - DNA, Ribosomal/genetics
+MH  - Feces/microbiology
+MH  - Gastrointestinal Microbiome
+MH  - Gene Dosage
+MH  - High-Throughput Nucleotide Sequencing
+MH  - Macaca mulatta/*microbiology
+MH  - Phylogeny
+MH  - RNA, Ribosomal, 16S/*genetics
+MH  - Sequence Analysis, DNA/*methods
 PMC - PMC7098161
 OTO - NOTNLM
 OT  - *16S rRNA gene
@@ -14273,13 +15040,13 @@ OT  - *Gut microbial community
 OT  - *High-altitude environment
 OT  - *Rhesus macaque
 EDAT- 2020/03/29 06:00
-MHDA- 2020/03/29 06:00
+MHDA- 2021/04/07 06:00
 CRDT- 2020/03/29 06:00
 PHST- 2019/08/10 00:00 [received]
 PHST- 2020/03/05 00:00 [accepted]
 PHST- 2020/03/29 06:00 [entrez]
 PHST- 2020/03/29 06:00 [pubmed]
-PHST- 2020/03/29 06:00 [medline]
+PHST- 2021/04/07 06:00 [medline]
 AID - 10.1186/s12866-020-01747-1 [doi]
 AID - 10.1186/s12866-020-01747-1 [pii]
 PST - epublish
@@ -14287,8 +15054,9 @@ SO  - BMC Microbiol. 2020 Mar 26;20(1):68. doi: 10.1186/s12866-020-01747-1.
 
 PMID- 32216749
 OWN - NLM
-STAT- In-Process
-LR  - 20200810
+STAT- MEDLINE
+DCOM- 20210406
+LR  - 20210406
 IS  - 1471-2180 (Electronic)
 IS  - 1471-2180 (Linking)
 VI  - 20
@@ -14376,7 +15144,17 @@ PL  - England
 TA  - BMC Microbiol
 JT  - BMC microbiology
 JID - 100966981
+RN  - 0 (Flavoring Agents)
 SB  - IM
+MH  - Alcoholic Beverages/analysis/*microbiology
+MH  - Ascomycota/*classification/isolation & purification
+MH  - Bacteria/*classification/isolation & purification
+MH  - Flavoring Agents/*analysis
+MH  - Food Industry
+MH  - Food Microbiology
+MH  - High-Throughput Nucleotide Sequencing
+MH  - Phylogeny
+MH  - Sequence Analysis, DNA
 PMC - PMC7098102
 OTO - NOTNLM
 OT  - *Baijiu
@@ -14386,13 +15164,13 @@ OT  - *High-throughput sequencing
 OT  - *Prokaryotic microbes
 OT  - *Volatile compounds
 EDAT- 2020/03/29 06:00
-MHDA- 2020/03/29 06:00
+MHDA- 2021/04/07 06:00
 CRDT- 2020/03/29 06:00
 PHST- 2019/04/05 00:00 [received]
 PHST- 2020/03/05 00:00 [accepted]
 PHST- 2020/03/29 06:00 [entrez]
 PHST- 2020/03/29 06:00 [pubmed]
-PHST- 2020/03/29 06:00 [medline]
+PHST- 2021/04/07 06:00 [medline]
 AID - 10.1186/s12866-020-01745-3 [doi]
 AID - 10.1186/s12866-020-01745-3 [pii]
 PST - epublish
@@ -16117,13 +16895,13 @@ OT  - *cuticular microbiome
 OT  - *insect cuticle
 OT  - *metabarcoding
 EDAT- 2020/03/07 06:00
-MHDA- 2020/03/07 06:00
+MHDA- 2021/03/02 06:00
 CRDT- 2020/03/06 06:00
 PHST- 2018/08/21 00:00 [received]
 PHST- 2020/02/27 00:00 [revised]
 PHST- 2020/02/28 00:00 [accepted]
 PHST- 2020/03/07 06:00 [pubmed]
-PHST- 2020/03/07 06:00 [medline]
+PHST- 2021/03/02 06:00 [medline]
 PHST- 2020/03/06 06:00 [entrez]
 AID - 10.1111/mec.15400 [doi]
 PST - ppublish
@@ -17627,7 +18405,7 @@ PMID- 32035769
 OWN - NLM
 STAT- MEDLINE
 DCOM- 20200826
-LR  - 20200826
+LR  - 20210402
 IS  - 1097-6809 (Electronic)
 IS  - 0741-5214 (Linking)
 VI  - 71
@@ -17755,10 +18533,8 @@ OT  - *Vascular surgical procedure
 EDAT- 2020/02/10 06:00
 MHDA- 2020/08/28 06:00
 CRDT- 2020/02/10 06:00
-PMCR- 2021/04/01 00:00
 PHST- 2019/01/30 00:00 [received]
 PHST- 2019/06/10 00:00 [accepted]
-PHST- 2021/04/01 00:00 [pmc-release]
 PHST- 2020/02/10 06:00 [pubmed]
 PHST- 2020/08/28 06:00 [medline]
 PHST- 2020/02/10 06:00 [entrez]
@@ -25159,7 +25935,7 @@ AD  - University of California Davis, School of Veterinary Medicine, 100K Pathog
 LA  - eng
 PT  - Journal Article
 DEP - 20191009
-PL  - England
+PL  - Switzerland
 TA  - Curr Issues Mol Biol
 JT  - Current issues in molecular biology
 JID - 100931761
@@ -30722,7 +31498,7 @@ SO  - Int J Mol Sci. 2019 May 28;20(11). pii: ijms20112619. doi: 10.3390/ijms201
 PMID- 31139163
 OWN - NLM
 STAT- PubMed-not-MEDLINE
-LR  - 20201001
+LR  - 20210329
 IS  - 1664-302X (Print)
 IS  - 1664-302X (Linking)
 VI  - 10
@@ -30789,6 +31565,7 @@ PL  - Switzerland
 TA  - Front Microbiol
 JT  - Frontiers in microbiology
 JID - 101548977
+EIN - Front Microbiol. 2021 Mar 10;12:642964. PMID: 33776976
 PMC - PMC6527750
 OTO - NOTNLM
 OT  - amplicon sequencing
@@ -51435,615 +52212,3 @@ AID - 10.1128/AEM.02574-17 [doi]
 PST - epublish
 SO  - Appl Environ Microbiol. 2018 Feb 14;84(5). pii: AEM.02574-17. doi:
       10.1128/AEM.02574-17. Print 2018 Mar 1.
-
-PMID- 29258007
-OWN - NLM
-STAT- MEDLINE
-DCOM- 20180517
-LR  - 20181202
-IS  - 1879-1298 (Electronic)
-IS  - 0045-6535 (Linking)
-VI  - 195
-DP  - 2018 Mar
-TI  - Deciphering the core fouling-causing microbiota in a membrane bioreactor: Low
-      abundance but important roles.
-PG  - 108-118
-LID - S0045-6535(17)32037-4 [pii]
-LID - 10.1016/j.chemosphere.2017.12.067 [doi]
-AB  - Currently, membrane biofouling in membrane bioreactors (MBRs) is normally
-      attributed to the occurrence of abundant bacterial species on membranes, whereas 
-      the roles of low-abundance bacteria have not been paid sufficient attention. In
-      this study, the linear discriminant analysis (LDA) effect size (LEfSe) algorithm 
-      was used to identify active biomarkers, determining 67 different phylotypes among
-      Bulk sludge, low-fouling Bio-cake (10 kPa), high-fouling Bio-cake (25 kPa) and
-      Membrane pore in a membrane bioreactor with NaOCl backwash. Interestingly, a
-      large proportion of the active biomarkers in bio-cake samples, such as
-      Methylophilaceae, Burkholderiaceae, Paucibacter and Pseudoxanthomonas, did not
-      fall within the abundant taxa (i.e., <0.05% relative abundance), indicating the
-      preferential growth of these low-abundance bacteria on the membrane surface.
-      Furthermore, the characterization of microbial interactions using a random matrix
-      theory (RMT)-based network approach obtained a network consisting of 120 nodes
-      and 228 edges. Specifically, network analysis showed the presence of an intense
-      competition among bacterial species in the fouling-related communities,
-      suggesting that negative interactions have an important effect on determining the
-      microbial community structure. More importantly, the LEfSe algorithm and network 
-      analysis showed that most of the core species of the bio-cake, such as
-      Burkholderiaceae, Bacillus and Rhodothermaceae, merely amounted to a very low
-      relative abundance (<1%), suggesting their unrecognized and over-proportional
-      ecological role in triggering the initial biofilm formation and subsequent
-      biofilm maturation during MBR operation. Overall, this work should improve our
-      understanding of the bacterial community structure on the fouled membranes in
-      MBRs.
-CI  - Copyright (c) 2017 Elsevier Ltd. All rights reserved.
-FAU - Zhang, Shaoqing
-AU  - Zhang S
-AD  - School of Environmental Science and Engineering, Sun Yat-sen University,
-      Guangzhou, 510275, PR China; Guangdong Provincial Key Laboratory of Environmental
-      Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou, 
-      510275, PR China.
-FAU - Zhou, Zhongbo
-AU  - Zhou Z
-AD  - School of Environmental Science and Engineering, Sun Yat-sen University,
-      Guangzhou, 510275, PR China; Guangdong Provincial Key Laboratory of Environmental
-      Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou, 
-      510275, PR China.
-FAU - Li, Yi
-AU  - Li Y
-AD  - Key Laboratory of Integrated Regulation and Resource Development on Shallow
-      Lakes, Ministry of Education, College of Environment, Hohai University, Nanjing, 
-      China.
-FAU - Meng, Fangang
-AU  - Meng F
-AD  - School of Environmental Science and Engineering, Sun Yat-sen University,
-      Guangzhou, 510275, PR China; Guangdong Provincial Key Laboratory of Environmental
-      Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou, 
-      510275, PR China. Electronic address: mengfg@mail.sysu.edu.cn.
-LA  - eng
-PT  - Journal Article
-DEP - 20171211
-PL  - England
-TA  - Chemosphere
-JT  - Chemosphere
-JID - 0320657
-RN  - 0 (Membranes, Artificial)
-RN  - 0 (Sewage)
-SB  - IM
-MH  - Bacteria/growth & development
-MH  - Biofilms/growth & development
-MH  - *Biofouling
-MH  - Bioreactors/*microbiology
-MH  - *Membranes, Artificial
-MH  - *Microbiota
-MH  - Sewage/microbiology
-OTO - NOTNLM
-OT  - Chemical backwash
-OT  - Ecological network
-OT  - Fouling microbiota
-OT  - Membrane bioreactors
-OT  - Membrane fouling
-EDAT- 2017/12/20 06:00
-MHDA- 2018/05/18 06:00
-CRDT- 2017/12/20 06:00
-PHST- 2017/10/11 00:00 [received]
-PHST- 2017/12/06 00:00 [revised]
-PHST- 2017/12/11 00:00 [accepted]
-PHST- 2017/12/20 06:00 [pubmed]
-PHST- 2018/05/18 06:00 [medline]
-PHST- 2017/12/20 06:00 [entrez]
-AID - S0045-6535(17)32037-4 [pii]
-AID - 10.1016/j.chemosphere.2017.12.067 [doi]
-PST - ppublish
-SO  - Chemosphere. 2018 Mar;195:108-118. doi: 10.1016/j.chemosphere.2017.12.067. Epub
-      2017 Dec 11.
-
-PMID- 29172724
-OWN - NLM
-STAT- MEDLINE
-DCOM- 20190116
-LR  - 20190116
-IS  - 1460-2202 (Electronic)
-IS  - 0271-3683 (Linking)
-VI  - 43
-IP  - 3
-DP  - 2018 Mar
-TI  - Distribution and Diversity of Ocular Microbial Communities in Diabetic Patients
-      Compared with Healthy Subjects.
-PG  - 314-324
-LID - 10.1080/02713683.2017.1406528 [doi]
-AB  - PURPOSE: The aim of this study was to identify differences in the major (core vs.
-      variable) microbial genera of human subjects with and without diabetes. METHODS: 
-      Bacterial 16S rRNA genes obtained from conjunctival swabs of 19 healthy subjects 
-      and 30 diabetic patients were sequenced using the Illumina MiSeq platform, and
-      the sequencing data were analyzed using QIIME 1.9.1. To elucidate the microbial
-      diversity in the ocular surface (OS), test programs from various bioinformatics
-      domains were used. RESULTS: Diversity index and rarefaction analysis showed that 
-      the microbial community of the diabetic patients was more diverse than that of
-      the healthy subjects. Proteobacteria, Firmicutes, Actinobacteria, Cyanobacteria
-      and Bacteroidetes were the dominant taxa present in the OS, and there was a
-      significant difference in the relative abundance of the bacterial phyla between
-      the diabetic patients and control subjects. Proteobacteria were more abundant in 
-      the diabetic group, whereas Firmicutes was more abundant in the control group.
-      Analysis of bacterial taxa at the genus level showed that the core microbiome of 
-      diabetic patients comprised Acinetobacter, Burkholderia, Sphingomonas, and
-      Ralstonia, whereas that of the controls comprised Bradyrhizobiaceae,
-      Staphylococcus, Corynebacterium, Pseudomonas, Novosphingobium, Neisseriaceae, and
-      Acinetobacter. CONCLUSIONS: There was a significant difference in the microbial
-      community composition between diabetic patients and healthy subjects. A high
-      abundance of Acinetobacter in the OS of diabetic patients may arise from the
-      unique characteristics of the OS compared with those of other organ surfaces.
-FAU - Ham, Baknoon
-AU  - Ham B
-AD  - a Green School, Korea University , Seoul , Republic of Korea.
-AD  - b Natural Product Research Center, Korea Institute of Science and Technology ,
-      Gangneung , Republic of Korea.
-FAU - Hwang, Hyung Bin
-AU  - Hwang HB
-AD  - c Department of Ophthalmology , Incheon St. Mary's Hospital The Catholic
-      University of Korea , Incheon , Republic of Korea.
-FAU - Jung, Sang Hoon
-AU  - Jung SH
-AD  - b Natural Product Research Center, Korea Institute of Science and Technology ,
-      Gangneung , Republic of Korea.
-FAU - Chang, Sungyul
-AU  - Chang S
-AD  - b Natural Product Research Center, Korea Institute of Science and Technology ,
-      Gangneung , Republic of Korea.
-FAU - Kang, Kui Dong
-AU  - Kang KD
-AD  - c Department of Ophthalmology , Incheon St. Mary's Hospital The Catholic
-      University of Korea , Incheon , Republic of Korea.
-FAU - Kwon, Man Jae
-AU  - Kwon MJ
-AD  - a Green School, Korea University , Seoul , Republic of Korea.
-AD  - d Department of Earth and Environmental Sciences , Korea University , Seoul ,
-      Republic of Korea.
-LA  - eng
-PT  - Comparative Study
-PT  - Journal Article
-PT  - Research Support, Non-U.S. Gov't
-DEP - 20171127
-PL  - England
-TA  - Curr Eye Res
-JT  - Current eye research
-JID - 8104312
-RN  - 0 (RNA, Ribosomal, 16S)
-SB  - IM
-MH  - Adult
-MH  - Aged
-MH  - Bacteria/*genetics
-MH  - Conjunctiva/*microbiology
-MH  - Diabetes Mellitus, Type 2/*complications
-MH  - Eye Infections, Bacterial/etiology/*microbiology
-MH  - Female
-MH  - Humans
-MH  - Male
-MH  - *Microbiota
-MH  - Middle Aged
-MH  - RNA, Ribosomal, 16S/*analysis
-MH  - Young Adult
-OTO - NOTNLM
-OT  - *Bacterial diversity
-OT  - *Bradyrhizobiaceae
-OT  - *Burkholderia
-OT  - *LFR analysis
-OT  - *Staphylococcus
-EDAT- 2017/11/28 06:00
-MHDA- 2019/01/17 06:00
-CRDT- 2017/11/28 06:00
-PHST- 2017/11/28 06:00 [pubmed]
-PHST- 2019/01/17 06:00 [medline]
-PHST- 2017/11/28 06:00 [entrez]
-AID - 10.1080/02713683.2017.1406528 [doi]
-PST - ppublish
-SO  - Curr Eye Res. 2018 Mar;43(3):314-324. doi: 10.1080/02713683.2017.1406528. Epub
-      2017 Nov 27.
-
-PMID- 29164717
-OWN - NLM
-STAT- MEDLINE
-DCOM- 20190501
-LR  - 20190501
-IS  - 1365-294X (Electronic)
-IS  - 0962-1083 (Linking)
-VI  - 27
-IP  - 8
-DP  - 2018 Apr
-TI  - Antibiotics reduce genetic diversity of core species in the honeybee gut
-      microbiome.
-PG  - 2057-2066
-LID - 10.1111/mec.14434 [doi]
-AB  - The gut microbiome plays a key role in animal health, and perturbing it can have 
-      detrimental effects. One major source of perturbation to microbiomes, in humans
-      and human-associated animals, is exposure to antibiotics. Most studies of how
-      antibiotics affect the microbiome have used amplicon sequencing of highly
-      conserved 16S rRNA sequences, as in a recent study showing that antibiotic
-      treatment severely alters the species-level composition of the honeybee gut
-      microbiome. But because the standard 16S rRNA-based methods cannot resolve
-      closely related strains, strain-level changes could not be evaluated. To address 
-      this gap, we used amplicon sequencing of protein-coding genes to assess effects
-      of antibiotics on fine-scale genetic diversity of the honeybee gut microbiota. We
-      followed the population dynamics of alleles within two dominant core species of
-      the bee gut community, Gilliamella apicola and Snodgrassella alvi, following
-      antibiotic perturbation. Whereas we observed a large reduction in genetic
-      diversity in G. apicola, S. alvi diversity was mostly unaffected. The reduction
-      in G. apicola diversity accompanied an increase in the frequency of several
-      alleles, suggesting resistance to antibiotic treatment. We find that antibiotic
-      perturbation can cause major shifts in diversity and that the extent of these
-      shifts can vary substantially across species. Thus, antibiotics impact not only
-      species composition, but also allelic diversity within species, potentially
-      affecting hosts if variants with particular functions are reduced or eliminated. 
-      Overall, we show that amplicon sequencing of protein-coding genes, without
-      clustering into operational taxonomic units, provides an accurate picture of the 
-      fine-scale dynamics of microbial communities over time.
-CI  - (c) 2017 John Wiley & Sons Ltd.
-FAU - Raymann, Kasie
-AU  - Raymann K
-AUID- ORCID: 0000-0001-7008-2783
-AD  - Department of Integrative Biology, University of Texas at Austin, Austin, TX,
-      USA.
-FAU - Bobay, Louis-Marie
-AU  - Bobay LM
-AD  - Department of Integrative Biology, University of Texas at Austin, Austin, TX,
-      USA.
-FAU - Moran, Nancy A
-AU  - Moran NA
-AUID- ORCID: 0000-0003-2983-9769
-AD  - Department of Integrative Biology, University of Texas at Austin, Austin, TX,
-      USA.
-LA  - eng
-GR  - R01 GM108477/GM/NIGMS NIH HHS/United States
-GR  - R35 GM118038/GM/NIGMS NIH HHS/United States
-PT  - Journal Article
-PT  - Research Support, N.I.H., Extramural
-PT  - Research Support, U.S. Gov't, Non-P.H.S.
-DEP - 20171214
-PL  - England
-TA  - Mol Ecol
-JT  - Molecular ecology
-JID - 9214478
-RN  - 0 (Anti-Bacterial Agents)
-RN  - 0 (RNA, Ribosomal, 16S)
-SB  - IM
-MH  - Animals
-MH  - Anti-Bacterial Agents/pharmacology
-MH  - Bees/drug effects/genetics/*microbiology
-MH  - Gastrointestinal Microbiome/drug effects/*genetics
-MH  - Gastrointestinal Tract/drug effects/microbiology
-MH  - Genetic Variation/genetics
-MH  - Host Microbial Interactions/drug effects/genetics
-MH  - Neisseriaceae/drug effects/*genetics
-MH  - Phylogeny
-MH  - RNA, Ribosomal, 16S/genetics
-MH  - Symbiosis/*genetics
-PMC - PMC5935549
-MID - NIHMS921829
-OTO - NOTNLM
-OT  - *antibiotics
-OT  - *genetic diversity
-OT  - *honeybee
-OT  - *microbiome
-OT  - *population dynamics
-EDAT- 2017/11/23 06:00
-MHDA- 2019/05/02 06:00
-CRDT- 2017/11/23 06:00
-PHST- 2017/08/01 00:00 [received]
-PHST- 2017/10/24 00:00 [revised]
-PHST- 2017/11/10 00:00 [accepted]
-PHST- 2017/11/23 06:00 [pubmed]
-PHST- 2019/05/02 06:00 [medline]
-PHST- 2017/11/23 06:00 [entrez]
-AID - 10.1111/mec.14434 [doi]
-PST - ppublish
-SO  - Mol Ecol. 2018 Apr;27(8):2057-2066. doi: 10.1111/mec.14434. Epub 2017 Dec 14.
-
-PMID- 29161642
-OWN - NLM
-STAT- MEDLINE
-DCOM- 20180322
-LR  - 20181202
-IS  - 1879-3460 (Electronic)
-IS  - 0168-1605 (Linking)
-VI  - 266
-DP  - 2018 Feb 2
-TI  - Microbial diversity of consumption milk during processing and storage.
-PG  - 21-30
-LID - S0168-1605(17)30489-0 [pii]
-LID - 10.1016/j.ijfoodmicro.2017.11.004 [doi]
-AB  - Bovine milk contains a complex microbial community that affects the quality and
-      safety of the product. Detailed knowledge of this microbiota is, therefore, of
-      importance for the dairy industry. In this study, the bacterial composition of
-      consumption milk was assessed during different stages in the production line and 
-      throughout the storage in cartons by using culturing techniques and 16S rRNA
-      marker gene sequencing. Monthly samples from two dairies were analyzed to capture
-      the seasonal variations in the milk microbiota. Although there was a core
-      microbiota present in milk samples from both dairies, the composition of the
-      bacterial communities were significantly influenced by sampling month, processing
-      stage and storage temperature. Overall, a higher abundance of operational
-      taxonomic units (OTUs) within the order Bacillales was detected in samples of raw
-      and pasteurized milk from the spring and summer months, while Pseudomonadales and
-      Lactobacillales OTUs were predominant in the winter months. OTUs belonging to the
-      order Lactobacillales, Pseudomonadales, Clostridiales and Bacillales were
-      significantly more abundant in milk samples taken immediately after
-      pasteurization compared to raw milk samples. During storage of milk in cartons at
-      4 degrees C, the bacterial composition remained stable throughout the product
-      shelf life, while storage at 8 degrees C significantly increased the abundance of
-      OTUs belonging to the genus Bacillus and the plate count levels of presumptive
-      Bacillus cereus. The knowledge obtained in this work will be useful to the dairy 
-      industry during their quality assurance work and risk assessment practices.
-CI  - Copyright (c) 2017 Elsevier B.V. All rights reserved.
-FAU - Porcellato, Davide
-AU  - Porcellato D
-AD  - Faculty of Chemistry, Biotechnology and Food Science, The Norwegian University of
-      Life Sciences, P.O. Box 5003, N-1432 As, Norway. Electronic address:
-      davide.porcellato@nmbu.no.
-FAU - Aspholm, Marina
-AU  - Aspholm M
-AD  - Faculty of Veterinary Medicine, The Norwegian University of Life Sciences, P.O.
-      Box 5003, N-1432 As, Norway.
-FAU - Skeie, Siv Borghild
-AU  - Skeie SB
-AD  - Faculty of Chemistry, Biotechnology and Food Science, The Norwegian University of
-      Life Sciences, P.O. Box 5003, N-1432 As, Norway.
-FAU - Monshaugen, Marte
-AU  - Monshaugen M
-AD  - Faculty of Veterinary Medicine, The Norwegian University of Life Sciences, P.O.
-      Box 5003, N-1432 As, Norway.
-FAU - Brendehaug, Johanne
-AU  - Brendehaug J
-AD  - TINE SA, Maltidets Hus, Richard Johnsensgate 4, P.B. 8034, N-4068, Stavanger,
-      Norway.
-FAU - Mellegard, Hilde
-AU  - Mellegard H
-AD  - Faculty of Veterinary Medicine, The Norwegian University of Life Sciences, P.O.
-      Box 5003, N-1432 As, Norway.
-LA  - eng
-PT  - Journal Article
-DEP - 20171108
-PL  - Netherlands
-TA  - Int J Food Microbiol
-JT  - International journal of food microbiology
-JID - 8412849
-RN  - 0 (RNA, Ribosomal, 16S)
-SB  - IM
-MH  - Animals
-MH  - Bacillus/genetics/isolation & purification
-MH  - *Biodiversity
-MH  - Food Microbiology
-MH  - *Food Storage
-MH  - Microbiota/genetics/*physiology
-MH  - Milk/*microbiology
-MH  - Pasteurization
-MH  - RNA, Ribosomal, 16S/genetics
-MH  - Seasons
-MH  - Temperature
-OTO - NOTNLM
-OT  - Bacillus cereus
-OT  - Milk microbiota
-OT  - Milk quality
-OT  - Milk storage
-OT  - Raw milk
-EDAT- 2017/11/22 06:00
-MHDA- 2018/03/23 06:00
-CRDT- 2017/11/22 06:00
-PHST- 2017/02/27 00:00 [received]
-PHST- 2017/11/02 00:00 [revised]
-PHST- 2017/11/07 00:00 [accepted]
-PHST- 2017/11/22 06:00 [pubmed]
-PHST- 2018/03/23 06:00 [medline]
-PHST- 2017/11/22 06:00 [entrez]
-AID - S0168-1605(17)30489-0 [pii]
-AID - 10.1016/j.ijfoodmicro.2017.11.004 [doi]
-PST - ppublish
-SO  - Int J Food Microbiol. 2018 Feb 2;266:21-30. doi:
-      10.1016/j.ijfoodmicro.2017.11.004. Epub 2017 Nov 8.
-
-PMID- 29121391
-OWN - NLM
-STAT- MEDLINE
-DCOM- 20190909
-LR  - 20190909
-IS  - 1745-6584 (Electronic)
-IS  - 0017-467X (Linking)
-VI  - 56
-IP  - 5
-DP  - 2018 Sep
-TI  - Groundwater Microbial Communities Along a Generalized Flowpath in Nomhon Area,
-      Qaidam Basin, China.
-PG  - 719-731
-LID - 10.1111/gwat.12615 [doi]
-AB  - Spatial distribution (horizonal and vertical) of groundwater microbial
-      communities and the hydrogeochemistry in confined aquifers were studied
-      approximately along the groundwater flow path from coteau to plain in the Nomhon 
-      area, Qinghai-Tibet plateau, China. The confined groundwater samples at different
-      depths and locations were collected in three boreholes through a hydrogeological 
-      section in this arid and semi-arid area. The phylogenetic analysis of 16S rRNA
-      genes and multivariate statistical analysis were used to elucidate similarities
-      and differences between groundwater microbial communities and hydrogeochemical
-      properties. The integrated isotopic geochemical measurements were applied to
-      estimate the source and recharge characteristics of groundwater. The results
-      showed that groundwater varied from fresh to saline water, and modern water to
-      ancient water following the flowpath. The recharge characteristics of the saline 
-      water was distinct with that of fresh water. Cell abundance did not vary greatly 
-      along the hydrogeochemical zonality; however, dissimilarities in habitat-based
-      microbial community structures were evident, changing from Betaproteobacteria in 
-      the apex of alluvial fan to Gammaproteobacteria and then to Epsilonproteobacteria
-      in the core of the basin (alluvial-lacustrine plain). Rhodoferax, Hydrogenophaga,
-      Pseudomonas, and bacterium isolated from similar habitats unevenly thrived in the
-      spatially distinct fresh water environments, while Sulfurimonas dominanted in the
-      saline water environment. The microbial communities presented likely reflected to
-      the hydrogeochemical similarities and zonalities along groundwater flowpath.
-CI  - (c) 2017, National Ground Water Association.
-FAU - Sheng, Yizhi
-AU  - Sheng Y
-AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
-      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
-      100083, China.
-AD  - School of Water Resources and Environment, China University of Geosciences,
-      Beijing, 100083, China.
-AD  - School of Environment, Tsinghua University, Beijing, 100084, China.
-FAU - Wang, Guangcai
-AU  - Wang G
-AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
-      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
-      100083, China.
-AD  - School of Water Resources and Environment, China University of Geosciences,
-      Beijing, 100083, China.
-FAU - Zhao, Dan
-AU  - Zhao D
-AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
-      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
-      100083, China.
-AD  - School of Water Resources and Environment, China University of Geosciences,
-      Beijing, 100083, China.
-FAU - Hao, Chunbo
-AU  - Hao C
-AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
-      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
-      100083, China.
-AD  - School of Water Resources and Environment, China University of Geosciences,
-      Beijing, 100083, China.
-FAU - Liu, Chenglong
-AU  - Liu C
-AD  - Institute of Geology, China Earthquake Administration, Beijing, 100029, China.
-FAU - Cui, Linfeng
-AU  - Cui L
-AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
-      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
-      100083, China.
-AD  - School of Water Resources and Environment, China University of Geosciences,
-      Beijing, 100083, China.
-FAU - Zhang, Ge
-AU  - Zhang G
-AD  - Xi'an Center of Geological Survey, China Geological Survey, Xi'an, 710054, China.
-LA  - eng
-GR  - 41672243, 41702262, U1602233/National Natural Science Foundation of
-      China/International
-GR  - 1212011121277/China Geological Survey/International
-GR  - 2017M610927/China Postdoctoral Science Foundation funded project/International
-GR  - China Scholarship Council/International
-PT  - Journal Article
-PT  - Research Support, Non-U.S. Gov't
-DEP - 20171109
-PL  - United States
-TA  - Ground Water
-JT  - Ground water
-JID - 9882886
-RN  - 0 (RNA, Ribosomal, 16S)
-RN  - 0 (Water Pollutants, Chemical)
-SB  - IM
-MH  - China
-MH  - Environmental Monitoring
-MH  - *Groundwater
-MH  - *Microbiota
-MH  - Phylogeny
-MH  - RNA, Ribosomal, 16S
-MH  - *Water Pollutants, Chemical
-EDAT- 2017/11/10 06:00
-MHDA- 2019/09/10 06:00
-CRDT- 2017/11/10 06:00
-PHST- 2017/04/06 00:00 [received]
-PHST- 2017/10/08 00:00 [revised]
-PHST- 2017/10/11 00:00 [accepted]
-PHST- 2017/11/10 06:00 [pubmed]
-PHST- 2019/09/10 06:00 [medline]
-PHST- 2017/11/10 06:00 [entrez]
-AID - 10.1111/gwat.12615 [doi]
-PST - ppublish
-SO  - Ground Water. 2018 Sep;56(5):719-731. doi: 10.1111/gwat.12615. Epub 2017 Nov 9.
-
-PMID- 29090848
-OWN - NLM
-STAT- MEDLINE
-DCOM- 20190328
-LR  - 20190328
-IS  - 1744-7917 (Electronic)
-IS  - 1672-9609 (Linking)
-VI  - 26
-IP  - 3
-DP  - 2019 Jun
-TI  - Evidence for a conserved microbiota across the different developmental stages of 
-      Plodia interpunctella.
-PG  - 466-478
-LID - 10.1111/1744-7917.12551 [doi]
-AB  - Diversity and composition of lepidopteran microbiotas are poorly investigated,
-      especially across the different developmental stages. To improve this knowledge, 
-      we characterize the microbiota among different developmental stages of the Indian
-      meal moth, Plodia interpunctella, which is considered one of the major pest of
-      commodities worldwide. Using culture-independent approach based on Illumina 16S
-      rRNA gene sequencing we characterized the microbiota of four developmental
-      stages: eggs, first-, and last-instar larvae, and adult. A total of 1022
-      bacterial OTUs were obtained, showing a quite diversified microbiota associated
-      to all the analyzed stages. The microbiotas associated with P. interpunctella
-      resulted almost constant throughout the developmental stages, with approximately 
-      77% of bacterial OTUs belonging to the phylum of Proteobacteria. The dominant
-      bacterial genus is represented by Burkholderia ( approximately 64%), followed by 
-      Propionibacterium, Delftia, Pseudomonas, and Stenotrophomonas. A core bacterial
-      community, composed of 139 OTUs, was detected in all the developmental stages,
-      among which 112 OTUs were assigned to the genus Burkholderia. A phylogenetic
-      reconstruction, based on the 16S rRNA, revealed that our Burkholderia OTUs
-      clustered with Burkholderia cepacia complex, in the same group of those isolated 
-      from the hemipterans Gossyparia spuria and Acanthococcus aceris. The functional
-      profiling, predicted on the base of the bacterial 16S rRNA, indicates differences
-      in the metabolic pathways related to metabolism of amino acids between
-      preimaginal and adult stages. We can hypothesize that bacteria may support the
-      insect host during preimaginal stages.
-CI  - (c) 2017 Institute of Zoology, Chinese Academy of Sciences.
-FAU - Mereghetti, Valeria
-AU  - Mereghetti V
-AD  - Dipartimento di Scienze Agrarie e Ambientali, Universita degli Studi di Milano,
-      Milan, Italy.
-FAU - Chouaia, Bessem
-AU  - Chouaia B
-AD  - Dipartimento di Scienze Agrarie e Ambientali, Universita degli Studi di Milano,
-      Milan, Italy.
-FAU - Limonta, Lidia
-AU  - Limonta L
-AD  - Dipartimento di Scienze per gli Alimenti la Nutrizione, l'Ambiente, Universita
-      degli Studi di Milano, Milan, Italy.
-FAU - Locatelli, Daria Patrizia
-AU  - Locatelli DP
-AD  - Dipartimento di Scienze per gli Alimenti la Nutrizione, l'Ambiente, Universita
-      degli Studi di Milano, Milan, Italy.
-FAU - Montagna, Matteo
-AU  - Montagna M
-AUID- ORCID: http://orcid.org/0000-0003-4465-7146
-AD  - Dipartimento di Scienze Agrarie e Ambientali, Universita degli Studi di Milano,
-      Milan, Italy.
-LA  - eng
-GR  - 15-6-3014000/Department of Agricultural and Environmental Sciences, University of
-      Milan
-PT  - Journal Article
-DEP - 20171218
-PL  - Australia
-TA  - Insect Sci
-JT  - Insect science
-JID - 101266965
-SB  - IM
-MH  - Animals
-MH  - Bacteria/metabolism
-MH  - Burkholderia/genetics
-MH  - Female
-MH  - Larva/microbiology
-MH  - Male
-MH  - *Microbiota
-MH  - Moths/growth & development/*microbiology
-MH  - Ovum/microbiology
-OTO - NOTNLM
-OT  - Burkholderia
-OT  - Illumina sequencing
-OT  - Indian meal moth
-OT  - Proteobacteria
-OT  - insect symbiosis
-EDAT- 2017/11/02 06:00
-MHDA- 2019/03/29 06:00
-CRDT- 2017/11/02 06:00
-PHST- 2017/07/07 00:00 [received]
-PHST- 2017/08/24 00:00 [revised]
-PHST- 2017/09/17 00:00 [accepted]
-PHST- 2017/11/02 06:00 [pubmed]
-PHST- 2019/03/29 06:00 [medline]
-PHST- 2017/11/02 06:00 [entrez]
-AID - 10.1111/1744-7917.12551 [doi]
-PST - ppublish
-SO  - Insect Sci. 2019 Jun;26(3):466-478. doi: 10.1111/1744-7917.12551. Epub 2017 Dec
-      18.

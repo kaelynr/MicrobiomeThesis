@@ -1,7 +1,10 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "Statistical Analyses"
+author: "Kaelyn Racine, Alicia Halhed"
+date: "15/03/2021"
+output: html_document
 ---
+
 ```{r}
 #set working directory and bring in the Excel Sheet
 #setwd("~/University/University 2020-2021/thesis/MicrobiomeThesis")
@@ -45,6 +48,7 @@ Types of core: Common, temporal, ecological, functional, host-adapted
 FOS <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$FieldOfStudy) %>% chisq.test()
 FOS
 ```
+
 ```{r}
 HT <- table(ResultsMicrobiome$CombinedCore, ResultsMicrobiome$HostType) %>% chisq.test()
 HT

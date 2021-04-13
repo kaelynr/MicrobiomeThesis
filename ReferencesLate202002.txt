@@ -1,4 +1,616 @@
 
+PMID- 29258007
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180517
+LR  - 20181202
+IS  - 1879-1298 (Electronic)
+IS  - 0045-6535 (Linking)
+VI  - 195
+DP  - 2018 Mar
+TI  - Deciphering the core fouling-causing microbiota in a membrane bioreactor: Low
+      abundance but important roles.
+PG  - 108-118
+LID - S0045-6535(17)32037-4 [pii]
+LID - 10.1016/j.chemosphere.2017.12.067 [doi]
+AB  - Currently, membrane biofouling in membrane bioreactors (MBRs) is normally
+      attributed to the occurrence of abundant bacterial species on membranes, whereas 
+      the roles of low-abundance bacteria have not been paid sufficient attention. In
+      this study, the linear discriminant analysis (LDA) effect size (LEfSe) algorithm 
+      was used to identify active biomarkers, determining 67 different phylotypes among
+      Bulk sludge, low-fouling Bio-cake (10 kPa), high-fouling Bio-cake (25 kPa) and
+      Membrane pore in a membrane bioreactor with NaOCl backwash. Interestingly, a
+      large proportion of the active biomarkers in bio-cake samples, such as
+      Methylophilaceae, Burkholderiaceae, Paucibacter and Pseudoxanthomonas, did not
+      fall within the abundant taxa (i.e., <0.05% relative abundance), indicating the
+      preferential growth of these low-abundance bacteria on the membrane surface.
+      Furthermore, the characterization of microbial interactions using a random matrix
+      theory (RMT)-based network approach obtained a network consisting of 120 nodes
+      and 228 edges. Specifically, network analysis showed the presence of an intense
+      competition among bacterial species in the fouling-related communities,
+      suggesting that negative interactions have an important effect on determining the
+      microbial community structure. More importantly, the LEfSe algorithm and network 
+      analysis showed that most of the core species of the bio-cake, such as
+      Burkholderiaceae, Bacillus and Rhodothermaceae, merely amounted to a very low
+      relative abundance (<1%), suggesting their unrecognized and over-proportional
+      ecological role in triggering the initial biofilm formation and subsequent
+      biofilm maturation during MBR operation. Overall, this work should improve our
+      understanding of the bacterial community structure on the fouled membranes in
+      MBRs.
+CI  - Copyright (c) 2017 Elsevier Ltd. All rights reserved.
+FAU - Zhang, Shaoqing
+AU  - Zhang S
+AD  - School of Environmental Science and Engineering, Sun Yat-sen University,
+      Guangzhou, 510275, PR China; Guangdong Provincial Key Laboratory of Environmental
+      Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou, 
+      510275, PR China.
+FAU - Zhou, Zhongbo
+AU  - Zhou Z
+AD  - School of Environmental Science and Engineering, Sun Yat-sen University,
+      Guangzhou, 510275, PR China; Guangdong Provincial Key Laboratory of Environmental
+      Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou, 
+      510275, PR China.
+FAU - Li, Yi
+AU  - Li Y
+AD  - Key Laboratory of Integrated Regulation and Resource Development on Shallow
+      Lakes, Ministry of Education, College of Environment, Hohai University, Nanjing, 
+      China.
+FAU - Meng, Fangang
+AU  - Meng F
+AD  - School of Environmental Science and Engineering, Sun Yat-sen University,
+      Guangzhou, 510275, PR China; Guangdong Provincial Key Laboratory of Environmental
+      Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou, 
+      510275, PR China. Electronic address: mengfg@mail.sysu.edu.cn.
+LA  - eng
+PT  - Journal Article
+DEP - 20171211
+PL  - England
+TA  - Chemosphere
+JT  - Chemosphere
+JID - 0320657
+RN  - 0 (Membranes, Artificial)
+RN  - 0 (Sewage)
+SB  - IM
+MH  - Bacteria/growth & development
+MH  - Biofilms/growth & development
+MH  - *Biofouling
+MH  - Bioreactors/*microbiology
+MH  - *Membranes, Artificial
+MH  - *Microbiota
+MH  - Sewage/microbiology
+OTO - NOTNLM
+OT  - Chemical backwash
+OT  - Ecological network
+OT  - Fouling microbiota
+OT  - Membrane bioreactors
+OT  - Membrane fouling
+EDAT- 2017/12/20 06:00
+MHDA- 2018/05/18 06:00
+CRDT- 2017/12/20 06:00
+PHST- 2017/10/11 00:00 [received]
+PHST- 2017/12/06 00:00 [revised]
+PHST- 2017/12/11 00:00 [accepted]
+PHST- 2017/12/20 06:00 [pubmed]
+PHST- 2018/05/18 06:00 [medline]
+PHST- 2017/12/20 06:00 [entrez]
+AID - S0045-6535(17)32037-4 [pii]
+AID - 10.1016/j.chemosphere.2017.12.067 [doi]
+PST - ppublish
+SO  - Chemosphere. 2018 Mar;195:108-118. doi: 10.1016/j.chemosphere.2017.12.067. Epub
+      2017 Dec 11.
+
+PMID- 29172724
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190116
+LR  - 20190116
+IS  - 1460-2202 (Electronic)
+IS  - 0271-3683 (Linking)
+VI  - 43
+IP  - 3
+DP  - 2018 Mar
+TI  - Distribution and Diversity of Ocular Microbial Communities in Diabetic Patients
+      Compared with Healthy Subjects.
+PG  - 314-324
+LID - 10.1080/02713683.2017.1406528 [doi]
+AB  - PURPOSE: The aim of this study was to identify differences in the major (core vs.
+      variable) microbial genera of human subjects with and without diabetes. METHODS: 
+      Bacterial 16S rRNA genes obtained from conjunctival swabs of 19 healthy subjects 
+      and 30 diabetic patients were sequenced using the Illumina MiSeq platform, and
+      the sequencing data were analyzed using QIIME 1.9.1. To elucidate the microbial
+      diversity in the ocular surface (OS), test programs from various bioinformatics
+      domains were used. RESULTS: Diversity index and rarefaction analysis showed that 
+      the microbial community of the diabetic patients was more diverse than that of
+      the healthy subjects. Proteobacteria, Firmicutes, Actinobacteria, Cyanobacteria
+      and Bacteroidetes were the dominant taxa present in the OS, and there was a
+      significant difference in the relative abundance of the bacterial phyla between
+      the diabetic patients and control subjects. Proteobacteria were more abundant in 
+      the diabetic group, whereas Firmicutes was more abundant in the control group.
+      Analysis of bacterial taxa at the genus level showed that the core microbiome of 
+      diabetic patients comprised Acinetobacter, Burkholderia, Sphingomonas, and
+      Ralstonia, whereas that of the controls comprised Bradyrhizobiaceae,
+      Staphylococcus, Corynebacterium, Pseudomonas, Novosphingobium, Neisseriaceae, and
+      Acinetobacter. CONCLUSIONS: There was a significant difference in the microbial
+      community composition between diabetic patients and healthy subjects. A high
+      abundance of Acinetobacter in the OS of diabetic patients may arise from the
+      unique characteristics of the OS compared with those of other organ surfaces.
+FAU - Ham, Baknoon
+AU  - Ham B
+AD  - a Green School, Korea University , Seoul , Republic of Korea.
+AD  - b Natural Product Research Center, Korea Institute of Science and Technology ,
+      Gangneung , Republic of Korea.
+FAU - Hwang, Hyung Bin
+AU  - Hwang HB
+AD  - c Department of Ophthalmology , Incheon St. Mary's Hospital The Catholic
+      University of Korea , Incheon , Republic of Korea.
+FAU - Jung, Sang Hoon
+AU  - Jung SH
+AD  - b Natural Product Research Center, Korea Institute of Science and Technology ,
+      Gangneung , Republic of Korea.
+FAU - Chang, Sungyul
+AU  - Chang S
+AD  - b Natural Product Research Center, Korea Institute of Science and Technology ,
+      Gangneung , Republic of Korea.
+FAU - Kang, Kui Dong
+AU  - Kang KD
+AD  - c Department of Ophthalmology , Incheon St. Mary's Hospital The Catholic
+      University of Korea , Incheon , Republic of Korea.
+FAU - Kwon, Man Jae
+AU  - Kwon MJ
+AD  - a Green School, Korea University , Seoul , Republic of Korea.
+AD  - d Department of Earth and Environmental Sciences , Korea University , Seoul ,
+      Republic of Korea.
+LA  - eng
+PT  - Comparative Study
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20171127
+PL  - England
+TA  - Curr Eye Res
+JT  - Current eye research
+JID - 8104312
+RN  - 0 (RNA, Ribosomal, 16S)
+SB  - IM
+MH  - Adult
+MH  - Aged
+MH  - Bacteria/*genetics
+MH  - Conjunctiva/*microbiology
+MH  - Diabetes Mellitus, Type 2/*complications
+MH  - Eye Infections, Bacterial/etiology/*microbiology
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - *Microbiota
+MH  - Middle Aged
+MH  - RNA, Ribosomal, 16S/*analysis
+MH  - Young Adult
+OTO - NOTNLM
+OT  - *Bacterial diversity
+OT  - *Bradyrhizobiaceae
+OT  - *Burkholderia
+OT  - *LFR analysis
+OT  - *Staphylococcus
+EDAT- 2017/11/28 06:00
+MHDA- 2019/01/17 06:00
+CRDT- 2017/11/28 06:00
+PHST- 2017/11/28 06:00 [pubmed]
+PHST- 2019/01/17 06:00 [medline]
+PHST- 2017/11/28 06:00 [entrez]
+AID - 10.1080/02713683.2017.1406528 [doi]
+PST - ppublish
+SO  - Curr Eye Res. 2018 Mar;43(3):314-324. doi: 10.1080/02713683.2017.1406528. Epub
+      2017 Nov 27.
+
+PMID- 29164717
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190501
+LR  - 20190501
+IS  - 1365-294X (Electronic)
+IS  - 0962-1083 (Linking)
+VI  - 27
+IP  - 8
+DP  - 2018 Apr
+TI  - Antibiotics reduce genetic diversity of core species in the honeybee gut
+      microbiome.
+PG  - 2057-2066
+LID - 10.1111/mec.14434 [doi]
+AB  - The gut microbiome plays a key role in animal health, and perturbing it can have 
+      detrimental effects. One major source of perturbation to microbiomes, in humans
+      and human-associated animals, is exposure to antibiotics. Most studies of how
+      antibiotics affect the microbiome have used amplicon sequencing of highly
+      conserved 16S rRNA sequences, as in a recent study showing that antibiotic
+      treatment severely alters the species-level composition of the honeybee gut
+      microbiome. But because the standard 16S rRNA-based methods cannot resolve
+      closely related strains, strain-level changes could not be evaluated. To address 
+      this gap, we used amplicon sequencing of protein-coding genes to assess effects
+      of antibiotics on fine-scale genetic diversity of the honeybee gut microbiota. We
+      followed the population dynamics of alleles within two dominant core species of
+      the bee gut community, Gilliamella apicola and Snodgrassella alvi, following
+      antibiotic perturbation. Whereas we observed a large reduction in genetic
+      diversity in G. apicola, S. alvi diversity was mostly unaffected. The reduction
+      in G. apicola diversity accompanied an increase in the frequency of several
+      alleles, suggesting resistance to antibiotic treatment. We find that antibiotic
+      perturbation can cause major shifts in diversity and that the extent of these
+      shifts can vary substantially across species. Thus, antibiotics impact not only
+      species composition, but also allelic diversity within species, potentially
+      affecting hosts if variants with particular functions are reduced or eliminated. 
+      Overall, we show that amplicon sequencing of protein-coding genes, without
+      clustering into operational taxonomic units, provides an accurate picture of the 
+      fine-scale dynamics of microbial communities over time.
+CI  - (c) 2017 John Wiley & Sons Ltd.
+FAU - Raymann, Kasie
+AU  - Raymann K
+AUID- ORCID: 0000-0001-7008-2783
+AD  - Department of Integrative Biology, University of Texas at Austin, Austin, TX,
+      USA.
+FAU - Bobay, Louis-Marie
+AU  - Bobay LM
+AD  - Department of Integrative Biology, University of Texas at Austin, Austin, TX,
+      USA.
+FAU - Moran, Nancy A
+AU  - Moran NA
+AUID- ORCID: 0000-0003-2983-9769
+AD  - Department of Integrative Biology, University of Texas at Austin, Austin, TX,
+      USA.
+LA  - eng
+GR  - R01 GM108477/GM/NIGMS NIH HHS/United States
+GR  - R35 GM118038/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, U.S. Gov't, Non-P.H.S.
+DEP - 20171214
+PL  - England
+TA  - Mol Ecol
+JT  - Molecular ecology
+JID - 9214478
+RN  - 0 (Anti-Bacterial Agents)
+RN  - 0 (RNA, Ribosomal, 16S)
+SB  - IM
+MH  - Animals
+MH  - Anti-Bacterial Agents/pharmacology
+MH  - Bees/drug effects/genetics/*microbiology
+MH  - Gastrointestinal Microbiome/drug effects/*genetics
+MH  - Gastrointestinal Tract/drug effects/microbiology
+MH  - Genetic Variation/genetics
+MH  - Host Microbial Interactions/drug effects/genetics
+MH  - Neisseriaceae/drug effects/*genetics
+MH  - Phylogeny
+MH  - RNA, Ribosomal, 16S/genetics
+MH  - Symbiosis/*genetics
+PMC - PMC5935549
+MID - NIHMS921829
+OTO - NOTNLM
+OT  - *antibiotics
+OT  - *genetic diversity
+OT  - *honeybee
+OT  - *microbiome
+OT  - *population dynamics
+EDAT- 2017/11/23 06:00
+MHDA- 2019/05/02 06:00
+CRDT- 2017/11/23 06:00
+PHST- 2017/08/01 00:00 [received]
+PHST- 2017/10/24 00:00 [revised]
+PHST- 2017/11/10 00:00 [accepted]
+PHST- 2017/11/23 06:00 [pubmed]
+PHST- 2019/05/02 06:00 [medline]
+PHST- 2017/11/23 06:00 [entrez]
+AID - 10.1111/mec.14434 [doi]
+PST - ppublish
+SO  - Mol Ecol. 2018 Apr;27(8):2057-2066. doi: 10.1111/mec.14434. Epub 2017 Dec 14.
+
+PMID- 29161642
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180322
+LR  - 20181202
+IS  - 1879-3460 (Electronic)
+IS  - 0168-1605 (Linking)
+VI  - 266
+DP  - 2018 Feb 2
+TI  - Microbial diversity of consumption milk during processing and storage.
+PG  - 21-30
+LID - S0168-1605(17)30489-0 [pii]
+LID - 10.1016/j.ijfoodmicro.2017.11.004 [doi]
+AB  - Bovine milk contains a complex microbial community that affects the quality and
+      safety of the product. Detailed knowledge of this microbiota is, therefore, of
+      importance for the dairy industry. In this study, the bacterial composition of
+      consumption milk was assessed during different stages in the production line and 
+      throughout the storage in cartons by using culturing techniques and 16S rRNA
+      marker gene sequencing. Monthly samples from two dairies were analyzed to capture
+      the seasonal variations in the milk microbiota. Although there was a core
+      microbiota present in milk samples from both dairies, the composition of the
+      bacterial communities were significantly influenced by sampling month, processing
+      stage and storage temperature. Overall, a higher abundance of operational
+      taxonomic units (OTUs) within the order Bacillales was detected in samples of raw
+      and pasteurized milk from the spring and summer months, while Pseudomonadales and
+      Lactobacillales OTUs were predominant in the winter months. OTUs belonging to the
+      order Lactobacillales, Pseudomonadales, Clostridiales and Bacillales were
+      significantly more abundant in milk samples taken immediately after
+      pasteurization compared to raw milk samples. During storage of milk in cartons at
+      4 degrees C, the bacterial composition remained stable throughout the product
+      shelf life, while storage at 8 degrees C significantly increased the abundance of
+      OTUs belonging to the genus Bacillus and the plate count levels of presumptive
+      Bacillus cereus. The knowledge obtained in this work will be useful to the dairy 
+      industry during their quality assurance work and risk assessment practices.
+CI  - Copyright (c) 2017 Elsevier B.V. All rights reserved.
+FAU - Porcellato, Davide
+AU  - Porcellato D
+AD  - Faculty of Chemistry, Biotechnology and Food Science, The Norwegian University of
+      Life Sciences, P.O. Box 5003, N-1432 As, Norway. Electronic address:
+      davide.porcellato@nmbu.no.
+FAU - Aspholm, Marina
+AU  - Aspholm M
+AD  - Faculty of Veterinary Medicine, The Norwegian University of Life Sciences, P.O.
+      Box 5003, N-1432 As, Norway.
+FAU - Skeie, Siv Borghild
+AU  - Skeie SB
+AD  - Faculty of Chemistry, Biotechnology and Food Science, The Norwegian University of
+      Life Sciences, P.O. Box 5003, N-1432 As, Norway.
+FAU - Monshaugen, Marte
+AU  - Monshaugen M
+AD  - Faculty of Veterinary Medicine, The Norwegian University of Life Sciences, P.O.
+      Box 5003, N-1432 As, Norway.
+FAU - Brendehaug, Johanne
+AU  - Brendehaug J
+AD  - TINE SA, Maltidets Hus, Richard Johnsensgate 4, P.B. 8034, N-4068, Stavanger,
+      Norway.
+FAU - Mellegard, Hilde
+AU  - Mellegard H
+AD  - Faculty of Veterinary Medicine, The Norwegian University of Life Sciences, P.O.
+      Box 5003, N-1432 As, Norway.
+LA  - eng
+PT  - Journal Article
+DEP - 20171108
+PL  - Netherlands
+TA  - Int J Food Microbiol
+JT  - International journal of food microbiology
+JID - 8412849
+RN  - 0 (RNA, Ribosomal, 16S)
+SB  - IM
+MH  - Animals
+MH  - Bacillus/genetics/isolation & purification
+MH  - *Biodiversity
+MH  - Food Microbiology
+MH  - *Food Storage
+MH  - Microbiota/genetics/*physiology
+MH  - Milk/*microbiology
+MH  - Pasteurization
+MH  - RNA, Ribosomal, 16S/genetics
+MH  - Seasons
+MH  - Temperature
+OTO - NOTNLM
+OT  - Bacillus cereus
+OT  - Milk microbiota
+OT  - Milk quality
+OT  - Milk storage
+OT  - Raw milk
+EDAT- 2017/11/22 06:00
+MHDA- 2018/03/23 06:00
+CRDT- 2017/11/22 06:00
+PHST- 2017/02/27 00:00 [received]
+PHST- 2017/11/02 00:00 [revised]
+PHST- 2017/11/07 00:00 [accepted]
+PHST- 2017/11/22 06:00 [pubmed]
+PHST- 2018/03/23 06:00 [medline]
+PHST- 2017/11/22 06:00 [entrez]
+AID - S0168-1605(17)30489-0 [pii]
+AID - 10.1016/j.ijfoodmicro.2017.11.004 [doi]
+PST - ppublish
+SO  - Int J Food Microbiol. 2018 Feb 2;266:21-30. doi:
+      10.1016/j.ijfoodmicro.2017.11.004. Epub 2017 Nov 8.
+
+PMID- 29121391
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190909
+LR  - 20190909
+IS  - 1745-6584 (Electronic)
+IS  - 0017-467X (Linking)
+VI  - 56
+IP  - 5
+DP  - 2018 Sep
+TI  - Groundwater Microbial Communities Along a Generalized Flowpath in Nomhon Area,
+      Qaidam Basin, China.
+PG  - 719-731
+LID - 10.1111/gwat.12615 [doi]
+AB  - Spatial distribution (horizonal and vertical) of groundwater microbial
+      communities and the hydrogeochemistry in confined aquifers were studied
+      approximately along the groundwater flow path from coteau to plain in the Nomhon 
+      area, Qinghai-Tibet plateau, China. The confined groundwater samples at different
+      depths and locations were collected in three boreholes through a hydrogeological 
+      section in this arid and semi-arid area. The phylogenetic analysis of 16S rRNA
+      genes and multivariate statistical analysis were used to elucidate similarities
+      and differences between groundwater microbial communities and hydrogeochemical
+      properties. The integrated isotopic geochemical measurements were applied to
+      estimate the source and recharge characteristics of groundwater. The results
+      showed that groundwater varied from fresh to saline water, and modern water to
+      ancient water following the flowpath. The recharge characteristics of the saline 
+      water was distinct with that of fresh water. Cell abundance did not vary greatly 
+      along the hydrogeochemical zonality; however, dissimilarities in habitat-based
+      microbial community structures were evident, changing from Betaproteobacteria in 
+      the apex of alluvial fan to Gammaproteobacteria and then to Epsilonproteobacteria
+      in the core of the basin (alluvial-lacustrine plain). Rhodoferax, Hydrogenophaga,
+      Pseudomonas, and bacterium isolated from similar habitats unevenly thrived in the
+      spatially distinct fresh water environments, while Sulfurimonas dominanted in the
+      saline water environment. The microbial communities presented likely reflected to
+      the hydrogeochemical similarities and zonalities along groundwater flowpath.
+CI  - (c) 2017, National Ground Water Association.
+FAU - Sheng, Yizhi
+AU  - Sheng Y
+AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
+      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
+      100083, China.
+AD  - School of Water Resources and Environment, China University of Geosciences,
+      Beijing, 100083, China.
+AD  - School of Environment, Tsinghua University, Beijing, 100084, China.
+FAU - Wang, Guangcai
+AU  - Wang G
+AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
+      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
+      100083, China.
+AD  - School of Water Resources and Environment, China University of Geosciences,
+      Beijing, 100083, China.
+FAU - Zhao, Dan
+AU  - Zhao D
+AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
+      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
+      100083, China.
+AD  - School of Water Resources and Environment, China University of Geosciences,
+      Beijing, 100083, China.
+FAU - Hao, Chunbo
+AU  - Hao C
+AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
+      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
+      100083, China.
+AD  - School of Water Resources and Environment, China University of Geosciences,
+      Beijing, 100083, China.
+FAU - Liu, Chenglong
+AU  - Liu C
+AD  - Institute of Geology, China Earthquake Administration, Beijing, 100029, China.
+FAU - Cui, Linfeng
+AU  - Cui L
+AD  - State Key Laboratory of Biogeology and Environmental Geology & Key Laboratory of 
+      Groundwater Circulation and Evolution, China University of Geosciences, Beijing, 
+      100083, China.
+AD  - School of Water Resources and Environment, China University of Geosciences,
+      Beijing, 100083, China.
+FAU - Zhang, Ge
+AU  - Zhang G
+AD  - Xi'an Center of Geological Survey, China Geological Survey, Xi'an, 710054, China.
+LA  - eng
+GR  - 41672243, 41702262, U1602233/National Natural Science Foundation of
+      China/International
+GR  - 1212011121277/China Geological Survey/International
+GR  - 2017M610927/China Postdoctoral Science Foundation funded project/International
+GR  - China Scholarship Council/International
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20171109
+PL  - United States
+TA  - Ground Water
+JT  - Ground water
+JID - 9882886
+RN  - 0 (RNA, Ribosomal, 16S)
+RN  - 0 (Water Pollutants, Chemical)
+SB  - IM
+MH  - China
+MH  - Environmental Monitoring
+MH  - *Groundwater
+MH  - *Microbiota
+MH  - Phylogeny
+MH  - RNA, Ribosomal, 16S
+MH  - *Water Pollutants, Chemical
+EDAT- 2017/11/10 06:00
+MHDA- 2019/09/10 06:00
+CRDT- 2017/11/10 06:00
+PHST- 2017/04/06 00:00 [received]
+PHST- 2017/10/08 00:00 [revised]
+PHST- 2017/10/11 00:00 [accepted]
+PHST- 2017/11/10 06:00 [pubmed]
+PHST- 2019/09/10 06:00 [medline]
+PHST- 2017/11/10 06:00 [entrez]
+AID - 10.1111/gwat.12615 [doi]
+PST - ppublish
+SO  - Ground Water. 2018 Sep;56(5):719-731. doi: 10.1111/gwat.12615. Epub 2017 Nov 9.
+
+PMID- 29090848
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190328
+LR  - 20190328
+IS  - 1744-7917 (Electronic)
+IS  - 1672-9609 (Linking)
+VI  - 26
+IP  - 3
+DP  - 2019 Jun
+TI  - Evidence for a conserved microbiota across the different developmental stages of 
+      Plodia interpunctella.
+PG  - 466-478
+LID - 10.1111/1744-7917.12551 [doi]
+AB  - Diversity and composition of lepidopteran microbiotas are poorly investigated,
+      especially across the different developmental stages. To improve this knowledge, 
+      we characterize the microbiota among different developmental stages of the Indian
+      meal moth, Plodia interpunctella, which is considered one of the major pest of
+      commodities worldwide. Using culture-independent approach based on Illumina 16S
+      rRNA gene sequencing we characterized the microbiota of four developmental
+      stages: eggs, first-, and last-instar larvae, and adult. A total of 1022
+      bacterial OTUs were obtained, showing a quite diversified microbiota associated
+      to all the analyzed stages. The microbiotas associated with P. interpunctella
+      resulted almost constant throughout the developmental stages, with approximately 
+      77% of bacterial OTUs belonging to the phylum of Proteobacteria. The dominant
+      bacterial genus is represented by Burkholderia ( approximately 64%), followed by 
+      Propionibacterium, Delftia, Pseudomonas, and Stenotrophomonas. A core bacterial
+      community, composed of 139 OTUs, was detected in all the developmental stages,
+      among which 112 OTUs were assigned to the genus Burkholderia. A phylogenetic
+      reconstruction, based on the 16S rRNA, revealed that our Burkholderia OTUs
+      clustered with Burkholderia cepacia complex, in the same group of those isolated 
+      from the hemipterans Gossyparia spuria and Acanthococcus aceris. The functional
+      profiling, predicted on the base of the bacterial 16S rRNA, indicates differences
+      in the metabolic pathways related to metabolism of amino acids between
+      preimaginal and adult stages. We can hypothesize that bacteria may support the
+      insect host during preimaginal stages.
+CI  - (c) 2017 Institute of Zoology, Chinese Academy of Sciences.
+FAU - Mereghetti, Valeria
+AU  - Mereghetti V
+AD  - Dipartimento di Scienze Agrarie e Ambientali, Universita degli Studi di Milano,
+      Milan, Italy.
+FAU - Chouaia, Bessem
+AU  - Chouaia B
+AD  - Dipartimento di Scienze Agrarie e Ambientali, Universita degli Studi di Milano,
+      Milan, Italy.
+FAU - Limonta, Lidia
+AU  - Limonta L
+AD  - Dipartimento di Scienze per gli Alimenti la Nutrizione, l'Ambiente, Universita
+      degli Studi di Milano, Milan, Italy.
+FAU - Locatelli, Daria Patrizia
+AU  - Locatelli DP
+AD  - Dipartimento di Scienze per gli Alimenti la Nutrizione, l'Ambiente, Universita
+      degli Studi di Milano, Milan, Italy.
+FAU - Montagna, Matteo
+AU  - Montagna M
+AUID- ORCID: http://orcid.org/0000-0003-4465-7146
+AD  - Dipartimento di Scienze Agrarie e Ambientali, Universita degli Studi di Milano,
+      Milan, Italy.
+LA  - eng
+GR  - 15-6-3014000/Department of Agricultural and Environmental Sciences, University of
+      Milan
+PT  - Journal Article
+DEP - 20171218
+PL  - Australia
+TA  - Insect Sci
+JT  - Insect science
+JID - 101266965
+SB  - IM
+MH  - Animals
+MH  - Bacteria/metabolism
+MH  - Burkholderia/genetics
+MH  - Female
+MH  - Larva/microbiology
+MH  - Male
+MH  - *Microbiota
+MH  - Moths/growth & development/*microbiology
+MH  - Ovum/microbiology
+OTO - NOTNLM
+OT  - Burkholderia
+OT  - Illumina sequencing
+OT  - Indian meal moth
+OT  - Proteobacteria
+OT  - insect symbiosis
+EDAT- 2017/11/02 06:00
+MHDA- 2019/03/29 06:00
+CRDT- 2017/11/02 06:00
+PHST- 2017/07/07 00:00 [received]
+PHST- 2017/08/24 00:00 [revised]
+PHST- 2017/09/17 00:00 [accepted]
+PHST- 2017/11/02 06:00 [pubmed]
+PHST- 2019/03/29 06:00 [medline]
+PHST- 2017/11/02 06:00 [entrez]
+AID - 10.1111/1744-7917.12551 [doi]
+PST - ppublish
+SO  - Insect Sci. 2019 Jun;26(3):466-478. doi: 10.1111/1744-7917.12551. Epub 2017 Dec
+      18.
+
 PMID- 28968945
 OWN - NLM
 STAT- MEDLINE

@@ -1,6 +1,6 @@
 ---
 title: "Late 2020"
-author: "Alicia Halhed"
+author: "Kaelyn Racine, Alicia Halhed"
 date: "15/01/2021"
 output: html_document
 ---

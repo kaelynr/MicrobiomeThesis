@@ -4,10 +4,21 @@ This project is an exploratory literature search in the field of microbial ecolo
 # Prerequisite Packages (General)
 install.packages("tidyverse"), install.packages("readxl"), install.packages("litsearchr")
 
-### Prerequisite Packages (Literature Search)
+# Literature Search
+### Prerequisite Packages
+Open: KeywordGeneration.Rmd - Process for generating the key terms.
+
+Open: Resampling.Rmd - Process for randomization subsets.
+
+Open: Late2020.Rmd - First analysis was completed before the year 2020 was complete, so in 2021, the remaining months were analysed to obtain results from the entire year.
+
 install.packages("easyPubMed"), install.packages("revtools")
 
-### Prerequisite Packages (Statistical Analyses)
+# Statistical Analyses
+### Prerequisite Packages
+Open: Distribution_Plots.R - Creation of figure 1 of the results section.
+Open: StatisticalAnalyses.Rmd - Statistical analyses for all four characteristics, and mosaic plots.
+
 install.packages("ggplot2"), install.packages("ggmosaic")
 
 
